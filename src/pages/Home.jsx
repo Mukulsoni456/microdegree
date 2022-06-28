@@ -66,25 +66,8 @@ import { useEffect } from "react";
 import Modal from "../components/Modal";
 
 
-// **************************************Styling *********************************************
-const style = {
-  bg_container: "space-y-4",
-  heroSection: "flex",
-  heroContainer:' w-full h-full flex items-center',
-  hero_body:'p-10 min-w-[400px] basis-1/2 h-full md:p-20 text-left space-y-5 overflow-x-hidden',
-  hero_image:" ",
-  hero_row:'flex space-x-3 py-3',
-  home_section2:'w-full h-full p-10 md:px-20  space-y-5',
-  section2_body:' w-full flex flex-col items-start space-y-3 ',
-  section3:'p-28',
-  section4:'px-10 sm:px-28 py-10 w-full space-y-10 h-full mb-10',
-  section5:'px-10 sm:px-28 py-10 w-full h-full space-y-10 text-left'
-};
-
-
-
-
 // test json file 
+
 const Course = [
   {
     id:1,
@@ -125,7 +108,8 @@ function Home() {
 
 const [status, setStatus] = useState('')
 const [courseOutput, setCourseOutput] = useState(Course)
-console.log(status)
+const [viewModal, setViewModal] = useState(false)
+
 
 useEffect(() => {
 
@@ -137,23 +121,7 @@ useEffect(() => {
     }
 }, [status])
 
-const [viewModal, setViewModal] = useState(false)
-
-console.log(viewModal)
-
-// const handleCourseOutput = ()=>{
-//   if(status==''){
-//     setCourseOutput(Course)
-//   }
-//   else{
-//     setCourseOutput(Course.filter((item)=>item.status.toLowerCase().includes(status)))
-//   }
-
-// }
   return (
-
-
-
     <div className="relative overflow-x-hidden">
       <div className='space-y-4'>
         <img className="w-52 absolute top-10 -left-20  " src={elipse2} alt="" />
@@ -235,13 +203,9 @@ console.log(viewModal)
           viewModal && 
           <Modal viewModal={viewModal} setViewModal={setViewModal} ></Modal>
         }
-                  {/* <Modal viewModal={viewModal} setModal={viewModal=>setViewModal(viewModal)}></Modal> */}
-
                 <Navbar></Navbar>
 
 {/* ************************************* Hero section ********************************  */}
-
-
 
         <section className='flex'>
           <div className="w-full h-full flex items-center">
@@ -330,6 +294,7 @@ console.log(viewModal)
 
         
         </section>
+
 {/* ***********************************Section4 starts here******************************************** */}
         <section className="px-10 sm:px-28 py-10 w-full space-y-10 h-full mb-10">
           <div className='w-full pb-10 flex justify-center items-center flex-wrap sm:space-x-14 space-y-7 '>
@@ -369,9 +334,6 @@ console.log(viewModal)
 
             </div>
             </div>
-           
-
-
         </section>
 
 {/* **************************************Section 5 start here******************************** */}
