@@ -12,7 +12,7 @@ function CmnSection2() {
   return (
 <div className="px-10 sm:px-28 py-10 w-full h-full space-y-10 text-left">
   <h1 className="text-4xl space-x-2 text-gray-600"><span className="font-bold text-gray-700">Placement</span> Diaries</h1>
-  <div className="flex justify-between flex-wrap space-y-6 sm:s">
+  <div className="flex w-full justify-between flex-wrap ">
     <Section5Card title='Mani Nair' desc='Assosciative Software Developer' cardImg={placement1} logoImg={edgeLogo} ></Section5Card>
     <Section5Card title='Mani Nair' desc='Assosciative Software Developer' cardImg={placement2} logoImg={tataLogo} ></Section5Card>
     <Section5Card title='Mani Nair' desc='Assosciative Software Developer' cardImg={placement3} logoImg={mindstalkLogo} ></Section5Card>
