@@ -45,9 +45,9 @@ const onSubmit= async (e) => {
           <p className='text-xs w-48'>And recieve over 100+ free quality courses</p>
         </div>
         <div className="p-5 px-7 space-y-4 ovrflow-visible">
-          <input onChange={(e)=>{setName(e.target.value)}} className='text-sm p-2 w-full' type="text" placeholder='Your Name' name="" id="" />
-          <input onChange={(e)=>{setEmail(e.target.value)}} className='text-sm p-2 w-full ' type="text" placeholder='Email' name="" id="" />
-          <input onChange={(e)=>{setContactNo(e.target.value)}} className='text-sm p-2 w-full ' type="text" placeholder='Mobile' name="" id="" />
+          <input required onChange={(e)=>{setName(e.target.value)}} className='text-sm p-2 w-full' type="text" placeholder='Your Name' name="" id="" />
+          <input required onChange={(e)=>{setEmail(e.target.value)}} className='text-sm p-2 w-full ' type="text" placeholder='Email' name="" id="" />
+          <input required onChange={(e)=>{setContactNo(e.target.value)}} className='text-sm p-2 w-full ' type="text" placeholder='Mobile' name="" id="" />
         </div>
         <button className="my-2 py-2 px-3 bg-[#FCAA2D] rounded-md text-sm text-white">Get it Now</button>
       </div>

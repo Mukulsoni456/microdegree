@@ -18,12 +18,20 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import Footer from './components/Footer';
+import SearchedOutput from './pages/SearchedOutput';
+import { useState } from 'react';
 
 function App() {
+
+  const [searchedResults, setSearchedResults] = useState([])
+
   return (
     <div className="App relative w-full overflow-x-hidden">
-      <div className='relative w-full'>
-        <img className="w-52  absolute top-10 -left-20 -z-10  " src={elipse2} alt="" />
+      <div className='relative w-full '>
+        <div className='absolute w-full -z-10 h-screen overflow-y-hidden'>
+          <div className='relative w-full '>
+        <img className="w-52  absolute top-10 -left-20 -z-10   " src={elipse2} alt="" />
         <img className="w-52 absolute top-40 right-0 -z-10" src={elipse3} alt="" />
         <img className="w-52 absolute top-60 left-96 -z-10" src={elipse4} alt="" />
         <img
@@ -92,16 +100,22 @@ function App() {
           alt=""
         />
         </div>
+        </div>
+        </div>
 
 {/* Home section starts here */}
       <div className=' overflow-x-hidden'>
 
       <Router>
-      <Navbar></Navbar>
+      <Navbar setSearchedResults={setSearchedResults}></Navbar>
       <Routes>
-      <Route exact path="/" element={<Home></Home>}/>
+        {
+          searchedResults.length!=0?<Route exact path="/" element={<SearchedOutput searchedResults={searchedResults} setSearchedResults={setSearchedResults}></SearchedOutput>}/>:<Route exact path="/" element={<Home></Home>}/>
+        }
+      
+
    </Routes>
-        {/* <Home></Home> */}
+   <Footer></Footer>
         </Router>
       </div>
 

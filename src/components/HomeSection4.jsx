@@ -21,22 +21,22 @@ function HomeSection4() {
             <p className='text-[0.6rem]'>This is first step you should take to join</p></div>
           </div>
           <div className=" w-full flex justify-between items-center">
-            <p>1.</p>
+            <p>2.</p>
             <PencilAltIcon className='w-5 text-gray-600'></PencilAltIcon>
-            <div className="text-left"><h5>Explore Course</h5>
-            <p className='text-[0.6rem]'>This is first step you should take to join</p></div>
+            <div className="text-left"><h5>Choose Class</h5>
+            <p className='text-[0.6rem]'>This is 2nd step you should take to join</p></div>
           </div>
           <div className=" w-full flex justify-between items-center">
-            <p>1.</p>
+            <p>3.</p>
             <PencilAltIcon className='w-5 text-gray-600'></PencilAltIcon>
-            <div className="text-left"><h5>Explore Course</h5>
-            <p className='text-[0.6rem]'>This is first step you should take to join</p></div>
+            <div className="text-left"><h5>Enroll First</h5>
+            <p className='text-[0.6rem]'>This is 3rd step you should take to join</p></div>
           </div>
           <div className=" w-full flex justify-between items-center ">
-            <p>1.</p>
+            <p>4.</p>
               <PencilAltIcon className='w-5 text-gray-600'></PencilAltIcon>
-            <div className="text-left"><h5>Explore Course</h5>
-            <p className='text-[0.6rem]'>This is first step you should take to join</p></div>
+            <div className="text-left"><h5>Start Learning</h5>
+            <p className='text-[0.6rem]'>This is 4th step you should take to join</p></div>
           </div>
         </div>
 

@@ -1,17 +1,10 @@
 import React from "react";
-
-
-
-
 import { useState } from "react";
-
 import Modal from "../components/Modal";
 import CmnSection1 from "../components/CmnSection1";
 import CmnSection2 from "../components/CmnSection2";
 import Footer from "../components/Footer";
 import VideoModal from "../components/VideoModal";
-
-
 import HomeSection10 from "../components/HomeSection10";
 import HomeSection1 from "../components/HomeSection1";
 import HomeSection2 from "../components/HomeSection2";
@@ -21,26 +14,11 @@ import HomeSection6 from "../components/HomeSection6";
 import HomeSection7 from "../components/HomeSection7";
 import HomeSection9 from "../components/HomeSection9";
 
-// test json file 
-
-
-
-
-
-
-
-// ## ***************************************** contact page *********************************
-
-
 
 function Home() {
-
-
 const [videoModal, setvideoModal] = useState(false);
 const [viewModal, setViewModal] = useState(false);
 const [videoOutput, setVideoOutput]= useState()
-
-// form data 
 
 
   return (
@@ -64,8 +42,6 @@ const [videoOutput, setVideoOutput]= useState()
 
 <HomeSection1 viewModal={viewModal} setViewModal={setViewModal} videoModal={videoModal} setvideoModal={setvideoModal} videoOutput={videoOutput} setVideoOutput={setVideoOutput}   ></HomeSection1>
 
-{/* ************************************Section 2 starts**************************************************** */}
-
 <HomeSection2></HomeSection2>
 <HomeSection3></HomeSection3>
 <HomeSection4></HomeSection4>
@@ -75,7 +51,6 @@ const [videoOutput, setVideoOutput]= useState()
 <CmnSection1></CmnSection1>
 <HomeSection9></HomeSection9>
 <HomeSection10></HomeSection10>
-<Footer></Footer>
       </div>
     </div>
   );

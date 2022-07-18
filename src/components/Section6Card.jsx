@@ -1,20 +1,20 @@
 import React from 'react'
 import amazon_logo from '../assets/home/section6/amazon.png'
 import netflix_logo from '../assets/home/section6/netflix.png'
-function Section6Card() {
+function Section6Card({title, desc, top_logo, bottom_logo, profession, cardColor, propColor}) {
   return (
-<div className=" relative min-w-[250px] rounded overflow-hidden shadow-lg p-5 space-y-3">
-    <h1 className=' text-left text-red-500 text-md font-bold'>Vinay</h1>
-    <div className='flex space-x-1 '> <img className='w-8'  src={amazon_logo} alt="" />
+<div className={`relative min-w-[250px] ${cardColor} rounded overflow-hidden shadow-lg p-5 space-y-3`}>
+    <h1 className=' text-left text-red-500 text-md font-bold'>{title}</h1>
+    <div className='flex space-x-1 '> <img className='w-8'  src={top_logo} alt="" />
     <p className='text-xs'>Instructor MicroDegree</p> </div>
-    <p className=' text-left text-[0.7rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ullam accusantium odio reprehenderit adipisci error corrupti, doloribus voluptas omnis beatae nisi. Error quidem possimus optio vero distinctio ut delectus quos.</p>
+    <p className=' text-left text-[0.7rem]'>{desc}</p>
 
     <div className=' w-full flex justify-between items-center'>
         <div className='space-y-1'>
-            <p className='text-bold text-xs'>Cloud Engineer</p>
-            <img className='w-24' src={netflix_logo} alt="" />
+            <p className='text-bold text-xs'>{profession}</p>
+            <img className='w-24' src={bottom_logo} alt="" />
         </div>
-        <p className='text-9xl h-14 mb-3 text-white'>❝</p>
+        <p className={`text-9xl h-14 mb-3 ${propColor}`}>❝</p>
     </div>
     </div>
   )

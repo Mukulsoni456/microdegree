@@ -23,9 +23,9 @@ function Footer() {
       <div className=" basis-1/2 text-left text-white px-36 py-14 space-y-6">
         <h1 className='text-5xl'><span className="text-5xl">Download</span><br />Our App</h1>
         <p className='text-sm'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem veritatis, eos accusantium, nostrum ipsa odio eveniet ea in atque tenetur error at explicabo id doloremque earum ab necessitatibus, odit vitae saepe suscipit?</p>
-        <div className="flex justify-between">
-          <img className='object-contain w-24' src={Qrcode} alt="" />
-          <img className='w-36 object-contain' src={playstore} alt="" />
+        <div className="flex justify-between items-center">
+         <a href="https://play.google.com/store/apps/details?id=org.microdegree.com.app.exp"> <img className='object-contain w-24' src={Qrcode} alt="" /></a>
+          <a href="https://play.google.com/store/apps/details?id=org.microdegree.com.app.exp"><img className='w-36 object-contain' src={playstore} alt="" /></a>
         </div>
       </div>
 
@@ -48,18 +48,17 @@ function Footer() {
     <div className="basis-1/4 flex items-center justify-center h-full">
       <ul className="space-y-1 text-left">
         <li className='font-bold text-gray-200'>Company</li>
-        <li className='text-sm text-gray-400'>About</li>
-        <li className='text-sm text-gray-400'>Courses</li>
+        <a href="https://pages.microdegree.work/about.html"><li className='text-sm text-gray-400'>About</li></a>
+        <a href="https://courses.microdegree.work/pages/premium-courses"><li className='text-sm text-gray-400'>Courses</li></a>
         <li className='text-sm text-gray-400'>Scholarships</li>
-        <li className='text-sm text-gray-400'>Courses</li>
         <li className='text-sm text-gray-400'>Contact us</li>
       </ul>
     </div>
     <div className="basis-1/4 flex items-center justify-center h-full">
       <ul className="space-y-1 text-left">
         <li className='font-bold text-gray-200'>Useful Links</li>
-        <li className='text-sm text-gray-400'>Blogs</li>
-        <li className='text-sm text-gray-400'>Community</li>
+       <a href="https://blog.microdegree.work/"> <li className='text-sm text-gray-400'>Blogs</li></a>
+        <a href="https://t.me/microdegreekannada"><li className='text-sm text-gray-400'>Community</li></a>
         <li className='text-sm text-gray-400'>Pricing</li>
         <li className='text-sm text-gray-400'>FAQ</li>
         <li className='text-sm text-gray-400'>Sitemap</li>
@@ -75,8 +74,8 @@ function Footer() {
   <div className='py-3 flex justify-between text-gray-400 text-xs'>
     <p>Copyright @2022 Microdegree All rights reserved</p>
     <div className="flex w-64 justify-between ">
-      <p>Terms & Conditions</p>
-      <p>Legal & Privacy</p>
+      <a href="https://pages.microdegree.work/termsnconditions.html"><p>Terms & Conditions</p></a>
+      <a href="https://www.microdegree.work/privacy"><p>Legal & Privacy</p></a>
     </div>
     
   </div>
@@ -90,14 +89,14 @@ function Footer() {
 
     <div className='text-left text-sm space-y-2'>
       <h2 className='text-lg'>Site Links</h2>
-      <p className='w-full bg-[#2E3133] p-2'>Blogs</p>
-      <p className='w-full bg-[#2E3133] p-2'>Community</p>
-      <p className='w-full bg-[#2E3133] p-2'>Sitemap</p>
+      <a href="https://blog.microdegree.work/"><p className='w-full bg-[#2E3133] p-2'>Blogs</p></a>
+      <a href="https://t.me/microdegreekannada"><p className='w-full bg-[#2E3133] p-2'>Community</p></a>
+      <a href="https://pages.microdegree.work/review.html"><p className='w-full bg-[#2E3133] p-2'>Reviews</p></a>
     </div>
 
     <div className='text-[0.8rem]'>
       <h2 className='text-lg font-semibold'>Company</h2>
-      <p>Courses</p>
+      <a href="https://courses.microdegree.work/pages/premium-courses"><p>Courses</p></a>
       <p>Scholarship</p>
       <p>Contact us</p>
 

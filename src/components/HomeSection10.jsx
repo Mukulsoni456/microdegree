@@ -45,9 +45,9 @@ const onSubmit= async (e) => {
     <img className="object-fit z-10 absolute" src={rectangle41} alt="" />
     <form onSubmit={onSubmit} action='' className=" absolute w-full h-full top-0 left-0 p-14 space-y-3  z-20">
 
-      <input onChange={(e)=>{setName(e.target.value)}} className='w-full text-sm text-gray-700 p-1 px-2 rounded-sm outline-none bg-[rgba(255,255,255,0.85)]' type="text" name="" placeholder="Your name" id="" />
-      <input onChange={(e)=>{setContactNo(e.target.value)}} className='w-full text-sm text-gray-700 p-1 px-2 rounded-sm outline-none bg-[rgba(255,255,255,0.85)]' type="number" name="" placeholder="Mobile No" id="" />
-      <input onChange={(e)=>{setEnrollId(e.target.value)}} className='w-full text-sm text-gray-700 p-1 px-2 rounded-sm outline-none bg-[rgba(255,255,255,0.85)]' type="text" name="" placeholder="Enroll" id="" />
+      <input required onChange={(e)=>{setName(e.target.value)}} className='w-full text-sm text-gray-700 p-1 px-2 rounded-sm outline-none bg-[rgba(255,255,255,0.85)]' type="text" name="" placeholder="Your name" id="" />
+      <input required onChange={(e)=>{setContactNo(e.target.value)}} className='w-full text-sm text-gray-700 p-1 px-2 rounded-sm outline-none bg-[rgba(255,255,255,0.85)]' type="number" name="" placeholder="Mobile No" id="" />
+      <input required onChange={(e)=>{setEnrollId(e.target.value)}} className='w-full text-sm text-gray-700 p-1 px-2 rounded-sm outline-none bg-[rgba(255,255,255,0.85)]' type="text" name="" placeholder="Enroll" id="" />
       
       <div className="text-gray-700">
     <label className='text-gray-700' htmlFor="Courses"></label>
@@ -68,7 +68,7 @@ const onSubmit= async (e) => {
     </select>
     </div>
 
-      <textarea onChange={(e)=>{setMessage(e.target.value)}} className='text-sm w-full rounded-sm p-2 bg-[rgba(255,255,255,0.85)] outline-none text-gray-800 ' name="" id="" cols="24" placeholder='Message' rows="4"></textarea>
+      <textarea required onChange={(e)=>{setMessage(e.target.value)}} className='text-sm w-full rounded-sm p-2 bg-[rgba(255,255,255,0.85)] outline-none text-gray-800 ' name="" id="" cols="24" placeholder='Message' rows="4"></textarea>
 
       <button className='bg-blue-600 px-4 py-2 rounded-sm text-xs text-white '>Submit Request</button>
     </form>
