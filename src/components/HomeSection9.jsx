@@ -12,8 +12,8 @@ function HomeSection9() {
 
   <div className="flex  space-x-4 md:px-14 overflow-x-scroll">
     <img className='w-1/3 min-w-[200px] object-contain shadow-inner' src={section9Img1} alt="" />
-    <img className="w-1/3 min-w-[200px] shadow-[inset_0_40px_60px_0px_rgba(0,0,1)]  " src={section9Img2} alt="" />
-    <div className="w-1/3 min-w-[200px] h-full space-y-2"><img src={section9Img3} alt="" />
+    <img className="w-1/3 min-w-[200px] object-contain shadow-[inset_0_40px_60px_0px_rgba(0,0,1)]  " src={section9Img2} alt="" />
+    <div className="w-1/3 min-w-[200px] object-contain h-full space-y-2"><img src={section9Img3} alt="" />
     <img className='' src={section9Img4} alt="" /></div>
   </div>
 </div>

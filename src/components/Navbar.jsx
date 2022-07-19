@@ -39,9 +39,9 @@ function Navbar({setSearchedResults}) {
         <img className="min-w-[130px] max-w-[130px]" src={logo} alt="" />
       </div>
       <div className='flex md:basis-7/12 sm:basis-9/12 justify-start items-center '>
-        <div className=' hidden h-fit sm:block basis-5/12 flex-shrink mr-3 relative '>
-      <form className="flex  bg-white p-[0.4rem] p-y-2 rounded-md">
-            <input className='w-full text-sm outline-none' onChange={(e)=> {e.target.value?setInput(e.target.value):setInput('')}}  placeholder='what do you want to learn' type='text'></input>
+        <div className=' hidden max-h-[40px]  sm:block basis-5/12 flex-shrink mr-3 relative '>
+      <form className="flex h-full  bg-white p-[0.4rem] p-y-2 rounded-md">
+            <input className=' h-full w-full text-sm outline-none' onChange={(e)=> {e.target.value?setInput(e.target.value):setInput('')}}  placeholder='what do you want to learn' type='text'></input>
             <SearchIcon className='w-7 text-white p-1 rounded-md bg-[#FF2A67]'></SearchIcon>
           </form>
           <div className=' border-t-2 w-full absolute z-10 '>
