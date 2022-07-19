@@ -34,7 +34,7 @@ function Navbar({setSearchedResults}) {
   }
 
   return (
-    <div className='flex p-6 px-7 justify-between items-center'>
+    <div className='flex h-14 p-6 px-7 justify-between items-center'>
       <div className='flex-shrink flex items-center'>
         <img className="min-w-[130px] max-w-[130px]" src={logo} alt="" />
       </div>
