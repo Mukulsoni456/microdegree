@@ -70,7 +70,7 @@ function HomeSection1({viewModal, setViewModal, videoModal, setvideoModal, video
           <img onClick={handleVideo3} className="w-36" src={Group1418} alt="" />
         </div>
       </div>
-      <div className='basis-1/2 min-w-fit flex items-center p-10'>
+      <div className='basis-1/2 min-w-fit flex items-center py-10 px-0'>
         <div className="w-[350px] h-[350px] relative ">
         <img className="w-[350px] absolute top-0  object-contain  " src={heroImage} alt="" />
         <img className="w-[55px] absolute object-contain top-10 right-6 " src={Group1351} alt="" />

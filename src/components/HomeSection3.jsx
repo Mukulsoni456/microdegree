@@ -12,7 +12,7 @@ import brandLogo5 from '../assets/home/Section2/brandLogo5.png'
 
 function HomeSection3() {
   return (
-    <div className='h-full sm:p-28 p-10 space-y-8 '>
+    <div className='h-full sm:py-20 sm:px-28 md:px-40 2xl:px-44 p-10 space-y-8 '>
     <div className='space-y-4'>
     <h1 className='text-3xl'>Our <span className='font-semibold'>Award</span> & <span className='font-semibold text-red-500'>Recognization</span></h1>
     <p className=" text-gray-600 text-xs font-md">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>

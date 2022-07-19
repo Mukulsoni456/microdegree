@@ -51,7 +51,7 @@ function HomeSection2() {
 
 //   #function starts from here    
 
-    const [status, setStatus] = useState('')
+    const [status, setStatus] = useState('live')
     const [courseOutput, setCourseOutput] = useState(Course)
 
     useEffect(() => {
@@ -64,17 +64,18 @@ function HomeSection2() {
         }
     }, [status])
 
+    console.log(status.includes('live'))
 
   return (
-    <div className="w-full h-full p-10 md:px-20  space-y-5">
+    <div className="w-full h-full px-10 py-2 md:px-20  space-y-5">
     <div className='w-full flex flex-col items-start space-y-3 '>
     <h1 className='sm:text-5xl text-4xl mb-4'>Popular Courses</h1>
     <p className="max-w-[680px] text-left text-base">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dianonumy eirmod tempor invidunt utlabore et dolore magna aliquyam.</p>
     <div className=" w-full flex justify-between items-center ">
       <div className ='flex m-auto my-5 sm:m-0 '>
-      <button onClick={()=>setStatus('live')} className='bg-gray-300 hover:bg-[#FF0049] hover:text-white px-3 py-2 rounded-sm text-sm'>Live</button>
-      <button onClick={()=>setStatus('hybrid')} className='bg-gray-300 hover:bg-[#FF0049] hover:text-white px-3 py-2 rounded-sm text-sm ' >Hybrid</button>
-      <button onClick={()=>setStatus('pre recorded')} className='bg-gray-300 hover:bg-[#FF0049] hover:text-white px-3 py-2 rounded-sm text-sm ' >Pre Recorded</button>
+      <button onClick={()=>setStatus('live')} className={` hover:bg-[#FF0049] ${status.includes('live')?"bg-[#FF0049] text-white":"bg-gray-300"} hover:text-white px-3 py-2 rounded-sm text-sm`}>Live</button>
+      <button onClick={()=>setStatus('hybrid')} className={` hover:bg-[#FF0049] ${status.includes('hybrid')?"bg-[#FF0049] text-white":"bg-gray-300"} hover:text-white px-3 py-2 rounded-sm text-sm`} >Hybrid</button>
+      <button onClick={()=>setStatus('pre recorded')} className={` hover:bg-[#FF0049] ${status.includes('pre recorded')?"bg-[#FF0049] text-white":"bg-gray-300"} hover:text-white px-3 py-2 rounded-sm text-sm`} >Pre Recorded</button>
       </div>
       <a href="https://courses.microdegree.work/pages/premium-courses">
       <button className=" hidden sm:block h-fit  bg-blue-700 text-white text-sm rounded-md px-3 py-2 ">See All Courses</button>
