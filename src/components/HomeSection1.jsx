@@ -71,7 +71,7 @@ function HomeSection1({viewModal, setViewModal, videoModal, setvideoModal, video
         </div>
       </div>
       <div className='basis-1/2 min-w-fit flex items-center py-10 px-0'>
-        <div className="w-[350px] h-[350px] relative ">
+        <div className="hidden sm:block relative w-[350px] h-[350px] ">
         <img className="w-[350px] absolute top-0  object-contain  " src={heroImage} alt="" />
         <img className="w-[55px] absolute object-contain top-10 right-6 " src={Group1351} alt="" />
         <img className="w-[120px] absolute  object-contain top-1/2 -left-10" src={Group19} alt="" />

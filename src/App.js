@@ -12,6 +12,7 @@ import elipse8 from "./assets/home/background/Ellipse 8.png";
 import elipse9 from "./assets/home/background/Ellipse 9.png";
 import elipse10 from "./assets/home/background/Ellipse 10.png";
 import elipse11 from "./assets/home/background/Ellipse 11.png";
+import CoursePage from "./pages/CoursePage"
 
 import {
   BrowserRouter as Router,
@@ -21,6 +22,7 @@ import {
 import Footer from './components/Footer';
 import SearchedOutput from './pages/SearchedOutput';
 import { useState } from 'react';
+
 
 function App() {
 
@@ -112,6 +114,8 @@ function App() {
         {
           searchedResults.length!=0?<Route exact path="/" element={<SearchedOutput searchedResults={searchedResults} setSearchedResults={setSearchedResults}></SearchedOutput>}/>:<Route exact path="/" element={<Home></Home>}/>
         }
+        {/* <Route exact path="/" element={<CoursePage></CoursePage>}/> */}
+        
       
 
    </Routes>

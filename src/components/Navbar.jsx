@@ -34,11 +34,11 @@ function Navbar({setSearchedResults}) {
   }
 
   return (
-    <div className='flex max-h-[70px] h-full  p-6 px-7  justify-between items-center'>
-      <div className='flex-shrink flex items-center'>
+    <div className='flex max-h-[70px] h-full w-full p-6 px-7  justify-between items-center '>
+      <div className='flex-shrink flex items-center '>
         <img className="min-w-[130px] max-w-[130px]" src={logo} alt="" />
       </div>
-      <div className='flex md:basis-7/12 sm:basis-9/12 justify-start items-center '>
+      <div className=' flex basis-1 md:basis-7/12 sm:basis-9/12 justify-start items-center '>
         <div className=' hidden max-h-[40px]  sm:block basis-5/12 flex-shrink mr-3 relative '>
       <form className="flex h-full  bg-white p-[0.4rem] p-y-2 rounded-md">
             <input className=' h-full w-full text-sm outline-none' onChange={(e)=> {e.target.value?setInput(e.target.value):setInput('')}}  placeholder='what do you want to learn' type='text'></input>
@@ -50,12 +50,12 @@ function Navbar({setSearchedResults}) {
               ))}
           </div>
           </div>
-          <ul className="flex basis-7/12 ml-8 justify-around items-center space-x-4">
+          <ul className="flex w-full md:basis-7/12 ml-4 sm:ml-8 justify-around items-center space-x-2 ">
               <li><a href="https://courses.microdegree.work/pages/premium-courses">Courses</a></li>
 
              <a href="tel:+918047109999"><li className='w-[150px] hidden sm:block hover:text-[#FF2A67]'>Ph.+918047109999</li></a>
               <li>Login</li>
-              <a className='sm:hidden flex justify-center items-start' href="tel:+918047109999"> <PhoneIcon className='w-6 mr-1 bg-[#FF2A67] text-white rounded-full p-[0.3rem]'></PhoneIcon> </a>
+              <a className='sm:hidden flex justify-center items-start' href="tel:+918047109999"> <PhoneIcon className='w-6 ml-1 bg-[#FF2A67] text-white rounded-full p-[0.3rem]'></PhoneIcon> </a>
             </ul>
       </div>
 
