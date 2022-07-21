@@ -1,8 +1,8 @@
 import React from 'react'
-import Section2 from '../components/course page/Section2'
-import CmnSection2 from '../components/CmnSection2'
-import CmnSection1 from '../components/CmnSection1'
-import CmnSection3 from '../components/CmnSection3'
+import CourseSection from '../components/course page/CourseSection'
+import Placements from '../components/Placements'
+import Learners from '../components/Learners'
+import Pricing from '../components/Pricing'
 
 function CoursePage() {
   return (
@@ -12,10 +12,10 @@ function CoursePage() {
             <div> card</div>
         </div>
 
-        <Section2></Section2>
-        <CmnSection2></CmnSection2>
-        <CmnSection1></CmnSection1>
-        <CmnSection3></CmnSection3>
+        <CourseSection></CourseSection>
+        <Placements></Placements>
+        <Learners></Learners>
+        <Pricing></Pricing>
     </div>
   )
 }

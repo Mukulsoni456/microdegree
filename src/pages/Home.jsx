@@ -1,18 +1,18 @@
 import React from "react";
 import { useState } from "react";
 import Modal from "../components/Modal";
-import CmnSection1 from "../components/CmnSection1";
-import CmnSection2 from "../components/CmnSection2";
+import Learners from "../components/Learners";
+import Placements from "../components/Placements";
 import Footer from "../components/Footer";
 import VideoModal from "../components/VideoModal";
-import HomeSection10 from "../components/HomeSection10";
-import HomeSection1 from "../components/HomeSection1";
-import HomeSection2 from "../components/HomeSection2";
-import HomeSection3 from "../components/HomeSection3";
-import HomeSection4 from "../components/HomeSection4";
-import HomeSection6 from "../components/HomeSection6";
-import HomeSection7 from "../components/HomeSection7";
-import HomeSection9 from "../components/HomeSection9";
+import HomeForm2 from "../components/HomeForm2";
+import Hero from "../components/Hero";
+import PopularCourses from "../components/PopularCourses";
+import JoinMicroDegree from "../components/JoinMicroDegree";
+import IndustryTrainers from "../components/IndustryTrainers";
+import HomeForm1 from "../components/HomeForm1";
+import NewsMedia from "../components/News&Media";
+import Recognisation from "../components/RecognisationSection"
 
 
 function Home() {
@@ -40,17 +40,17 @@ const [videoOutput, setVideoOutput]= useState()
 
 {/* ************************************* Hero section ********************************  */}
 
-<HomeSection1 viewModal={viewModal} setViewModal={setViewModal} videoModal={videoModal} setvideoModal={setvideoModal} videoOutput={videoOutput} setVideoOutput={setVideoOutput}   ></HomeSection1>
+<Hero viewModal={viewModal} setViewModal={setViewModal} videoModal={videoModal} setvideoModal={setvideoModal} videoOutput={videoOutput} setVideoOutput={setVideoOutput}   ></Hero>
 
-<HomeSection2></HomeSection2>
-<HomeSection3></HomeSection3>
-<HomeSection4></HomeSection4>
-<CmnSection2></CmnSection2>
-<HomeSection6></HomeSection6>
-<HomeSection7></HomeSection7>
-<CmnSection1></CmnSection1>
-<HomeSection9></HomeSection9>
-<HomeSection10></HomeSection10>
+<PopularCourses></PopularCourses>
+<Recognisation></Recognisation>
+<JoinMicroDegree></JoinMicroDegree>
+<Placements></Placements>
+<IndustryTrainers></IndustryTrainers>
+<HomeForm1></HomeForm1>
+<Learners></Learners>
+<NewsMedia></NewsMedia>
+<HomeForm2></HomeForm2>
       </div>
     </div>
   );

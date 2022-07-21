@@ -33,7 +33,7 @@ const onSubmit= async (e) => {
         <div className="text-white text-left space-y-2">
         <p className="text-sm ">A good discount opportunity</p>
         <h3 className='text-4xl '>Save 15% on AWS</h3>
-        <p className='text-xs text-gray-200'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, earum?</p>
+        <p className='text-xs text-gray-200 w-96'>Get the power and economies of cloud computing (AWS) with 15% off. Signup to get the access</p>
         </div>
 
       </div>

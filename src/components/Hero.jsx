@@ -5,7 +5,7 @@ import Group1351 from "../assets/home/heroSection/Group 1351.png";
 import Group1416 from "../assets/home/heroSection/Group 1416.png";
 import Group1417 from "../assets/home/heroSection/Group 1417.png";
 import Group1418 from "../assets/home/heroSection/Group 1418.png";
-function HomeSection1({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, setVideoOutput}) {
+function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, setVideoOutput}) {
 
 
     const videoLinks =[
@@ -84,4 +84,4 @@ function HomeSection1({viewModal, setViewModal, videoModal, setvideoModal, video
   )
 }
 
-export default HomeSection1
+export default Hero

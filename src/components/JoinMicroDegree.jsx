@@ -7,7 +7,7 @@ function HomeSection4() {
     <div className="px-10 sm:px-28 py-2 w-full space-y-10 h-full mb-10">
     <div className='w-full pb-10 flex justify-center items-center flex-wrap sm:space-x-14 space-y-7 '>
       <h1 className=" h-full text-4xl  max-w-md text-left">How to join Million <br/> course from <span className='text-red-500'>MicroDegree</span> </h1>
-      <p className=" text-sm  text-gray-700 sm:mr-20 max-w-lg text-left">Loem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis esse modi impedit repudiandae est ullam quasi minima. Pariatur eos minus consequuntur fuga eum alias illo sapiente reiciendis quos! Libero, fuga.</p>
+      <p className=" text-sm  text-gray-700 sm:mr-20 max-w-lg text-left">Whether you're an aspiring IT professional or a non-IT professional who wants switch your career, we have something for you. You will learn from basics to advanced level, trained by industry experts, working on real world projects, complete interview preparation and finally help you with placement assistance. Follow the below steps & get started </p>
     </div>
       <div className=" w-full flex items-center justify-center ">
         <img className='hidden sm:block w-1/2 ' src={section4Img} alt="" />

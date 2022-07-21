@@ -22,7 +22,7 @@ function Footer() {
     <div className=' absolute top-0 z-20 flex h-full w-full'>
       <div className=" basis-1/2 text-left text-white px-36 py-14 space-y-6">
         <h1 className='text-5xl'><span className="text-5xl">Download</span><br />Our App</h1>
-        <p className='text-sm'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem veritatis, eos accusantium, nostrum ipsa odio eveniet ea in atque tenetur error at explicabo id doloremque earum ab necessitatibus, odit vitae saepe suscipit?</p>
+        <p className='text-sm'>Get up to date with the latest technologies and certification with IT skills. Download our app now & be part of fastest growing sector of the Indian economy.</p>
         <div className="flex justify-between items-center">
          <a href="https://play.google.com/store/apps/details?id=org.microdegree.com.app.exp"> <img className='object-contain w-24' src={Qrcode} alt="" /></a>
           <a href="https://play.google.com/store/apps/details?id=org.microdegree.com.app.exp"><img className='w-36 object-contain' src={playstore} alt="" /></a>

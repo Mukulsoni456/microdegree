@@ -1,5 +1,5 @@
 import React from 'react'
-import Section3Card from "../components/Section3Card";
+import RecognisationCard from "./RecognisatonCard";
 import section3Img1 from "../assets/home/Section3/a1.png"
 import section3Img2 from "../assets/home/Section3/a2.png"
 import section3Img3 from "../assets/home/Section3/a3.png"
@@ -29,10 +29,10 @@ function HomeSection3() {
 
 
     <div className=" w-full h-full flex flex-wrap items-center justify-between sm:space-x-2 ">
-      <Section3Card title='Recognized by KDM' desc='BTS event organised by Karnataka Digital Economy Mission ' date='21 Nov' cardImg={section3Img1}></Section3Card>
-      <Section3Card title='Winning Elevate' desc='Chosen as Top 100 startups by Govt of Karnataka ' date='21 Nov' cardImg={section3Img2}></Section3Card>
-      <Section3Card title='Recieving Award for IEEE' desc='Recognized by IEEE for Impacting 3000+ tech talents ' date='21 Nov' cardImg={section3Img3}></Section3Card>
-      <Section3Card title='Banagalore Tech Summit' desc='With Honourable chief Minister of Karnataka ' date='21 Nov' cardImg={section3Img4}></Section3Card>
+      <RecognisationCard title='Recognized by KDM' desc='BTS event organised by Karnataka Digital Economy Mission ' date='21 Nov' cardImg={section3Img1}></RecognisationCard>
+      <RecognisationCard title='Winning Elevate' desc='Chosen as Top 100 startups by Govt of Karnataka ' date='21 Nov' cardImg={section3Img2}></RecognisationCard>
+      <RecognisationCard title='Recieving Award for IEEE' desc='Recognized by IEEE for Impacting 3000+ tech talents ' date='21 Nov' cardImg={section3Img3}></RecognisationCard>
+      <RecognisationCard title='Banagalore Tech Summit' desc='With Honourable chief Minister of Karnataka ' date='21 Nov' cardImg={section3Img4}></RecognisationCard>
     </div>
     
 

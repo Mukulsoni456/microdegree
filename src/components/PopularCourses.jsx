@@ -1,8 +1,8 @@
 import React from 'react'
 import { useEffect } from "react";
 import { useState } from 'react';
-import CourseCard from "../components/CourseCard";
-function HomeSection2() {
+import CourseCard from "./CourseCard";
+function PopularCourses() {
 
 
     // json starts from here 
@@ -70,7 +70,7 @@ function HomeSection2() {
     <div className="w-full h-full px-10 py-2 md:px-20  space-y-5">
     <div className='w-full flex flex-col items-start space-y-3 '>
     <h1 className='sm:text-5xl text-4xl mb-4'>Popular Courses</h1>
-    <p className="max-w-[680px] text-left text-base">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dianonumy eirmod tempor invidunt utlabore et dolore magna aliquyam.</p>
+    <p className="max-w-[680px] text-left text-base">IT courses to boost your skills and improve your resume. Get up to 60% off on our popular courses.</p>
     <div className=" w-full flex justify-between items-center ">
       <div className ='flex m-auto my-5 sm:m-0 '>
       <button onClick={()=>setStatus('live')} className={` hover:bg-[#FF0049] ${status.includes('live')?"bg-[#FF0049] text-white":"bg-gray-300"} hover:text-white px-3 py-2 rounded-sm text-sm`}>Live</button>
@@ -94,4 +94,4 @@ function HomeSection2() {
   )
 }
 
-export default HomeSection2
+export default PopularCourses
