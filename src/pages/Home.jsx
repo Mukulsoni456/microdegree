@@ -39,8 +39,8 @@ const [videoOutput, setVideoOutput]= useState()
 
 
 {/* ************************************* Hero section ********************************  */}
+<section id="hero"><Hero viewModal={viewModal} setViewModal={setViewModal} videoModal={videoModal} setvideoModal={setvideoModal} videoOutput={videoOutput} setVideoOutput={setVideoOutput}   ></Hero></section>
 
-<Hero viewModal={viewModal} setViewModal={setViewModal} videoModal={videoModal} setvideoModal={setvideoModal} videoOutput={videoOutput} setVideoOutput={setVideoOutput}   ></Hero>
 
 <PopularCourses></PopularCourses>
 <Recognisation></Recognisation>

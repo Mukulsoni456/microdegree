@@ -5,6 +5,7 @@ import rectangle41 from '../assets/home/section10/rectangle41.png'
 import section10bg from '../assets/home/section10/section10bg.png'
 import db from "../features/firebase";
 import { addDoc, query, collection } from "firebase/firestore";
+import tgLogo from '../assets/home/section10/tgLogo.png'
 
 const q = query(collection(db, "enrollments"));
 
@@ -81,16 +82,17 @@ const onSubmit= async (e) => {
 <div className=" sm:block hidden shrink basis-1/2">
   <div className="p-5 w-full text-left space-y-4 ">
   <h1 className=" text-4xl text-gray-800 ">Multilingual <br /> <span className="font-bold">IT Skilling</span> Platform <br />for <span className="font-bold"> Bharat</span> </h1>
-  <p className='text-gray-800 text-sm'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis nulla enim quasi assumenda voluptatum eligendi et praesentium, voluptate ipsam nisi?</p>
+  <p className='text-gray-800 text-sm'>Platform where you Learn the most In-demand IT Skills that are currently booming and increase your chance of landing a high paying job.</p>
   <ul className=" w-full text-sm text-gray-800">
-    <li className='w-full flex items-center space-x-3'> <div className="rounded-full w-2 h-2 bg-gray-800"></div> <p>Lorem ipsum dolor sit amet</p>.</li>
-    <li className='w-full flex items-center space-x-3'> <div className="rounded-full w-2 h-2 bg-gray-800"></div> <p>Lorem ipsum dolor sit amet</p>.</li>
-    <li className='w-full flex items-center space-x-3'> <div className="rounded-full w-2 h-2 bg-gray-800"></div> <p>Lorem ipsum dolor sit amet</p>.</li>
-    <li className='w-full flex items-center space-x-3'> <div className="rounded-full w-2 h-2 bg-gray-800"></div> <p>Lorem ipsum dolor sit amet</p>.</li>
+    <li className='w-full flex items-center space-x-3'> <div className="rounded-full w-2 h-2 bg-gray-800"></div> <p>Get trained by industry experts</p>.</li>
+    <li className='w-full flex items-center space-x-3'> <div className="rounded-full w-2 h-2 bg-gray-800"></div> <p>Work on real world projects</p>.</li>
+    <li className='w-full flex items-center space-x-3'> <div className="rounded-full w-2 h-2 bg-gray-800"></div> <p>Interview preparation</p>.</li>
+    <li className='w-full flex items-center space-x-3'> <div className="rounded-full w-2 h-2 bg-gray-800"></div> <p>Placement Assistance</p>.</li>
 
   </ul>
-  <div>
-    Join our Telegram
+<div  className='pr-4 flex items-center border-2 rounded-full w-fit border-blue-300 space-x-2 '>
+    <img className='w-8  rounded-full' src={tgLogo} alt="" />
+    <a href="https://t.me/microdegreekannada"><p className='text-blue-400 font-medium'>Join Our Telegram</p></a>
   </div>
   </div>
 </div>

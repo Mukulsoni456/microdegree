@@ -8,6 +8,7 @@ import phone1 from '../assets/home/footer/fpart1/phone1.png'
 import phone2 from '../assets/home/footer/fpart1/phone2.png'
 import playstore from '../assets/home/footer/fpart1/playstore.png'
 import Qrcode from '../assets/home/footer/fpart1/Qrcode.png'
+import {Link} from 'react-scroll'
 
 function Footer() {
   return (
@@ -43,7 +44,7 @@ function Footer() {
   <div className="flex  border-b-[0.1rem] border-gray-600 py-6 ">
     <div className="basis-1/4 text-left text-white space-y-4">
       <h1 className='text-2xl text-left'> <span className='text-center'>Micro </span> <br/> <span className="font-bold text-left">Degree</span></h1>
-      <p className="text-xs text-gray-400 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis tempore, voluptatum enim id tenetur commodi.</p>
+      <p className="text-xs text-gray-400 ">MicroDegree promotes the idea of practical learning with its various recorded and live courses, where students are trained by industry experts and can enhance their career.</p>
     </div>
     <div className="basis-1/4 flex items-center justify-center h-full">
       <ul className="space-y-1 text-left">
@@ -68,7 +69,7 @@ function Footer() {
       <h3 className='text-gray-300 text-base'>Contact us</h3>
       <p>+918310882795</p>
       <p>hello@microdegree.work</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, excepturi? Voluptatem corrupti et maiores accusantium voluptatibus. Iusto ut nulla obcaecati.</p>
+      <p>3rd Floor, Plama Center, Bejai - Kapikad Rd, Mangaluru, Karnataka 575004</p>
     </div>
   </div>
   <div className='py-3 flex justify-between text-gray-400 text-xs'>
@@ -84,7 +85,7 @@ function Footer() {
   <div className='sm:hidden bg-[#364045] px-14 p-10 flex flex-col  justify-center text-white  text-left space-y-6'>
     <div className='text-left  space-y-2'>
       <h1 className='text-3xl '>Micro<span className='text-bold'>Degree</span> </h1>
-      <p className='text-sm '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam voluptate quaerat ad! Dolor impedit veritatis necessitatibus sequi nulla cupiditate temporibus recusandae itaque distinctio ex.</p>
+      <p className='text-sm '>MicroDegree promotes the idea of practical learning with its various recorded and live courses, where students are trained by industry experts and can enhance their career.</p>
     </div>
 
     <div className='text-left text-sm space-y-2'>
@@ -98,7 +99,11 @@ function Footer() {
       <h2 className='text-lg font-semibold'>Company</h2>
       <a href="https://courses.microdegree.work/pages/premium-courses"><p>Courses</p></a>
       <p>Scholarship</p>
-      <p>Contact us</p>
+      <Link to='hero' activeClass="active"
+     spy={true}
+     smooth={true}
+     offset={-100}
+     duration={500}>Contact us</Link>
 
     </div>
   </div>
