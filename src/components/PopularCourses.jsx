@@ -90,7 +90,7 @@ function PopularCourses() {
     const [status, setStatus] = useState('live')
     const [courseOutput, setCourseOutput] = useState(Course)
 
-    useEffect((Course) => {
+    useEffect(() => {
 
         if(status===''){
           setCourseOutput(Course)
@@ -98,9 +98,12 @@ function PopularCourses() {
         else{
           setCourseOutput(Course.filter((item)=>item.status.toLowerCase().includes(status)))
         }
+              // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [status])
 
     console.log(status.includes('live'))
+
+
 
   return (
     <div className="w-full h-full px-10 py-2 md:px-20  space-y-5">

@@ -1,13 +1,7 @@
 import React from 'react'
 function CourseCard({cardImg, title, category, price, courseLink, desc, course_details }) {
   
-// console.log(course_details)
-// course_details.map((e)=>(
-//   console.log(e)
-// ))
 
-
-  
   return (
 
     <>
@@ -37,7 +31,7 @@ function CourseCard({cardImg, title, category, price, courseLink, desc, course_d
       <h3 className='text-2xl  font-medium'>Course Details</h3>
       <ul className='list-disc space-y-1'>
       {
-  course_details.map((para)=>(<li className='text-sm'>{para}</li>))
+  course_details.map((para)=>(<li key={para} className='text-sm'>{para}</li>))
 }
 </ul>
 <div>
