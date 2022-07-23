@@ -38,3 +38,9 @@ html::-webkit-scrollbar{
     display:none
   }
 }
+
+/* @layer base {
+  ul, ol {
+    list-style: revert;
+  }
+} */

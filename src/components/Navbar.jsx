@@ -54,7 +54,7 @@ function Navbar({setSearchedResults}) {
               <li><a href="https://courses.microdegree.work/pages/premium-courses">Courses</a></li>
 
              <a href="tel:+918047109999"><li className='w-[150px] hidden sm:block hover:text-[#FF2A67]'>Ph.+918047109999</li></a>
-              <li>Login</li>
+              <a href="https://courses.microdegree.work/users/sign_in"><li>Login</li></a>
               <a className='sm:hidden flex justify-center items-start' href="tel:+918047109999"> <PhoneIcon className='w-6 ml-1 bg-[#FF2A67] text-white rounded-full p-[0.3rem]'></PhoneIcon> </a>
             </ul>
       </div>

@@ -17,6 +17,14 @@ function PopularCourses() {
           course_desc:'Master AWS & DevOps from Cloud industry experts to become a solid Computing Professional',
           courseLink:'https://courses.microdegree.work/courses/aws-developer-certification-live',
           status:'live',
+          course_details:["60 Hrs of LIVE Online Training",
+          "Concepts Explained in Kannada",
+          "Completion Certificate",
+          "Build Interactive Projects",
+          "Doubt Clarification",
+          "Interview Preparation",
+          "Career Assistance",
+        ],
         },
         {
           id:2,
@@ -24,9 +32,18 @@ function PopularCourses() {
           category:'Data Science',
           title:'Power BI + Tableau Developer Course',
           price:'20,000',
+
           course_desc:"Master Business Intelligence with Power BI & Tableau from Industry Experts to become a solid Professional in Data Visualization & Reporting",
           courseLink:'https://courses.microdegree.work/courses/power-bi-tableau-certification',
           status:'live',
+          course_details:["65 Hrs of LIVE Online Training",
+          "Concepts Explained in Kannada",
+          "Completion Certificate",
+          "Build Interactive Projects",
+          "Doubt Clarification",
+          "Interview Preparation",
+          "Career Assistance",
+        ],
         },
         {
           id:3,
@@ -37,6 +54,14 @@ function PopularCourses() {
           price:'4,900',
           courseLink:'https://courses.microdegree.work/courses/python',
           status:'Hybrid',
+          course_details:["Course starts from complete Basics",
+          "No prior coding knowledge required",
+          "Get doubts cleared instantly with our Developer Community",
+          "Quizzes & Mini Projects for more Practice",
+          "Unlimited access",
+          "Interview Preparation",
+          "Career Assistance",
+        ],
         },
         {
           id:4,
@@ -46,15 +71,26 @@ function PopularCourses() {
           price:'FREE',
           course_desc: "Learn Python from scratch and build interactve projects. Kick-start your journey into the world of Data Science and Machine Learning here.",
           status:'pre recorded',
+          course_details:["5 Hours of Course Content",
+          "No prior coding knowledge required",
+          "Get doubts cleared instantly with our Developer Community",
+          "Quizzes & Mini Projects for more Practice",
+          "Unlimited access",
+          "Telegram Developer Community",
+          "Career Assistance",
+        ],
         },
       ]
 
+
+
+      // console.log(para.map(item=>({item})))
 //   #function starts from here    
 
     const [status, setStatus] = useState('live')
     const [courseOutput, setCourseOutput] = useState(Course)
 
-    useEffect(() => {
+    useEffect((Course) => {
 
         if(status===''){
           setCourseOutput(Course)
@@ -86,7 +122,7 @@ function PopularCourses() {
 
       {
         courseOutput.map(item=>(
-          <CourseCard key={item.id} desc={item.course_desc} courseLink={item.courseLink} title={item.title} category={item.category} cardImg={item.img} price={item.price} ></CourseCard>
+          <CourseCard key={item.id}  desc={item.course_desc} course_details={item.course_details} courseLink={item.courseLink} title={item.title} category={item.category} cardImg={item.img} price={item.price} ></CourseCard>
         ))
       }
     </div>

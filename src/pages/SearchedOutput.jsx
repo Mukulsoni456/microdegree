@@ -1,7 +1,5 @@
 import React from 'react'
 import CourseCard from '../components/CourseCard'
-import { Courses } from '../Courses'
-import courseImg from '../assets/home/Section2/courseImg2.png'
 function SearchedOutput({searchedResults, setSearchedResults}) {
 
     // id:2,
@@ -18,7 +16,7 @@ function SearchedOutput({searchedResults, setSearchedResults}) {
         {
             searchedResults.map((item)=>(
                 <div className='mr-7 mb-7'>
-                <CourseCard cardImg={item.course_img} courseLink={item.course_link} title={item.course_name} category={item.course_category} price={item.course_price} desc={item.course_desc} ></CourseCard></div>
+                <CourseCard cardImg={item.course_img} courseLink={item.course_link} title={item.course_name} category={item.course_category} price={item.course_price} desc={item.course_desc} course_details={item.course_details} ></CourseCard></div>
             ))
         }
 
