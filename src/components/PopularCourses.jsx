@@ -46,6 +46,82 @@ function PopularCourses() {
         ],
         },
         {
+          id:5,
+          img: require('../assets/home/Section2/courseImg2.png'),
+          category:'Data Science',
+          title:'Power BI + Tableau Developer Course',
+          price:'20,000',
+
+          course_desc:"Master Business Intelligence with Power BI & Tableau from Industry Experts to become a solid Professional in Data Visualization & Reporting",
+          courseLink:'https://courses.microdegree.work/courses/power-bi-tableau-certification',
+          status:'live',
+          course_details:["65 Hrs of LIVE Online Training",
+          "Concepts Explained in Kannada",
+          "Completion Certificate",
+          "Build Interactive Projects",
+          "Doubt Clarification",
+          "Interview Preparation",
+          "Career Assistance",
+        ],
+        },
+        {
+          id:6,
+          img: require('../assets/home/Section2/courseImg2.png'),
+          category:'Data Science',
+          title:'Power BI + Tableau Developer Course',
+          price:'20,000',
+
+          course_desc:"Master Business Intelligence with Power BI & Tableau from Industry Experts to become a solid Professional in Data Visualization & Reporting",
+          courseLink:'https://courses.microdegree.work/courses/power-bi-tableau-certification',
+          status:'live',
+          course_details:["65 Hrs of LIVE Online Training",
+          "Concepts Explained in Kannada",
+          "Completion Certificate",
+          "Build Interactive Projects",
+          "Doubt Clarification",
+          "Interview Preparation",
+          "Career Assistance",
+        ],
+        },
+        {
+          id:7,
+          img: require('../assets/home/Section2/courseImg2.png'),
+          category:'Data Science',
+          title:'Power BI + Tableau Developer Course',
+          price:'20,000',
+
+          course_desc:"Master Business Intelligence with Power BI & Tableau from Industry Experts to become a solid Professional in Data Visualization & Reporting",
+          courseLink:'https://courses.microdegree.work/courses/power-bi-tableau-certification',
+          status:'live',
+          course_details:["65 Hrs of LIVE Online Training",
+          "Concepts Explained in Kannada",
+          "Completion Certificate",
+          "Build Interactive Projects",
+          "Doubt Clarification",
+          "Interview Preparation",
+          "Career Assistance",
+        ],
+        },
+        {
+          id:8,
+          img: require('../assets/home/Section2/courseImg2.png'),
+          category:'Data Science',
+          title:'Power BI + Tableau Developer Course',
+          price:'20,000',
+
+          course_desc:"Master Business Intelligence with Power BI & Tableau from Industry Experts to become a solid Professional in Data Visualization & Reporting",
+          courseLink:'https://courses.microdegree.work/courses/power-bi-tableau-certification',
+          status:'live',
+          course_details:["65 Hrs of LIVE Online Training",
+          "Concepts Explained in Kannada",
+          "Completion Certificate",
+          "Build Interactive Projects",
+          "Doubt Clarification",
+          "Interview Preparation",
+          "Career Assistance",
+        ],
+        },
+        {
           id:3,
           img: require('../assets/home/Section2/courseImg3.png'),
           category:'Data Science',
@@ -56,8 +132,8 @@ function PopularCourses() {
           status:'Hybrid',
           course_details:["Course starts from complete Basics",
           "No prior coding knowledge required",
-          "Get doubts cleared instantly with our Developer Community",
-          "Quizzes & Mini Projects for more Practice",
+          "Get doubts cleared instantly ",
+          "Quizzes & Mini Projects ",
           "Unlimited access",
           "Interview Preparation",
           "Career Assistance",
@@ -73,8 +149,8 @@ function PopularCourses() {
           status:'pre recorded',
           course_details:["5 Hours of Course Content",
           "No prior coding knowledge required",
-          "Get doubts cleared instantly with our Developer Community",
-          "Quizzes & Mini Projects for more Practice",
+          "Get doubts cleared instantly ",
+          "Quizzes & Mini Projects ",
           "Unlimited access",
           "Telegram Developer Community",
           "Career Assistance",
@@ -106,8 +182,11 @@ function PopularCourses() {
 
 
   return (
-    <div className="w-full h-full px-10 py-2 md:px-20  space-y-5">
+    <div className="w-full h-full px-10 py-2 md:px-20  space-y-7">
     <div className='w-full flex flex-col items-start space-y-3 '>
+
+    <div className='flex items-center space-x-3'><div className='bg-[#FF0049]   p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049] p-[0.15rem]   w-[0.1rem] rounded-xl'></div> <p className='uppercase font-bold text-gray-400 tracking-widest text-xs '>Learn New Skills</p> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> </div>
+
     <h1 className='sm:text-5xl text-4xl mb-4'>Popular Courses</h1>
     <p className="max-w-[680px] text-left text-base">IT courses to boost your skills and improve your resume. Get up to 60% off on our popular courses.</p>
     <div className=" w-full flex justify-between items-center ">
@@ -117,11 +196,11 @@ function PopularCourses() {
       <button onClick={()=>setStatus('pre recorded')} className={` hover:bg-[#FF0049] ${status.includes('pre recorded')?"bg-[#FF0049] text-white":"bg-gray-300"} hover:text-white px-3 py-2 rounded-sm text-sm`} >Pre Recorded</button>
       </div>
       <a href="https://courses.microdegree.work/pages/premium-courses">
-      <button className=" hidden sm:block h-fit  bg-blue-700 text-white text-sm rounded-md px-3 py-2 ">See All Courses</button>
+      <button className=" hidden sm:block h-fit  bg-purple-700 text-white text-sm rounded-md px-3 py-2 ">See All Courses</button>
       </a>
       </div>
     </div>
-    <div className="px-5 flex  items-center w-full h-full  md:space-x-8 flex-wrap md:space-y-0 space-y-14 ">
+    <div className="px-5 flex  items-center w-full h-full  md:space-x-8 flex-wrap sm:flex-nowrap md:space-y-0 space-y-14 overflow-x-scroll ">
 
       {
         courseOutput.map(item=>(

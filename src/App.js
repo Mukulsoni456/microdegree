@@ -29,10 +29,12 @@ function App() {
   const [searchedResults, setSearchedResults] = useState([])
 
   return (
-    <div className="App relative w-full overflow-x-hidden">
-      <div className='relative w-full '>
-        <div className='absolute w-full -z-10 h-screen overflow-y-hidden'>
-          <div className='relative w-full '>
+    <div className="App relative w-full h-full overflow-x-hidden overflow-y-hidden">
+      {/* <div className='relative w-full h-full '> */}
+        {/* </div> */}
+
+        <div className='absolute top-0  -z-10 w-full h-full '>
+          <div className='relative w-full h-full overflow-y-hidden  '>
         <img className="w-52  absolute top-10 -left-20 -z-10   " src={elipse2} alt="" />
         <img className="w-52 absolute top-40 right-0 -z-10" src={elipse3} alt="" />
         <img className="w-52 absolute top-60 left-96 -z-10" src={elipse4} alt="" />
@@ -101,7 +103,28 @@ function App() {
           src={elipse10}
           alt=""
         />
-        </div>
+        <img
+          className="w-52 absolute top-[3350px] -z-10 right-5"
+          src={elipse10}
+          alt=""
+        />
+        <img
+          className="w-52 absolute top-[4350px] -z-10 right-5"
+          src={elipse10}
+          alt=""
+        />
+        <img
+          className="w-52 absolute top-[5350px] -z-10 right-5"
+          src={elipse10}
+          alt=""
+        />
+        <img
+          className="w-52 absolute top-[6350px] -z-10 right-5"
+          src={elipse10}
+          alt=""
+        />
+
+        
         </div>
         </div>
 
@@ -114,7 +137,7 @@ function App() {
         {
           searchedResults.length!=0?<Route exact path="/" element={<SearchedOutput searchedResults={searchedResults} setSearchedResults={setSearchedResults}></SearchedOutput>}/>:<Route exact path="/" element={<Home></Home>}/>
         }
-        {/* <Route exact path="/" element={<CoursePage></CoursePage>}/> */}
+        {/* <Route exact path="/courses" element={<CoursePage></CoursePage>}/> */}
         
       
 

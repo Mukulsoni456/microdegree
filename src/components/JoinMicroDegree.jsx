@@ -12,7 +12,7 @@ function HomeSection4() {
       <div className=" w-full flex items-center justify-center ">
         <img className='hidden sm:block w-1/2 ' src={section4Img} alt="" />
         <div className="py-14 px-8  bg-gray-100 rounded-md w-96 flex-shrink space-y-7">
-        <h3 className="text-3xl font-semibold text-left">How we execute</h3>
+        <h3 className="text-3xl font-medium text-left">How we execute</h3>
         <div className="w-full  space-y-4 ">
           <div className=" w-full flex justify-between items-center ">
             <p>1.</p>

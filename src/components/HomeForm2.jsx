@@ -79,8 +79,11 @@ const onSubmit= async (e) => {
 </div>
 
 {/* secttion10 part 2 */}
-<div className=" sm:block hidden shrink basis-1/2">
-  <div className="p-5 w-full text-left space-y-4 ">
+<div className=" sm:block hidden shrink basis-1/2 p-5 space-y-2">
+<div className='flex items-center space-x-3'><div className='bg-[#FF0049]   p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049] p-[0.15rem]   w-[0.1rem] rounded-xl'></div> <p className='uppercase font-bold text-gray-400 tracking-widest text-xs '>Learn New Skills</p> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> </div>
+
+  <div className=" w-full text-left space-y-4 ">
+    
   <h1 className=" text-4xl text-gray-800 ">Multilingual <br /> <span className="font-bold">IT Skilling</span> Platform <br />for <span className="font-bold"> Bharat</span> </h1>
   <p className='text-gray-800 text-sm'>Platform where you Learn the most In-demand IT Skills that are currently booming and increase your chance of landing a high paying job.</p>
   <ul className=" w-full text-sm text-gray-800">

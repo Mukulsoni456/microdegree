@@ -9,8 +9,12 @@ import powerBi_logo from '../assets/home/section6/powerBi.png'
 
 function HomeSection6() {
   return (
-    <section className=' p-10 sm:pl-28 sm:py-20 w-full h-full flex items-center justify-between '>
+    <div className=' p-10 sm:pl-28 sm:py-20 w-full h-full flex items-center justify-between '>
+
   <div className=" w-full sm:basis-2/5 sm:min-w-[500px] text-left space-y-3 ">
+
+  <div className='flex items-center space-x-3'><div className='bg-[#FF0049]   p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049] p-[0.15rem] h-[0.1rem] w-[0.1rem] rounded-xl'></div> <p className='uppercase font-bold text-gray-400 tracking-widest text-xs '>Expert Trainers</p> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> </div>
+
     <h1 className='text-4xl'><span className="text-bold">Industry</span> <span>Trainers.</span></h1>
     <p className="sm">Jumpstart your career in IT by getting the best training from industry experts, with more than 10 years of experience working in companies like</p>
   </div>
@@ -22,7 +26,7 @@ function HomeSection6() {
     <TrainerCard title='Vinod' top_logo={mern_logo} desc='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, ullam. Fugisfsss sfsfsf sgdgjhkhjk sdht reprehenderit veritatis rerum delectus quae, adipisci fuga cum it' profession='Power BI Developer' bottom_logo={flipkart_logo} cardColor='bg-white' propColor='text-gray-200'></TrainerCard>
 
   </div>
-</section>
+</div>
   )
 }
 

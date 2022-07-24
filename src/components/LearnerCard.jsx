@@ -5,9 +5,9 @@ import playIcon from '../assets/home/section8/play-icon.png'
 import CardImg from '../assets/home/section8/business-career.png'
 import Group1365 from '../assets/home/section8/Group 1365.png'
 
-function Section8Card({cardWidth, vidSrc, bottomImg}) {
+function Section8Card({cardWidth, vidSrc, bottomImg, hoverWidth}) {
   return (
-<div className={`rounded-md relative shadow-lg ${cardWidth} h-full bg-white`}>
+<div className={`rounded-md relative shadow-lg min-w-[300px] hover:min-w-[350px] duration-400 transition-all ease-in-out h-fit bg-white group`}>
 <img src={CardImg} className='w-full rounded-md object-content' alt="" />
 {/* <iframe className='h-full'
         src={vidSrc}
@@ -20,7 +20,7 @@ function Section8Card({cardWidth, vidSrc, bottomImg}) {
 
 
 <iframe className=' absolute top-0 w-full h-full rounded-md' src={vidSrc}></iframe>
-<div className='w-full h-full absolute top-0 hover:hidden'>
+<div className='w-full h-full absolute top-0 group-hover:hidden'>
   <div className='w-full h-full relative '></div>
 
 <img className='absolute top-0 ' src={CardImg} alt="" />

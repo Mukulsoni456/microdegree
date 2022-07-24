@@ -43,12 +43,12 @@ function Footer() {
   <section className="hidden sm:block h-full w-full bg-[#364045] pt-10 px-20">
   <div className="flex  border-b-[0.1rem] border-gray-600 py-6 ">
     <div className="basis-1/4 text-left text-white space-y-4">
-      <h1 className='text-2xl text-left'> <span className='text-center'>Micro </span> <br/> <span className="font-bold text-left">Degree</span></h1>
+      <h1 className='text-2xl text-left'> <span className='text-center'>Micro </span> <br/> <span className="font-medium text-left">Degree</span></h1>
       <p className="text-xs text-gray-400 ">MicroDegree promotes the idea of practical learning with its various recorded and live courses, where students are trained by industry experts and can enhance their career.</p>
     </div>
     <div className="basis-1/4 flex items-center justify-center h-full">
       <ul className="space-y-1 text-left">
-        <li className='font-bold text-gray-200'>Company</li>
+        <li className='font-medium text-gray-200'>Company</li>
         <a href="https://pages.microdegree.work/about.html"><li className='text-sm text-gray-400'>About</li></a>
         <a href="https://courses.microdegree.work/pages/premium-courses"><li className='text-sm text-gray-400'>Courses</li></a>
         <li className='text-sm text-gray-400'>Scholarships</li>
@@ -57,7 +57,7 @@ function Footer() {
     </div>
     <div className="basis-1/4 flex items-center justify-center h-full">
       <ul className="space-y-1 text-left">
-        <li className='font-bold text-gray-200'>Useful Links</li>
+        <li className='font-medium text-gray-200'>Useful Links</li>
        <a href="https://blog.microdegree.work/"> <li className='text-sm text-gray-400'>Blogs</li></a>
         <a href="https://t.me/microdegreekannada"><li className='text-sm text-gray-400'>Community</li></a>
         <li className='text-sm text-gray-400'>Pricing</li>

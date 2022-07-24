@@ -47,31 +47,30 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
 
   return (
     <div>
-    <div className='sm:flex h-[550px] md:px-10 hidden '>
+    <div className='sm:flex h-[650px] md:px-10 hidden '>
     <div className="w-full h-full flex items-center pb-10">
-      <div className=" px-5 overflow-visible basis-1/2 lg:basis-2/5  h-fit min-w-[380px] text-left space-y-6">
-        <div className="space-y-6 max-w-[450px]">
-        <span className='text-orange-400 text-md font-semibold'>Save 15% on AWS</span>
+      <div className=" px-5 overflow-visible basis-1/2 lg:basis-1/2  h-fit min-w-[380px] text-left space-y-7">
+        <div className="space-y-7 max-w-[450px]">
+        <span className='text-orange-400 text-md font-medium bg-gray-100 bg-opacity-50 px-2 py-1'>Save 15% on AWS</span>
         <h1 className='text-3xl font-bold text-gray-700'>
           <span className='text-orange-400'>ಕನ್ನಡಿಗರಿಗೆ</span> IT Job Ready ಮಾಡುವ <span className='text-orange-400'> ಅಭಿಯಾನ</span> 
         </h1>
         <p className="text-sm font-medium">
-          MicroDegree is an Ed-tech platform teaching coding & job-ready
-          skills in Kannada at an affordable price.
+          MicroDegree is an <span className='text-purple-700'> Ed-tech platform</span> teaching <span className='text-purple-700' >coding & job-ready </span>skills in Kannada at an affordable price.
         </p>
         <div className='space-x-8'>
-          <button onClick={()=>setViewModal('77')} className=" p-2 px-4 bg-[#FF0049] text-white text-sm rounded-md">Free Consultation</button>
-         <a href="https://courses.microdegree.work/pages/premium-courses"><button className='rounded-md p-2 border border-blue-800 text-blue-800 text-sm'>All Courses</button></a>
+          <button onClick={()=>setViewModal('77')} className=" p-3 px-9 bg-[#FF0049] text-white text-sm rounded-md">Free Consultation</button>
+         <a href="https://courses.microdegree.work/pages/premium-courses"><button className='rounded-md p-2 px-5 border-2 font-medium border-purple-700 text-purple-700 text-sm'>All Courses</button></a>
         </div> 
         </div>
 
         <div className="w-full flex space-x-3 py-3 overflow-x-scroll">
-          <img onClick={handleVideo1} className="w-36 " src={Group1416} alt="" />
-          <img onClick={handleVideo2} className="w-36" src={Group1417} alt="" />
-          <img onClick={handleVideo3} className="w-36" src={Group1418} alt="" />
+          <img onClick={handleVideo1} className="w-44 " src={Group1416} alt="" />
+          <img onClick={handleVideo2} className="w-44" src={Group1417} alt="" />
+          <img onClick={handleVideo3} className="w-44" src={Group1418} alt="" />
         </div>
       </div>
-      <div className='basis-3/5 sm:px-14 flex-shrink flex sm:justify-start py-10'>
+      <div className='basis-1/2 sm:px-14 flex-shrink flex sm:justify-start py-10'>
         <div className="hidden sm:block relative w-[350px] h-[350px] ">
         <img className="w-[350px] absolute top-0  object-contain  " src={heroImage} alt="" />
         <img className="w-[55px] absolute object-contain top-10 right-6 " src={Group1351} alt="" />
@@ -83,10 +82,10 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
     </div>
   </div>
 
-  <div className='sm:hidden px-10 py-5 flex items-center pb-10'>
+  <div className='sm:hidden px-10 py-12 flex items-center pb-10'>
    <div className="text-left space-y-6">
          <div className="space-y-6 ">
-         <span className='text-orange-400 text-md font-semibold'>Save 15% on AWS</span>
+         <span className='text-orange-400 text-md font-medium bg-gray-100 bg-opacity-50 px-2 py-1'>Save 15% on AWS</span>
          <h1 className='text-3xl font-bold text-gray-700'>
            <span className='text-orange-400'>ಕನ್ನಡಿಗರಿಗೆ</span> IT Job Ready ಮಾಡುವ <span className='text-orange-400'> ಅಭಿಯಾನ</span> 
          </h1>
@@ -100,9 +99,9 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
          </div> 
         </div>
   <div className="w-full flex space-x-3 py-3 overflow-x-scroll">
-  <img onClick={handleVideo1} className="w-36 " src={Group1416} alt="" />
-   <img onClick={handleVideo2} className="w-36" src={Group1417} alt="" />
-    <img onClick={handleVideo3} className="w-36" src={Group1418} alt="" />
+  <img onClick={handleVideo1} className="w-44 " src={Group1416} alt="" />
+   <img onClick={handleVideo2} className="w-44" src={Group1417} alt="" />
+    <img onClick={handleVideo3} className="w-44" src={Group1418} alt="" />
    </div>
         </div>
   </div>
