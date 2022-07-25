@@ -33,8 +33,8 @@ function App() {
       {/* <div className='relative w-full h-full '> */}
         {/* </div> */}
 
-        <div className='absolute top-0  -z-10 w-full h-full '>
-          <div className='relative w-full h-full overflow-y-hidden  '>
+        <div className='absolute top-0 bg-repeat -z-10 w-full h-full '>
+          <div className='relative h-full '>
         <img className="w-52  absolute top-10 -left-20 -z-10   " src={elipse2} alt="" />
         <img className="w-52 absolute top-40 right-0 -z-10" src={elipse3} alt="" />
         <img className="w-52 absolute top-60 left-96 -z-10" src={elipse4} alt="" />
@@ -108,19 +108,121 @@ function App() {
           src={elipse10}
           alt=""
         />
+        {/* ********************** */}
         <img
           className="w-52 absolute top-[4350px] -z-10 right-5"
           src={elipse10}
           alt=""
         />
+          <img
+          className="w-52 absolute top-[4000px] -z-10 left-44"
+          src={elipse4}
+          alt=""
+        />
+                <img
+          className="w-52 absolute top-[3850px] -z-10 right-56"
+          src={elipse3}
+          alt=""
+        />
+          <img
+          className="w-52 absolute top-[4550px] -z-10 -left-24"
+          src={elipse2}
+          alt=""
+        />
+                  <img
+          className="w-52 absolute top-[4350px] -z-10 left-[200px]"
+          src={elipse3}
+          alt=""
+        />
+        {/* ******************************** */}
         <img
           className="w-52 absolute top-[5350px] -z-10 right-5"
           src={elipse10}
           alt=""
         />
-        <img
-          className="w-52 absolute top-[6350px] -z-10 right-5"
-          src={elipse10}
+          <img
+          className="w-52 absolute top-[5000px] -z-10 left-44"
+          src={elipse4}
+          alt=""
+        />
+                <img
+          className="w-52 absolute top-[5850px] -z-10 right-56"
+          src={elipse3}
+          alt=""
+        />
+          <img
+          className="w-52 absolute top-[5550px] -z-10 -left-24"
+          src={elipse2}
+          alt=""
+        />
+                  <img
+          className="w-52 absolute top-[6200px] -z-10 left-[200px]"
+          src={elipse4}
+          alt=""
+        />
+                  <img
+          className="w-52 absolute top-[6600px] -z-10 -left-[80px]"
+          src={elipse2}
+          alt=""
+        />
+                  <img
+          className="w-52 absolute top-[7000px] -z-10 -right-[80px]"
+          src={elipse4}
+          alt=""
+        />
+                  <img
+          className="w-52 absolute top-[6700px] -z-10 right-[50px]"
+          src={elipse5}
+          alt=""
+        />
+                  <img
+          className="w-52 absolute top-[7300px] -z-10 left-[30px]"
+          src={elipse4}
+          alt=""
+        />  
+                  <img
+          className="w-52 absolute top-[7600px] -z-10 right-[30px]"
+          src={elipse3}
+          alt=""
+        />
+                  <img
+          className="w-52 absolute top-[8000px] -z-10 left-[30px]"
+          src={elipse4}
+          alt=""
+        />  
+                  <img
+          className="w-52 absolute top-[8300px] -z-10 right-[30px]"
+          src={elipse3}
+          alt=""
+        />
+                  <img
+          className="w-52 absolute top-[8600px] -z-10 left-[30px]"
+          src={elipse4}
+          alt=""
+        />  
+                  <img
+          className="w-52 absolute top-[9000px] -z-10 right-[30px]"
+          src={elipse3}
+          alt=""
+        />
+                  <img
+          className="w-52 absolute top-[9600px] -z-10 left-[30px]"
+          src={elipse4}
+          alt=""
+        />  
+                  <img
+          className="w-52 absolute top-[9900px] -z-10 right-[30px]"
+          src={elipse3}
+          alt=""
+        />
+                  <img
+          className="w-52 absolute top-[10200px] -z-10 left-[30px]"
+          src={elipse4}
+          alt=""
+        />  
+                  <img
+          className="w-52 absolute top-[10400px] -z-10 right-[30px]"
+          src={elipse3}
           alt=""
         />
 
@@ -129,7 +231,7 @@ function App() {
         </div>
 
 {/* Home section starts here */}
-      <div className=' overflow-x-hidden 2xl:px-10'>
+      <div className='  overflow-x-hidden 2xl:px-10'>
 
       <Router>
       <Navbar setSearchedResults={setSearchedResults}></Navbar>
