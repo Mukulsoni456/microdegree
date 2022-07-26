@@ -231,7 +231,7 @@ function App() {
         </div>
 
 {/* Home section starts here */}
-      <div className='  overflow-x-hidden 2xl:px-10'>
+      <div className='  overflow-x-hidden '>
 
       <Router>
       <Navbar setSearchedResults={setSearchedResults}></Navbar>
