@@ -28,7 +28,7 @@ function HomeSection3() {
     </div>
 
 
-    <div className=" w-full h-full flex flex-wrap items-center justify-between sm:space-x-2 ">
+    <div className=" w-full h-full 2xl:px-5 flex flex-wrap items-center justify-between sm:space-x-2 ">
       <RecognisationCard title='Recognized by KDM' desc='BTS event organised by Karnataka Digital Economy Mission ' date='21 Nov' cardImg={section3Img1}></RecognisationCard>
       <RecognisationCard title='Winning Elevate' desc='Chosen as Top 100 startups by Govt of Karnataka ' date='21 Nov' cardImg={section3Img2}></RecognisationCard>
       <RecognisationCard title='Recieving Award for IEEE' desc='Recognized by IEEE for Impacting 3000+ tech talents ' date='21 Nov' cardImg={section3Img3}></RecognisationCard>
