@@ -3,6 +3,10 @@ import placement1 from '../assets/home/section5/placement1.png'
 import placement2 from '../assets/home/section5/placement2.png'
 import placement3 from '../assets/home/section5/placement3.png'
 import placement4 from '../assets/home/section5/placement4.png'
+import jeevan from '../assets/home/section5/jeevan.jpeg'
+import ajay from '../assets/home/section5/ajay.jpeg'
+import madhushree from '../assets/home/section5/madhushree.jpeg'
+import pratik from '../assets/home/section5/pratik.jpeg'
 import PlacementCard from './PlacementCard'
 import edgeLogo from '../assets/home/section5/7edgeLogo.png'
 import tataLogo from '../assets/home/section5/tataLogo.png'
@@ -16,10 +20,10 @@ function CmnSection2() {
 
   <h1 className="text-4xl space-x-2 text-gray-600"><span className="font-bold text-gray-700">Placement</span> Diaries</h1>
   <div className="flex w-full justify-between flex-wrap ">
-    <PlacementCard title='Mani Nair' desc='Assosciative Software Developer' cardImg={placement1} logoImg={edgeLogo} ></PlacementCard>
-    <PlacementCard title='Mani Nair' desc='Software Developer' cardImg={placement2} logoImg={tataLogo} ></PlacementCard>
-    <PlacementCard title='Mani Nair' desc='User Interface Designer' cardImg={placement3} logoImg={mindstalkLogo} ></PlacementCard>
-    <PlacementCard title='Mani Nair' desc='Solution Architect' cardImg={placement4} logoImg={tetherLogo} ></PlacementCard>
+    <PlacementCard title='Jeevan Kumar' desc='Cloud Engineer'  cardImg={jeevan} logoImg='https://gitlab.niveussolutions.com/uploads/-/system/appearance/header_logo/1/niveus_logo.png' ></PlacementCard>
+    <PlacementCard title='Pratik Bhusanur' desc='DevOps Engineer' cardImg={pratik} logoImg='https://boomi.com/wp-content/uploads/2016/09/lt-infotech-logo.png' ></PlacementCard>
+    <PlacementCard title='Madhushree' desc='Test Engineer' cardImg={madhushree} logoImg='https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/qqrurs64kojuhxy8kyyr' ></PlacementCard>
+    <PlacementCard title='Ajay Patwal' desc='Cloud Support Engineer' cardImg={ajay} logoImg='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1200px-Amazon_logo.svg.png' ></PlacementCard>
   </div>
 </div>
 </div>

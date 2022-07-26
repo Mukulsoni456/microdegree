@@ -33,7 +33,7 @@ console.log(title.length)
   
   return (
     <>
-    <div className='m-auto sm:m-0 relative w-60 min-w-[250px] h-full min-h-[350px] bg-white text-left group rounded-md shadow-lg'>
+    <div className='m-auto sm:m-0 relative w-60 min-w-[280px] sm:min-w-[250px] 2xl:min-w-[280px] h-full min-h-[380px] sm:min-h-[350px] 2xl:min-h-[380px] bg-white text-left group rounded-md shadow-lg'>
       <div>
   <a href={courseLink}>
     <div className='w-full h-full'>
@@ -41,7 +41,7 @@ console.log(title.length)
   </div>
   <div className='h-full w-full p-4 space-y-3'>
   <div className='flex justify-between'>
-        <p className={`text-center p-1 ${categoryColor} text-white px-2 '}  rounded-md text-xs`}>{category}</p>
+        <p className={`text-center flex items-center p-1 ${categoryColor} text-white px-2 '}  rounded-md text-xs`}>{category}</p>
         <div className={`${price==='FREE'?'text-green-500':"text-yellow-500"} font-medium text-lg`}>Rs. {price}</div>
     </div>
     <p className="font-medium text-lg mb-2 ">{title}</p>

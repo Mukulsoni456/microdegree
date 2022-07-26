@@ -182,13 +182,14 @@ function PopularCourses() {
 
 
   return (
-    <div className="w-full h-full px-10 py-2 md:px-20  space-y-7">
+    <div className="w-full h-full px-5 py-5  md:px-20  space-y-7">
     <div className='w-full flex flex-col items-start space-y-3 '>
-
+    <div className='px-5 sm:px-0 w-full flex flex-col items-start space-y-3'>
     <div className='flex items-center space-x-3'><div className='bg-[#FF0049]   p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049] p-[0.15rem]   w-[0.1rem] rounded-xl'></div> <p className='uppercase font-bold text-gray-400 tracking-widest text-xs '>Learn New Skills</p> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> </div>
 
     <h1 className='sm:text-5xl text-4xl mb-4'>Popular Courses</h1>
     <p className="max-w-[680px] text-left text-base">IT courses to boost your skills and improve your resume. Get up to 60% off on our popular courses.</p>
+    </div>
     <div className=" w-full flex justify-between items-center ">
       <div className ='flex m-auto my-5 sm:m-0 '>
       <button onClick={()=>setStatus('live')} className={` hover:bg-[#FF0049] ${status.includes('live')?"bg-[#FF0049] text-white":"bg-gray-300"} hover:text-white px-3 py-2 rounded-sm text-sm`}>Live</button>

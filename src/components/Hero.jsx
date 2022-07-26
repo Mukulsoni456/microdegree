@@ -13,19 +13,19 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
           id: 1,
           name : "video1",
           title: "How to enroll to courses?",
-          link:'https://www.youtube.com/embed/E7wJTI-1dvQ'
+          link:'https://www.youtube.com/embed/YfmFWwzoLnQ'
         },
         {
           id: 2,
           name : "video2",
           title: "Why Our Courses?",
-          link:'https://www.youtube.com/embed/5Eqb_-j3FDA'
+          link:'https://www.youtube.com/embed/01qSumyUrpU'
         },
         {
           id: 3,
           name : "video3",
           title: "Why Microdegree?",
-          link:'https://www.youtube.com/embed/ANX4UZlW2JA'
+          link:'https://www.youtube.com/embed/owYvziGyVZQ'
         },
       ]
 
@@ -71,10 +71,10 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
         </div>
       </div>
       <div className='basis-1/2 sm:px-14 flex-shrink flex sm:justify-start py-10'>
-        <div className="hidden sm:block relative w-[350px] h-[350px] ">
-        <img className="w-[350px] absolute top-0  object-contain  " src={heroImage} alt="" />
-        <img className="w-[55px] absolute object-contain top-10 right-6 " src={Group1351} alt="" />
-        <img className="w-[120px] absolute  object-contain top-1/2 -left-10" src={Group19} alt="" />
+        <div className="hidden sm:block relative w-[450px] h-[450px] ">
+        <img className="2xl:w-[420px] w-[380px] absolute top-5  object-contain  " src={heroImage} alt="" />
+        <img className="w-[55px] 2xl:w-[60px] absolute object-contain 2xl:top-14 2xl:right-14 top-20 right-20 " src={Group1351} alt="" />
+        <img className="w-[120px] 2xl:w-[140px] absolute  object-contain 2xl:top-1/2 2xl:-left-14 top-1/2 -left-16" src={Group19} alt="" />
         </div>
 
 
@@ -82,7 +82,7 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
     </div>
   </div>
 
-  <div className='sm:hidden px-10 py-12 flex items-center pb-10'>
+  <div className='sm:hidden px-10 py-12 flex items-center pb-14'>
    <div className="text-left space-y-6">
          <div className="space-y-6 ">
          <span className='text-orange-400 text-md font-medium bg-gray-100 bg-opacity-50 px-2 py-1'>Save 15% on AWS</span>

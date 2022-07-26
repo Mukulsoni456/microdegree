@@ -39,12 +39,12 @@ const onSubmit= async (e) => {
       </div>
       <div className=" w-full md:basis-1/2 flex justify-center md:block">
       <form onSubmit={onSubmit} action="">
-      <div className=" w-72 h-fit bg-gray-100 rounded-md ">
+      <div className="  w-80 sm:w-72 2xl:w-80 h-fit bg-gray-100 rounded-md ">
         <div className="head rounded-md bg-[#FCAA2D] px-5 py-4 flex flex-col items-center justify-center space-y-2 text-white">
           <h3 className="text-xl">Signup for Free</h3>
           <p className='text-xs w-48'>And recieve over 100+ free quality courses</p>
         </div>
-        <div className="p-5 px-7 space-y-4 ovrflow-visible">
+        <div className=" px-7 py-10 sm:py-5 2xl:py-10 space-y-4 ovrflow-visible">
           <input required onChange={(e)=>{setName(e.target.value)}} className='text-sm p-2 w-full' type="text" placeholder='Your Name' name="" id="" />
           <input required onChange={(e)=>{setEmail(e.target.value)}} className='text-sm p-2 w-full ' type="text" placeholder='Email' name="" id="" />
           <input required onChange={(e)=>{setContactNo(e.target.value)}} className='text-sm p-2 w-full ' type="text" placeholder='Mobile' name="" id="" />

@@ -9,6 +9,7 @@ function Modal({setViewModal, viewModal}) {
 
   const [Name, setName] = useState('')
   const [Email, setEmail] = useState('')
+  const [MobileNo, setMobileNo] = useState('')
     
   console.log(Name, Email)
 
@@ -19,6 +20,7 @@ function Modal({setViewModal, viewModal}) {
     await addDoc(q, {
       name: Name,
       email: Email,
+      mobileNo: MobileNo
     });
 
     console.log("hi this is mukul");
@@ -42,11 +44,15 @@ function Modal({setViewModal, viewModal}) {
                 <div className='space-y-7'>
                 <div className='w-full text-left'>
                     <p className='text-sm'>Your Name</p>
-                    <input onChange={(e)=>{setName(e.target.value)}} className='outline-none border-b-2 w-full' placeholder='Your Name' type="text" name="name" id="name" />
+                    <input onChange={(e)=>{setName(e.target.value)}} className='text-[0.95rem] outline-none border-b-2 w-full' placeholder='Your Name' type="text" name="name" id="name" />
                 </div>
                 <div className='w-full text-left'>
                     <p className='text-sm'>Email</p>
-                    <input onChange={(e)=>{setEmail(e.target.value)}} className='outline-none border-b-2 w-full' placeholder='Enter Your Email Address' type="email" name="name" id="name" />
+                    <input onChange={(e)=>{setEmail(e.target.value)}} className='text-[0.95rem] outline-none border-b-2 w-full' placeholder='Enter Your Email Address' type="email" name="email" id="email" />
+                </div>
+                <div className='w-full text-left'>
+                    <p className='text-sm'>Mobile No</p>
+                    <input onChange={(e)=>{setMobileNo(e.target.value)}} className='text-[0.95rem] outline-none border-b-2 w-full' placeholder='Enter Your Mobile No' type="number" name="number" id="number" />
                 </div>
 
                 </div>
