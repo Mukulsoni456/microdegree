@@ -8,7 +8,7 @@ import section9Img4 from '../assets/home/section9/section9Img4.png'
 function HomeSection9() {
   return (
     <>
-    <div className="hidden sm:block md:px-28 md:min-h-[500px] h-full py-14 px-10 space-y-10 text-left">
+    <div className="hidden sm:block md:px-28 md:min-h-[500px] mx-auto h-full py-14 px-10 space-y-10 text-left">
   <h1 className=" text-4xl sm:text-5xl sm:px-10"><samp className="font-semibold text-gray-800">News</samp>& <span className="font-semibold text-gray-900">Media</span> Talk </h1>
 
   <div className=" h-[340px]  flex  space-x-4 md:px-14 overflow-y-hidden  ">
