@@ -49,7 +49,7 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
     <div>
     <div className='sm:flex h-[650px] md:px-10 hidden '>
     <div className="w-full h-full flex items-center pb-10">
-      <div className=" px-5 overflow-visible basis-1/2 lg:basis-1/2  h-fit min-w-[380px] text-left space-y-7">
+      <div className=" px-5 overflow-visible w-fit   h-fit min-w-[380px] text-left space-y-7">
         <div className="space-y-7 max-w-[450px]">
         <span className='text-orange-400 text-md font-medium bg-gray-100 bg-opacity-50 px-2 py-1'>Save 15% on AWS</span>
         <h1 className='text-3xl font-bold text-gray-700'>
@@ -70,7 +70,7 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
           <img onClick={handleVideo3} className="w-44" src={Group1418} alt="" />
         </div>
       </div>
-      <div className='basis-1/2 sm:px-14 flex-shrink flex sm:justify-start py-10'>
+      <div className='basis-1 sm:px-14 flex-shrink flex sm:justify-start py-10'>
         <div className="hidden sm:block relative w-[450px] h-[450px] ">
         <img className="2xl:w-[420px] w-[380px] absolute top-5  object-contain  " src={heroImage} alt="" />
         <img className="w-[55px] 2xl:w-[60px] absolute object-contain 2xl:top-14 2xl:right-14 top-20 right-20 " src={Group1351} alt="" />
