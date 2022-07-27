@@ -33,7 +33,7 @@ console.log(title.length)
   
   return (
     <>
-    <div className='m-auto sm:m-0 relative w-60 min-w-[280px] sm:min-w-[250px] 2xl:min-w-[280px] h-full min-h-[380px] sm:min-h-[350px] 2xl:min-h-[380px] bg-white text-left group rounded-md shadow-lg'>
+    <div className='m-auto sm:m-0 relative w-60 min-w-[280px] sm:min-w-[250px] 2xl:min-w-[300px] h-full min-h-[380px] sm:min-h-[350px] 2xl:min-h-[380px] bg-white text-left group rounded-md shadow-lg'>
       <div>
   <a href={courseLink}>
     <div className='w-full h-full'>
@@ -45,7 +45,7 @@ console.log(title.length)
         <div className={`${price==='FREE'?'text-green-500':"text-yellow-500"} font-medium text-lg`}>Rs. {price}</div>
     </div>
     <p className="font-medium text-lg mb-2 ">{title}</p>
-    <p className="text-gray-700 text-[0.7rem] line-clamp-3">{desc}</p>
+    <p className="text-gray-700 2xl:text-[0.9rem] text-[0.7rem] line-clamp-3">{desc}</p>
   </div>
   </a>
   </div>
@@ -56,10 +56,10 @@ console.log(title.length)
     <div className='h-full w-full '>
   <div className='opacity-95 top-0 bg-gradient-to-br justify-center flex items-center px-10 from-yellow-400 to-red-500 w-full h-full'>
     <div className='text-left  text-white space-y-3'>
-      <h3 className='text-2xl  font-medium'>Course Details</h3>
+      <h3 className='text-2xl 2xl:text-3xl  font-medium'>Course Details</h3>
       <ul className='list-disc space-y-1'>
       {
-  course_details.map((para)=>(<li key={para} className='text-sm'>{para}</li>))
+  course_details.map((para)=>(<li key={para} className='text-sm 2xl:text-base'>{para}</li>))
 }
 </ul>
 <div>

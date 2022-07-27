@@ -38,30 +38,30 @@ function Navbar({setSearchedResults}) {
   return (
     <div className='flex max-h-[70px] h-full w-full p-6 px-7  relative justify-between items-center '>
       <div className='flex-shrink flex items-center md:ml-6 '>
-        <img className="min-w-[130px] max-w-[130px] md:min-w-[140px] md:max-w-[140px]" src={logo} alt="" />
+        <img className="min-w-[130px] max-w-[130px] md:min-w-[140px] md:max-w-[140px] 2xl:min-w-[200px] 2xl:max-w-[200px]" src={logo} alt="" />
       </div>
       <div className=' flex basis-1 md:basis-7/12 sm:basis-9/12 justify-start items-center '>
         <div className=' hidden max-h-[40px]  sm:block basis-5/12 flex-shrink mr-3 relative '>
       <form className="flex h-full items-center  bg-white p-[0.4rem] p-y-2 rounded-md">
-            <input className=' flex h-full w-full text-sm outline-none' onChange={(e)=> {e.target.value?setInput(e.target.value):setInput('')}}  placeholder='what do you want to learn?' type='text'></input>
+            <input className=' flex h-full w-full text-sm 2xl:text:base outline-none' onChange={(e)=> {e.target.value?setInput(e.target.value):setInput('')}}  placeholder='what do you want to learn?' type='text'></input>
             <SearchIcon className='w-7 text-white p-1 rounded-md bg-[#FF2A67]'></SearchIcon>
           </form>
           <div className='border-t-2 w-full absolute z-10 '>
             {searchOutput.map(item=>(
-              <h1 onClick={handleSearched} key={item.id} className=' hover:text-[#FF2A67] cursor-pointer w-full bg-white text-sm py-2 text-left px-2  text-gray-700'>{item.course_name}</h1>
+              <h1 onClick={handleSearched} key={item.id} className=' hover:text-[#FF2A67] cursor-pointer w-full bg-white text-sm 2xl:text-base py-2 text-left px-2  text-gray-700'>{item.course_name}</h1>
               ))}
           </div>
           </div>
-          <ul className="flex w-full md:basis-7/12 ml-4 sm:ml-8 justify-around items-center space-x-2 ">
+          <ul className="flex 2xl:text-lg w-full md:basis-7/12 ml-4 sm:ml-8 justify-around items-center space-x-2 ">
             <div className=' sm:relative sm:w-full h-full w-fit sm:px-2'>
-            <div className='flex items-center justify-center' onClick={()=>setDropDown(!dropDown)}>
+            <div className='flex items-center justify-center ' onClick={()=>setDropDown(!dropDown)}>
             <li className=' cursor-pointer hover:border-bottom select-none py-1 hover:text-[#FF2A67] rounded-full'>Courses</li>
             <ChevronDownIcon className={`w-4 cursor-pointer ${dropDown?'hidden':'block'}`}></ChevronDownIcon>
             <ChevronUpIcon className={`w-4 cursor-pointer ${dropDown?'block':'hidden'}`}></ChevronUpIcon>
             </div>
             <div className={`absolute left-10 top-20 z-10 sm:top-10 sm:left-0 w-fit select-none bg-white  py-3 ${dropDown?'block':'hidden'} whitespace-nowrap transition-all ease-linear duration-700`}>
               {Courses.map(item=>(
-                <a href={item.course_link}><p className='hover:bg-[#FF2A67] hover:text-white text-left w-full bg-white text-sm py-2  px-5  text-gray-700' key={item.id}>{item.course_name}</p></a>
+                <a href={item.course_link}><p className='hover:bg-[#FF2A67] hover:text-white text-left w-full bg-white text-sm 2xl:text-base py-2  px-5  text-gray-700' key={item.id}>{item.course_name}</p></a>
               ))}
             </div>
             </div>

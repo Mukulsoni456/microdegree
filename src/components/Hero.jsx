@@ -1,5 +1,6 @@
 import React from 'react'
 import heroImage from "../assets/home/heroSection/Rectangle 102.png";
+import heroImg1 from "../assets/home/heroSection/HeroImg1.png"
 import Group19 from "../assets/home/heroSection/Group 19.png";
 import Group1351 from "../assets/home/heroSection/Group 1351.png";
 import Group1416 from "../assets/home/heroSection/Group 1416.png";
@@ -51,11 +52,11 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
     <div className="w-full h-full flex items-center pb-10">
       <div className=" px-5 overflow-visible w-fit   h-fit min-w-[380px] text-left space-y-7">
         <div className="space-y-7 max-w-[450px]">
-        <span className='text-orange-400 text-md font-medium bg-gray-100 bg-opacity-50 px-2 py-1'>Save 15% on AWS</span>
-        <h1 className='text-3xl font-bold text-gray-700'>
+        <span className='text-orange-400 text-md font-medium bg-gray-100 bg-opacity-50 px-2 2xl:text-lg py-1'>Save 15% on AWS</span>
+        <h1 className='text-3xl 2xl:text-4xl font-bold text-gray-700'>
           <span className='text-orange-400'>ಕನ್ನಡಿಗರಿಗೆ</span> IT Job Ready ಮಾಡುವ <span className='text-orange-400'> ಅಭಿಯಾನ</span> 
         </h1>
-        <p className="text-sm font-medium">
+        <p className="text-sm 2xl:text-base font-medium">
           MicroDegree is an <span className='text-purple-700'> Ed-tech platform</span> teaching <span className='text-purple-700' >coding & job-ready </span>skills in Kannada at an affordable price.
         </p>
         <div className='space-x-8'>
@@ -64,21 +65,16 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
         </div> 
         </div>
 
-        <div className="w-full flex space-x-3 py-3 overflow-x-scroll">
-          <img onClick={handleVideo1} className="w-44 " src={Group1416} alt="" />
-          <img onClick={handleVideo2} className="w-44" src={Group1417} alt="" />
-          <img onClick={handleVideo3} className="w-44" src={Group1418} alt="" />
+        <div className="w-full flex space-x-3 py-3 overflow-x-scroll scrollbar-hide">
+          <img onClick={handleVideo1} className="w-44 2xl:w-56 " src={Group1416} alt="" />
+          <img onClick={handleVideo2} className="w-44 2xl:w-56" src={Group1417} alt="" />
+          <img onClick={handleVideo3} className="w-44 2xl:w-56" src={Group1418} alt="" />
         </div>
       </div>
-      <div className='basis-1 sm:px-14 flex-shrink flex sm:justify-start py-10'>
-        <div className="hidden sm:block relative w-[450px] h-[450px] ">
-        <img className="2xl:w-[420px] w-[380px] absolute top-5  object-contain  " src={heroImage} alt="" />
-        <img className="w-[55px] 2xl:w-[60px] absolute object-contain 2xl:top-14 2xl:right-14 top-20 right-20 " src={Group1351} alt="" />
-        <img className="w-[120px] 2xl:w-[140px] absolute  object-contain 2xl:top-1/2 2xl:-left-14 top-1/2 -left-16" src={Group19} alt="" />
-        </div>
-
-
+      <div className='px-10'>
+        <img className='2xl:w-[520px] w-[450px]' src={heroImg1} alt="" />
       </div>
+      {/* basis-1 sm:px-14 flex-shrink flex sm:justify-start py-10 */}
     </div>
   </div>
 
