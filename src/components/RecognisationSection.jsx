@@ -29,10 +29,10 @@ function HomeSection3() {
 
 
     <div className=" w-full h-full flex flex-wrap items-center justify-between sm:space-x-2 ">
-      <RecognisationCard title='Recognized by KDM' desc='BTS event organised by Karnataka Digital Economy Mission ' date='21 Nov' cardImg={section3Img1}></RecognisationCard>
-      <RecognisationCard title='Winning Elevate' desc='Chosen as Top 100 startups by Govt of Karnataka ' date='21 Nov' cardImg={section3Img2}></RecognisationCard>
-      <RecognisationCard title='Recieving Award for IEEE' desc='Recognized by IEEE for Impacting 3000+ tech talents ' date='21 Nov' cardImg={section3Img3}></RecognisationCard>
-      <RecognisationCard title='Banagalore Tech Summit' desc='With Honourable chief Minister of Karnataka ' date='21 Nov' cardImg={section3Img4}></RecognisationCard>
+      <RecognisationCard title='Recognized by KDM' desc='BTS event organised by Karnataka Digital Economy Mission ' date='Bangalore | Nov 2021 ' cardImg={section3Img1}></RecognisationCard>
+      <RecognisationCard title='Winning Elevate' desc='Chosen as Top 100 startups by Govt of Karnataka ' date='Bangalore | March 2020' cardImg={section3Img2}></RecognisationCard>
+      <RecognisationCard title='Recieving Award for IEEE' desc='Recognized by IEEE for Impacting 3000+ tech talents ' date='Mangaluru | Eeb 2021' cardImg={section3Img3}></RecognisationCard>
+      <RecognisationCard title='Banagalore Tech Summit' desc='With Honourable chief Minister of Karnataka ' date='Bangalore | Nov 2021' cardImg={section3Img4}></RecognisationCard>
     </div>
     
 

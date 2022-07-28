@@ -53,8 +53,8 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
       <div className=" px-5 overflow-visible w-fit   h-fit min-w-[380px] text-left space-y-7">
         <div className="space-y-7 max-w-[450px]">
         <span className='text-orange-400 text-md font-medium bg-gray-100 bg-opacity-50 px-2 2xl:text-lg py-1'>Save 15% on AWS</span>
-        <h1 className='text-3xl 2xl:text-4xl font-bold text-gray-700'>
-          <span className='text-orange-400'>ಕನ್ನಡಿಗರಿಗೆ</span> IT Job Ready ಮಾಡುವ <span className='text-orange-400'> ಅಭಿಯಾನ</span> 
+        <h1 className='text-3xl 2xl:text-4xl font-bold  text-gray-700'>
+          <span className='text-orange-400  font-benne '>ಕನ್ನಡಿಗರಿಗೆ</span> IT Job Ready <span className='font-benne'>ಮಾಡುವ </span> <span className='text-orange-400 font-benne'> ಅಭಿಯಾನ</span> 
         </h1>
         <p className="text-sm 2xl:text-base font-medium">
           MicroDegree is an <span className='text-purple-700'> Ed-tech platform</span> teaching <span className='text-purple-700' >coding & job-ready </span>skills in Kannada at an affordable price.

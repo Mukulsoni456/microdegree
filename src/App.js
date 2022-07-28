@@ -29,7 +29,7 @@ function App() {
   const [searchedResults, setSearchedResults] = useState([])
 
   return (
-    <div className="App relative w-full h-full overflow-x-hidden overflow-y-hidden">
+    <div className="App relative w-full h-full overflow-x-hidden overflow-y-hidden font-roboto ">
       {/* <div className='relative w-full h-full '> */}
         {/* </div> */}
 

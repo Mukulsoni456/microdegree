@@ -24,7 +24,7 @@ function Section8Card({ vidSrc, bottomImg, course_name, name}) {
 <div className='w-full h-full absolute top-0 group-hover:hidden'>
   <div className='w-full h-full relative '></div>
 
-<img className='absolute top-0 ' src={CardImg} alt="" />
+{/* <img className='absolute top-0 ' src={CardImg} alt="" /> */}
 <img className='absolute top-0 ' src={imgOverlay} alt="" />
 <img className='absolute  w-12 top-24 left-32' src={playIcon} alt="" />
 {/* <img className='absolute w-36 right-12 -bottom-4' src={bottomImg} alt="" /> */}
