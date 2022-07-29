@@ -7,7 +7,7 @@ function Section6Card({title, desc, top_logo, bottom_logo, profession, cardColor
     <h1 className=' text-left 2xl:text-lg text-red-500  font-bold'>{title}</h1>
     <div className='flex space-x-1 '> <img className='w-8 2xl:w-12'  src={top_logo} alt="" />
     <p className='text-xs 2xl:text-base'>Instructor MicroDegree</p> </div>
-    <p className=' text-left 2xl:text-base text-[0.7rem]'>{desc}</p>
+    <p className=' text-left 2xl:text-base text-[0.75rem] line-clamp-6'>{desc}</p>
 
     <div className=' w-full flex justify-between items-center'>
         <div className='space-y-1'>
