@@ -14,7 +14,7 @@ function HomeSection3() {
   return (
     <div className='h-full sm:py-20 sm:px-28 2xl:px-36  p-10 space-y-10 '>
     <div className='space-y-4'>
-    <h1 className='text-4xl 2xl:text-5xl'>Our <span className='font-semibold'>Award</span> & <span className='font-semibold text-red-500'>Recognization</span></h1>
+    <h1 className='text-4xl 2xl:text-5xl'>Our <span className='font-semibold'>Award</span> & <span className='font-semibold text-[#FB4474]'>Recognization</span></h1>
     <p className=" text-gray-600 text-xs 2xl:text-base font-md">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
     
     </div>

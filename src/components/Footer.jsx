@@ -1,5 +1,6 @@
 import React from 'react'
 import fBg1 from '../assets/home/footer/fpart1/fBg1.png'
+import {PhoneIcon, MailIcon} from '@heroicons/react/solid'
 import overlay43 from '../assets/home/footer/fpart1/overlay43.png'
 import Eclipse1 from '../assets/home/footer/fpart1/Eclipse1.png'
 import Eclipse2 from '../assets/home/footer/fpart1/Eclipse2.png'
@@ -8,6 +9,9 @@ import phone1 from '../assets/home/footer/fpart1/phone1.png'
 import phone2 from '../assets/home/footer/fpart1/phone2.png'
 import playstore from '../assets/home/footer/fpart1/playstore.png'
 import Qrcode from '../assets/home/footer/fpart1/Qrcode.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter, faLinkedin, faYoutube, faQuora, faInstagram } from '@fortawesome/free-brands-svg-icons';
+
 import {Link} from 'react-scroll'
 
 function Footer() {
@@ -45,6 +49,22 @@ function Footer() {
     <div className="basis-1/4 text-left text-white space-y-4">
       <h1 className='text-2xl 2xl:text-3xl text-left'> <span className='text-center'>Micro </span> <br/> <span className="font-medium text-left">Degree</span></h1>
       <p className="text-xs text-gray-400 ">MicroDegree promotes the idea of practical learning with its various recorded and live courses, where students are trained by industry experts and can enhance their career.</p>
+      <div className='flex py-2 space-x-3'>
+      <a href="https://www.facebook.com/MicroDegree-101072281390361/?modal=admin_todo_tour"> 
+        <FontAwesomeIcon className='text-2xl hover:text-[#1DA0F0] ' icon={faFacebook}></FontAwesomeIcon></a>
+
+        <a href="https://mobile.twitter.com/micro_degree">
+        <FontAwesomeIcon className='text-sm p-[0.3rem] bg-white rounded-full text-[#364045] hover:bg-[#1DA0F0] ' icon={faTwitter}></FontAwesomeIcon></a>
+        
+        <a href="https://www.linkedin.com/company/microdegree/?viewAsMember=true">
+        <FontAwesomeIcon className='text-sm p-[0.3rem] bg-white rounded-full text-[#364045] hover:bg-[#1DA0F0] ' icon={faLinkedin}></FontAwesomeIcon></a>
+
+        <a href="https://www.youtube.com/channel/UCu8l4v6xqQd8LfOfd0kMPsA">
+        <FontAwesomeIcon className='text-sm p-[0.3rem] bg-white rounded-full text-[#364045] hover:bg-[#1DA0F0] ' icon={faYoutube}></FontAwesomeIcon></a>
+
+        <a href="https://www.instagram.com/microdegree.work/?hl=en">
+        <FontAwesomeIcon className='text-sm p-[0.3rem] bg-white rounded-full text-[#364045] hover:bg-[#1DA0F0] ' icon={faInstagram}></FontAwesomeIcon></a>
+      </div>
     </div>
     <div className="basis-1/4 flex items-center justify-center h-full">
       <ul className="space-y-1 text-left">
@@ -67,8 +87,13 @@ function Footer() {
     </div>
     <div className="basis-1/4 text-left space-y-2 text-xs 2xl:text-base text-gray-400 px-10">
       <h3 className='text-gray-300 text-base 2xl:text-lg'>Contact us</h3>
+      <div className='flex space-x-2'><PhoneIcon className='w-3'></PhoneIcon>
       <p>+918310882795</p>
+      </div>
+      <div className='flex space-x-2'><MailIcon className='w-4'></MailIcon>
       <p>hello@microdegree.work</p>
+      </div>
+      
       <p>3rd Floor, Plama Center, Bejai - Kapikad Rd, Mangaluru, Karnataka 575004</p>
     </div>
   </div>

@@ -74,7 +74,7 @@ const onSubmit= async (e) => {
 
       {/* <textarea required onChange={(e)=>{setMessage(e.target.value)}} className='text-sm w-full rounded-sm p-2 bg-[rgba(255,255,255,0.85)] outline-none text-gray-800 ' name="" id="" cols="24" placeholder='Message' rows="4"></textarea> */}
 
-      <button className='bg-blue-600 px-4 py-3 rounded text-xs 2xl:text-base text-white '>Submit Request</button>
+      <button className='bg-purple-700 px-4 py-3 rounded text-xs 2xl:text-base text-white '>Submit Request</button>
     </form>
   </div>
   </div>
