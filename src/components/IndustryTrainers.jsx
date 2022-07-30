@@ -1,11 +1,11 @@
 import React from 'react'
 import TrainerCard from "./TrainerCard";
 import amazon_logo from '../assets/home/section6/amazon.png'
-import netflix_logo from '../assets/home/section6/netflix.png'
-import mern_logo from '../assets/home/section6/mern.png'
-import accenture_logo from '../assets/home/section6/accenture.png'
-import flipkart_logo from '../assets/home/section6/flipkart.png'
 import powerBi_logo from '../assets/home/section6/powerBi.png'
+import mern_logo from '../assets/home/section6/mern.png'
+import matchmove from '../assets/home/section6/matchmove.png'
+import walmart from '../assets/home/section6/walmart.png'
+import harman from '../assets/home/section6/harman.png'
 
 function HomeSection6() {
   return (
@@ -22,16 +22,16 @@ function HomeSection6() {
 
     <TrainerCard title='Vinay' top_logo={amazon_logo} desc='Vinay raj is an industry expert in cloud computing with more than 8+ years of experience. He has been a technical contributor to many large-scale projects at Walmart.  He is an expert at architecting, building, and maintaining complete DevOps/AWS/IoT/Service Management solutions using AWS technology. 
 He has trained thousands of learners on latest tools required to build and deploy modern cloud-native applications with his vast experience as a senior system engineer. 
-Most importantly he is a great communicator by nature and strive to make training sessions interesting, engaging and enjoyable for all learners.' bottom_logo={netflix_logo} cardColor='bg-gray-100' propColor='text-white'></TrainerCard>
+Most importantly he is a great communicator by nature and strive to make training sessions interesting, engaging and enjoyable for all learners.' bottom_logo={walmart} cardColor='bg-gray-100' propColor='text-white'></TrainerCard>
 
 
     <TrainerCard title='Mithun' top_logo={powerBi_logo} desc='Mithun S is a senior cloud engineer with more than 8+ years of experience, working at Harman, a highly successful datacentre. He has an expertise in AWS best practices & also specializes in architecting, deploying highly available clusters and other areas of IT infrastructure. 
-Being an integral member of the team in serving customers, he is thoroughly trained and a highly skilled trainer and will provide you with the best technical skill and have expert knowledge to manage any AWS environments.' bottom_logo={accenture_logo} cardColor='bg-white' propColor='text-gray-200'></TrainerCard>
+Being an integral member of the team in serving customers, he is thoroughly trained and a highly skilled trainer and will provide you with the best technical skill and have expert knowledge to manage any AWS environments.' bottom_logo={harman} cardColor='bg-white' propColor='text-gray-200'></TrainerCard>
 
 
 
     <TrainerCard title='Ananth Krishna' top_logo={mern_logo} desc='Ananth Krishna is a Senior Security Engineer at Match Move. He comes with a rich working experience of more than 6+ years. Being an expert in DevOps security operations he explains curriculum in a very easy manner with lots of live examples and proper use of their tools. 
-Having the experience of working in the industry for so many years, handling complex projects he is always able to bridge the gap between theory and practice. His teaching style is direct, simple and fast, this helps learners understand the concepts better.' bottom_logo={flipkart_logo} cardColor='bg-white' propColor='text-gray-200'></TrainerCard>
+Having the experience of working in the industry for so many years, handling complex projects he is always able to bridge the gap between theory and practice. His teaching style is direct, simple and fast, this helps learners understand the concepts better.' bottom_logo={matchmove} cardColor='bg-white' propColor='text-gray-200'></TrainerCard>
 
   </div>
 </div>

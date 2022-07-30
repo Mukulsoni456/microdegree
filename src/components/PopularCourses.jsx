@@ -35,7 +35,7 @@ function PopularCourses() {
 
           course_desc:"Master Business Intelligence with Power BI & Tableau from Industry Experts to become a solid Professional in Data Visualization & Reporting",
           courseLink:'https://courses.microdegree.work/courses/power-bi-tableau-certification',
-          status:'live',
+          status:['live', 'hybrid'],
           course_details:["65 Hrs of LIVE Online Training",
           "Concepts Explained in Kannada",
           "Completion Certificate",
@@ -45,82 +45,7 @@ function PopularCourses() {
           "Career Assistance",
         ],
         },
-        {
-          id:5,
-          img: require('../assets/home/Section2/courseImg2.png'),
-          category:'Data Science',
-          title:'Power BI + Tableau Developer Course',
-          price:'20,000',
 
-          course_desc:"Master Business Intelligence with Power BI & Tableau from Industry Experts to become a solid Professional in Data Visualization & Reporting",
-          courseLink:'https://courses.microdegree.work/courses/power-bi-tableau-certification',
-          status:'live',
-          course_details:["65 Hrs of LIVE Online Training",
-          "Concepts Explained in Kannada",
-          "Completion Certificate",
-          "Build Interactive Projects",
-          "Doubt Clarification",
-          "Interview Preparation",
-          "Career Assistance",
-        ],
-        },
-        {
-          id:6,
-          img: require('../assets/home/Section2/courseImg2.png'),
-          category:'Data Science',
-          title:'Power BI + Tableau Developer Course',
-          price:'20,000',
-
-          course_desc:"Master Business Intelligence with Power BI & Tableau from Industry Experts to become a solid Professional in Data Visualization & Reporting",
-          courseLink:'https://courses.microdegree.work/courses/power-bi-tableau-certification',
-          status:'live',
-          course_details:["65 Hrs of LIVE Online Training",
-          "Concepts Explained in Kannada",
-          "Completion Certificate",
-          "Build Interactive Projects",
-          "Doubt Clarification",
-          "Interview Preparation",
-          "Career Assistance",
-        ],
-        },
-        {
-          id:7,
-          img: require('../assets/home/Section2/courseImg2.png'),
-          category:'Data Science',
-          title:'Power BI + Tableau Developer Course',
-          price:'20,000',
-
-          course_desc:"Master Business Intelligence with Power BI & Tableau from Industry Experts to become a solid Professional in Data Visualization & Reporting",
-          courseLink:'https://courses.microdegree.work/courses/power-bi-tableau-certification',
-          status:'live',
-          course_details:["65 Hrs of LIVE Online Training",
-          "Concepts Explained in Kannada",
-          "Completion Certificate",
-          "Build Interactive Projects",
-          "Doubt Clarification",
-          "Interview Preparation",
-          "Career Assistance",
-        ],
-        },
-        {
-          id:8,
-          img: require('../assets/home/Section2/courseImg2.png'),
-          category:'Data Science',
-          title:'Power BI + Tableau Developer Course',
-          price:'20,000',
-
-          course_desc:"Master Business Intelligence with Power BI & Tableau from Industry Experts to become a solid Professional in Data Visualization & Reporting",
-          courseLink:'https://courses.microdegree.work/courses/power-bi-tableau-certification',
-          status:'live',
-          course_details:["65 Hrs of LIVE Online Training",
-          "Concepts Explained in Kannada",
-          "Completion Certificate",
-          "Build Interactive Projects",
-          "Doubt Clarification",
-          "Interview Preparation",
-          "Career Assistance",
-        ],
-        },
         {
           id:3,
           img: require('../assets/home/Section2/courseImg3.png'),
@@ -129,7 +54,7 @@ function PopularCourses() {
           course_desc:"Start with Basic Python until advanced Visualization Concepts with Power Bi to become a Data Science Expert",
           price:'4,900',
           courseLink:'https://courses.microdegree.work/courses/python',
-          status:'Hybrid',
+          status:['live'],
           course_details:["Course starts from complete Basics",
           "No prior coding knowledge required",
           "Get doubts cleared instantly ",
@@ -146,7 +71,8 @@ function PopularCourses() {
           title:'MySQL Certification',
           price:'FREE',
           course_desc: "Learn Python from scratch and build interactve projects. Kick-start your journey into the world of Data Science and Machine Learning here.",
-          status:'pre recorded',
+          status:['live'],
+          courseLink:'https://courses.microdegree.work/courses/mysql',
           course_details:["5 Hours of Course Content",
           "No prior coding knowledge required",
           "Get doubts cleared instantly ",
@@ -156,6 +82,25 @@ function PopularCourses() {
           "Career Assistance",
         ],
         },
+
+        {
+          "id":5,
+          "title":'Automation Testing - Java',
+          "img":require('../assets/Course Images/Java.png'),
+          "courseLink":"https://courses.microdegree.work/courses/automation-testing-java",
+          "course_desc":"Master Automation Testing and learn most in-demand skills like Core Java, Selenium & Automation testing to become a solid QA Professional",
+          "category":'programming',
+          "price":'15000',
+          "status":['pre recorded'],
+          course_details:["60 Hrs of LIVE Online Training",
+          "Concepts Explained in Kannada",
+          "Completion Certificate",
+          "Build Interactive Projects",
+          "Doubt Clarification",
+          "Interview Preparation",
+          "Career Assistance",
+        ],
+      },
       ]
 
 
@@ -163,7 +108,7 @@ function PopularCourses() {
       // console.log(para.map(item=>({item})))
 //   #function starts from here    
 
-    const [status, setStatus] = useState('live')
+    const [status, setStatus] = useState(["live"])
     const [courseOutput, setCourseOutput] = useState(Course)
 
     useEffect(() => {
@@ -172,7 +117,8 @@ function PopularCourses() {
           setCourseOutput(Course)
         }
         else{
-          setCourseOutput(Course.filter((item)=>item.status.toLowerCase().includes(status)))
+          // setCourseOutput(Course.filter((item)=>item.status.toLowerCase().includes(status)))
+          setCourseOutput(Course.filter((item)=>item.status.includes(status)))
         }
               // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [status])
