@@ -48,19 +48,19 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
 
   return (
     <div>
-    <div className='sm:flex h-[650px] md:px-10 hidden '>
-    <div className="w-full h-full flex items-center pb-10">
-      <div className=" px-5 overflow-visible w-fit   h-fit min-w-[380px] text-left space-y-7">
-        <div className="space-y-7 max-w-[450px]">
+    <div className='sm:flex h-[650px] md:px-10 2xl:px-20  items-center hidden '>
+    <div className="w-full h-full flex items-center pb-10 2xl:mt-14">
+      <div className=" px-5 overflow-visible w-fit   h-fit min-w-[380px] text-left space-y-9">
+        <div className="space-y-7 max-w-[450px] 2xl:max-w-[600px]">
         <span className='text-orange-400 text-md font-medium bg-gray-100 bg-opacity-50 px-2 2xl:text-lg py-1'>Save 15% on AWS</span>
-        <h1 className='text-3xl 2xl:text-4xl font-bold  text-gray-700'>
-          <span className='text-orange-400  font-benne '>ಕನ್ನಡಿಗರಿಗೆ</span> IT Job Ready <span className='font-benne'>ಮಾಡುವ </span> <span className='text-orange-400 font-benne'> ಅಭಿಯಾನ</span> 
+        <h1 className='text-3xl 2xl:text-5xl font-bold leading-3 text-gray-700'>
+          <span className='text-orange-400 w-full font-benne '>ಕನ್ನಡಿಗರಿಗೆ</span> IT Job Ready <span className='font-benne'>ಮಾಡುವ </span> <span className='text-orange-400 font-benne'> ಅಭಿಯಾನ</span> 
         </h1>
         <p className="text-sm 2xl:text-base font-medium">
           MicroDegree is an <span className='text-purple-700'> Ed-tech platform</span> teaching <span className='text-purple-700' >coding & job-ready </span>skills in Kannada at an affordable price.
         </p>
         <div className='space-x-8'>
-          <button onClick={()=>setViewModal('77')} className=" p-3 px-9 bg-[#FF0049] text-white text-sm rounded-md">Free Consultation</button>
+          <button onClick={()=>setViewModal('77')} className=" p-3 px-9 bg-[#FF0049] text-white text-sm 2xl:text-base rounded-md">Free Consultation</button>
          <a href="https://courses.microdegree.work/pages/premium-courses"><button className='rounded-md p-2 px-5 border-2 font-medium border-purple-700 text-purple-700 text-sm'>All Courses</button></a>
         </div> 
         </div>

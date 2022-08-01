@@ -8,7 +8,7 @@ import pratik from '../assets/home/section5/pratik.jpeg'
 
 function Section8Card({ vidSrc, bottomImg, course_name, name}) {
   return (
-<div className={`rounded-md relative shadow-lg min-w-[300px] hover:min-w-[350px] 2xl:min-w-[350px] 2xl:hover:min-w-[400px] duration-400 transition-all ease-in-out h-fit bg-white group`}>
+<div className={`rounded-md relative shadow-lg min-w-[300px] hover:min-w-[350px] 2xl:min-w-[400px] 2xl:hover:min-w-[550px] duration-400 transition-all ease-in-out h-fit bg-white group`}>
 <img src={CardImg} className='w-full rounded-md object-content' alt="" />
 {/* <iframe className='h-full'
         src={vidSrc}

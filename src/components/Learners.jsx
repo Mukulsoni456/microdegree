@@ -10,11 +10,11 @@ import sakshya from '../assets/home/section8/sakshya.jpg'
 import Thousif from '../assets/home/section8/Thousif.jpg'
 function CmnSection1() {
   return (
-    <div className='space-y-5 2xl:space-y-8 py-14'>
+    <div className='space-y-5 2xl:space-y-0 py-14'>
         <div className="">
   <h1 className='text-5xl 2xl:text-6xl text-gray-800'> <span className="font-bold">Learner's</span> Talk</h1>
 </div>
-<div  className="p-3 row flex items-center overflow-x-scroll h-[300px] scrollbar-hide  space-x-10">
+<div  className="p-1 row flex items-center overflow-x-scroll h-[300px]  2xl:h-[450px] scrollbar-hide  space-x-10">
 <LearnerCard bottomImg={akshay} name='Akshay Prabhu' course_name='Python Course Student'  vidSrc='https://www.youtube.com/embed/sK-psHYOe1A'></LearnerCard>
 <LearnerCard bottomImg={keshav} name='Keshav ' course_name='Python Course Student ' vidSrc='https://www.youtube.com/embed/snR2qTea6Fo'></LearnerCard>
 <LearnerCard bottomImg={sakshya} name='Sakshya Shetty' course_name='Automation Testing Course Student' vidSrc='https://www.youtube.com/embed/ltirsj1pTj4'></LearnerCard>
