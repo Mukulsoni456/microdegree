@@ -142,7 +142,8 @@ function PopularCourses() {
       <div className ='flex m-auto my-5 sm:m-0 '>
       <button onClick={()=>setStatus('live')} className={` 2xl:text-base hover:bg-[#FF0049] ${status.includes('live')?"bg-[#FF0049] text-white":"bg-gray-300"} hover:text-white px-3 py-2 2xl:px-5 2xl:py-3 rounded-sm rounded-tl-md text-sm`}>Live</button>
       <button onClick={()=>setStatus('hybrid')} className={` 2xl:text-base hover:bg-[#FF0049] ${status.includes('hybrid')?"bg-[#FF0049] text-white":"bg-gray-300"} hover:text-white px-3 py-2 2xl:px-5 2xl:py-3 rounded-sm text-sm`} >Hybrid</button>
-      <button onClick={()=>setStatus('pre recorded')} className={` 2xl:text-base hover:bg-[#FF0049] ${status.includes('pre recorded')?"bg-[#FF0049] text-white":"bg-gray-300"} hover:text-white px-3 py-2 2xl:px-5 2xl:py-3 rounded-sm rounded-tr-md text-sm`} >Pre Recorded</button>
+      <button onClick={()=>setStatus('pre recorded')} className={` 2xl:text-base hover:bg-[#FF0049] ${status.includes('pre recorded')?"bg-[#FF0049] text-white":"bg-gray-300"} hover:text-white px-3 py-2 2xl:px-5 2xl:py-3 rounded-sm sm:rounded-tr-md text-sm`} >Pre Recorded</button>
+      <a href="https://courses.microdegree.work/pages/premium-courses"> <button className='sm:hidden 2xl:text-base text-[#FF0049] hover:bg-[#FF0049]  bg-gray-300 hover:text-white px-3 py-2 2xl:px-5 2xl:py-3  rounded-tr-md text-sm'>All</button></a>
       </div>
       <a href="https://courses.microdegree.work/pages/premium-courses">
       <button className=" 2xl:text-base hidden sm:block h-fit  bg-purple-700 text-white text-sm rounded-md px-3 py-2 ">See All Courses</button>

@@ -52,7 +52,7 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
     <div className="w-full h-full flex items-center pb-10 2xl:mt-14">
       <div className=" px-5 overflow-visible w-fit   h-fit min-w-[380px] text-left space-y-9">
         <div className="space-y-7 max-w-[450px] 2xl:max-w-[600px]">
-        <span className='text-[#FBBE53] font-bold font-roboto text-xs uppercase tracking-wide bg-[rgb(252,200,88)] bg-opacity-30 px-2 2xl:text-xs  py-1'>Save 15% on AWS</span>
+        <a href="https://courses.microdegree.work/courses/aws-developer-certification-live"> <span className='text-[#FBBE53] font-bold font-roboto text-[0.5rem] 2xl:text-[0.7rem] uppercase tracking-wide bg-[rgb(252,200,88)] bg-opacity-30 px-2 2xl:text-xs  py-1'>Save 15% on AWS</span></a>
         <h1 className='text-3xl 2xl:text-5xl font-bold leading-[2.3rem] 2xl:leading-[3.8rem] text-gray-700'>
           <span className='text-orange-400 w-full font-benne '>ಕನ್ನಡಿಗರಿಗೆ</span> IT Job Ready <span className='font-benne'>ಮಾಡುವ </span> <span className='text-orange-400 font-benne'> ಅಭಿಯಾನ</span> 
         </h1>

@@ -18,6 +18,7 @@ function HomeSection6() {
     <h1 className=' text-4xl whitespace-nowrap 2xl:text-6xl text-gray-700 tracking-wider'><span className="font-bold">Industry</span> <span>Trainers.</span></h1>
     <p className="text-sm 2xl:text-2xl 2xl:w-[600px] text-gray-700 sm:w-[500px] ">Being one of the pioneers in teaching IT Skills in regional language, you will be learning these skills from our own ಕನ್ನಡಿಗ Trainers, who are industry experts with more than 12 years of experience.</p>
   </div>
+  
   <div className=' hidden  w-[800px] 2xl:w-[1000px] -mr-[120px] md:flex overflow-x-scroll space-x-7'>
 
     <TrainerCard title='Vinay' top_logo={amazon_logo} desc='Vinay raj is an industry expert in cloud computing with more than 8+ years of experience. He has been a technical contributor to many large-scale projects at Walmart.  He is an expert at architecting, building, and maintaining complete DevOps/AWS/IoT/Service Management solutions using AWS technology. 
@@ -32,6 +33,12 @@ Being an integral member of the team in serving customers, he is thoroughly trai
 
     <TrainerCard title='Ananth Krishna' top_logo={mern_logo} desc='Ananth Krishna is a Senior Security Engineer at Match Move. He comes with a rich working experience of more than 6+ years. Being an expert in DevOps security operations he explains curriculum in a very easy manner with lots of live examples and proper use of their tools. 
 Having the experience of working in the industry for so many years, handling complex projects he is always able to bridge the gap between theory and practice. His teaching style is direct, simple and fast, this helps learners understand the concepts better.' profession='Senior Security Engineer' bottom_logo={matchmove} cardColor='bg-white' propColor='text-gray-200'></TrainerCard>
+
+
+{/* Prop for adding functionality in javascript */}
+
+<div className='min-w-[80px]'>.</div>
+
 
   </div>
 </div>

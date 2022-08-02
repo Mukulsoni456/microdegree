@@ -21,8 +21,8 @@ function Footer() {
     <img className=' object-fit xl:h-[430px] 2xl:h-[580px] w-full' src={fBg1} alt="" />
     <img className='absolute z-10  -left-28 -bottom-28 ' src={Eclipse1} alt="" />
     <img className='absolute z-10  top-10 right-20' src={Eclipse2} alt="" />
-    <img className='absolute z-10  top-40 right-[500px]' src={Eclipse3} alt="" />
-    <img className="absolute z-10 top-0 object-cover h-full " src={overlay43} alt="" />
+    <img className='absolute z-10  top-40 right-[500px]' src={Eclipse3} alt="" /> w-full
+    <img className="absolute w-full z-10 top-0 object-cover h-full " src={overlay43} alt="" />
 
     <div className=' absolute top-0 z-20 flex items-center  h-full w-full'>
       <div className='basis-1/2 2xl:basis-2/4 text-left text-white px-36 2xl:px-44 py-10 2xl:py-14 space-y-2'>
