@@ -36,15 +36,16 @@ function Navbar({setSearchedResults}) {
   }
 
   return (
-    <div className='flex max-h-[70px] h-full w-full p-6 px-7  relative justify-between items-center '>
-      <div className='flex-shrink flex items-center md:ml-6 '>
-        <img className="min-w-[130px] max-w-[130px] md:min-w-[140px] md:max-w-[140px] 2xl:min-w-[200px] 2xl:max-w-[200px]" src={logo} alt="" />
+    <div className='flex max-h-[70px] h-full w-full p-6 2xl:max-h-[90px] 2xl:py-7 px-7  relative justify-between items-center '>
+      <div className='flex-shrink flex items-center 2xl:justify-center  md:ml-6 2xl:ml-20 '>
+        <Link to='/'>
+        <img className="min-w-[130px] max-w-[130px] md:min-w-[140px] md:max-w-[140px] 2xl:min-w-[200px] 2xl:max-w-[200px] " src={logo} alt="" /></Link>
       </div>
       <div className=' flex basis-1 md:basis-7/12 sm:basis-9/12 justify-start items-center '>
         <div className=' hidden max-h-[40px]  sm:block basis-5/12 flex-shrink mr-3 relative '>
-      <form className="flex h-full items-center  bg-white p-[0.4rem] p-y-2 rounded-md">
-            <input className=' flex h-full w-full text-sm 2xl:text:base outline-none' onChange={(e)=> {e.target.value?setInput(e.target.value):setInput('')}}  placeholder='what do you want to learn?' type='text'></input>
-            <SearchIcon className='w-7 text-white p-1 rounded-md bg-[#FF2A67]'></SearchIcon>
+      <form className="flex h-full items-center  bg-white p-[0.4rem] py-2 2xl:py-1 2xl:h-12  rounded-md">
+            <input className=' flex h-full w-full items-center justify-center text-sm 2xl:text-lg px-2 placeholder:text-lg placeholder:px-5  outline-none' onChange={(e)=> {e.target.value?setInput(e.target.value):setInput('')}}  placeholder='what do you want to learn?' type='text'></input>
+            <SearchIcon className='w-7 2xl:w-9 2xl:p-2 text-white p-1 rounded-md bg-[#FF2A67]'></SearchIcon>
           </form>
           <div className='border-t-2 w-full absolute z-10 '>
             {searchOutput.map(item=>(

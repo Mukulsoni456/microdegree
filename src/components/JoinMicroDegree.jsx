@@ -1,11 +1,13 @@
 import React from 'react'
 import section4Img from '../assets/home/section4/section4Img.png'
+import base from '../assets/home/section4/base.png'
 import { PencilAltIcon } from "@heroicons/react/solid";
 
 function HomeSection4() {
   return (
-    <div className="px-10 sm:px-28 py-2 w-full   space-y-10 h-full mb-10">
-    <div className='w-full pb-10 flex justify-center 2xl:justify-around  items-center flex-wrap sm:space-x-14 space-y-7 '>
+    <div className=" p-10 sm:p-0 relative  w-full space-y-10 h-full mb-10">
+      <img className='hidden md:block w-full absolute -z-10' src={base} alt="" />
+    <div className='w-full pb-10 py-10 flex justify-center 2xl:justify-around  items-center flex-wrap sm:space-x-14 space-y-7 '>
       <h1 className=" h-full text-4xl 2xl:text-5xl 2xl:max-w-xl text-gray-700 font-[600]  max-w-md text-left">How to join Million <br/> course from <span className='text-[#FB4474]'>MicroDegree</span> </h1>
       <p className=" text-sm 2xl:text-base  text-gray-700 sm:mr-20 max-w-lg text-left">Whether you're an aspiring IT professional or a non-IT professional who wants switch your career, we have something for you. You will learn from basics to advanced level, trained by industry experts, working on real world projects, complete interview preparation and finally help you with placement assistance. Follow the below steps & get started </p>
     </div>

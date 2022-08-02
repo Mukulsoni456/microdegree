@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 
-function CourseCard({cardImg, title, category, price, courseLink, desc, course_details }) {
+function CourseCard({cardImg, title, category, price, courseLink, desc, course_details, trending }) {
 
   const [categoryColor, setCategoryColor] = useState('bg-green-500')
 
@@ -38,8 +38,11 @@ console.log(title.length)
       <div>
   
     <div className='w-full h-full relative'>
-<img className='w-full h-full object-contain' src={cardImg} alt="" />
-<div className='bg-yellow-500 p-[0.1rem] px-4 text-white absolute top-6'>Trending</div>
+<img className='w-full h-full object-contain rounded-t-md' src={cardImg} alt="" />
+{
+  trending && <div className='bg-yellow-500 p-[0.1rem] px-4 text-white absolute top-6'>Trending</div>
+}
+
   </div>
   <div className='h-full w-full p-4 space-y-3'>
   <div className='flex justify-between'>

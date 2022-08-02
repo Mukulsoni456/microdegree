@@ -16,7 +16,8 @@ function PopularCourses() {
           price:'6000',
           course_desc:'Master AWS & DevOps from Cloud industry experts to become a solid Computing Professional',
           courseLink:'https://courses.microdegree.work/courses/aws-developer-certification-live',
-          status:'live',
+          status:['live'],
+          trending:'True',
           course_details:["60 Hrs of LIVE Online Training",
           "Concepts Explained in Kannada",
           "Completion Certificate",
@@ -55,6 +56,7 @@ function PopularCourses() {
           price:'4,900',
           courseLink:'https://courses.microdegree.work/courses/python',
           status:['live'],
+          trending:'True',
           course_details:["Course starts from complete Basics",
           "No prior coding knowledge required",
           "Get doubts cleared instantly ",
@@ -136,7 +138,7 @@ function PopularCourses() {
     <h1 className='sm:text-4xl text-4xl 2xl:text-6xl text-gray-800  mb-4'> <span className='font-bold'>Popular </span>Courses</h1>
     <p className="max-w-[680px] text-left text-gray-700 text-base 2xl:text-xl">IT courses to boost your skills and improve your resume. Get up to 60% off on our popular courses.</p>
     </div>
-    <div className=" w-full flex justify-between items-center ">
+    <div className=" 2xl:pr-44 w-full flex justify-between items-center ">
       <div className ='flex m-auto my-5 sm:m-0 '>
       <button onClick={()=>setStatus('live')} className={` 2xl:text-base hover:bg-[#FF0049] ${status.includes('live')?"bg-[#FF0049] text-white":"bg-gray-300"} hover:text-white px-3 py-2 2xl:px-5 2xl:py-3 rounded-sm rounded-tl-md text-sm`}>Live</button>
       <button onClick={()=>setStatus('hybrid')} className={` 2xl:text-base hover:bg-[#FF0049] ${status.includes('hybrid')?"bg-[#FF0049] text-white":"bg-gray-300"} hover:text-white px-3 py-2 2xl:px-5 2xl:py-3 rounded-sm text-sm`} >Hybrid</button>
@@ -151,7 +153,7 @@ function PopularCourses() {
 
       {
         courseOutput.map(item=>(
-          <CourseCard key={item.id}  desc={item.course_desc} course_details={item.course_details} courseLink={item.courseLink} title={item.title} category={item.category} cardImg={item.img} price={item.price} ></CourseCard>
+          <CourseCard key={item.id} trending={item.trending}  desc={item.course_desc} course_details={item.course_details} courseLink={item.courseLink} title={item.title} category={item.category} cardImg={item.img} price={item.price} ></CourseCard>
         ))
       }
     </div>
