@@ -50,7 +50,7 @@ function Footer() {
   <div className="flex  border-b-[0.1rem] border-gray-600 py-6 ">
     <div className="basis-1/4 text-left text-white space-y-4">
       <h1 className='text-2xl 2xl:text-3xl text-left text-bold'> <span className='text-center'>Micro </span> <br/> <span className="font-medium text-left font-roboto">Degree</span></h1>
-      <p className="text-xs text-gray-400 w-48 ">MicroDegree promotes the idea of practical learning where students are trained by industry experts and can enhance their career.</p>
+      <p className="text-xs 2xl:text-sm 2xl:w-56 text-gray-400 w-48 ">MicroDegree promotes the idea of practical learning where students are trained by industry experts and can enhance their career.</p>
       <div className='flex py-2 space-x-3'>
       <a href="https://www.facebook.com/MicroDegree-101072281390361/?modal=admin_todo_tour"> 
         <FontAwesomeIcon className='text-2xl hover:text-[#1DA0F0] ' icon={faFacebook}></FontAwesomeIcon></a>
@@ -71,24 +71,24 @@ function Footer() {
     <div className="basis-1/4 flex items-center justify-center h-full">
       <ul className="space-y-2 text-left">
         <li className='font-medium 2xl:text-lg text-gray-200'>Company</li>
-        <li className='text-sm 2xl:text-base text-gray-400'> <a href="https://pages.microdegree.work/about.html"> About</a></li>
-        <li className='text-sm 2xl:text-base text-gray-400'><a href="https://courses.microdegree.work/pages/premium-courses">Courses</a></li>
-        <li className='text-sm 2xl:text-base text-gray-400'>Scholarships</li>
-        <li className='text-sm 2xl:text-base text-gray-400'>Contact us</li>
+        <li className='text-sm 2xl:text-lg text-gray-400'> <a href="https://pages.microdegree.work/about.html"> About</a></li>
+        <li className='text-sm 2xl:text-lg text-gray-400'><a href="https://courses.microdegree.work/pages/premium-courses">Courses</a></li>
+        <li className='text-sm 2xl:text-lg text-gray-400'>Scholarships</li>
+        <li className='text-sm 2xl:text-lg text-gray-400'>Contact us</li>
       </ul>
     </div>
     <div className="basis-1/4 flex items-center justify-center h-full">
       <ul className="space-y-2 text-left">
         <li className='font-medium 2xl:text-lg text-gray-200'>Useful Links</li>
-        <li className='text-sm  2xl:text-base text-gray-400'> <a href="https://blog.microdegree.work/">Blogs</a></li>
-        <li className='text-sm 2xl:text-base text-gray-400'> <a href="https://t.me/microdegreekannada"> Community</a></li>
-        <li className='text-sm 2xl:text-base text-gray-400'>Pricing</li>
-        <li className='text-sm 2xl:text-base text-gray-400'>FAQ</li>
-        <li className='text-sm 2xl:text-base text-gray-400'>Sitemap</li>
+        <li className='text-sm  2xl:text-lg text-gray-400'> <a href="https://blog.microdegree.work/">Blogs</a></li>
+        <li className='text-sm 2xl:text-lg text-gray-400'> <a href="https://t.me/microdegreekannada"> Community</a></li>
+        <li className='text-sm 2xl:text-lg text-gray-400'>Pricing</li>
+        <li className='text-sm 2xl:text-lg text-gray-400'>FAQ</li>
+        <li className='text-sm 2xl:text-lg text-gray-400'>Sitemap</li>
       </ul>
     </div>
-    <div className="basis-1/4 text-left space-y-3 text-xs 2xl:text-base text-gray-400 px-10">
-      <h3 className='text-gray-300 text-base 2xl:text-lg'>Contact us</h3>
+    <div className="basis-1/4 text-left space-y-3 text-xs 2xl:text-lg text-gray-400 px-10">
+      <h3 className='text-gray-300 text-lg 2xl:text-lg'>Contact us</h3>
       <div className='flex space-x-2'><PhoneIcon className='w-3'></PhoneIcon>
       <p>+918310882795</p>
       </div>

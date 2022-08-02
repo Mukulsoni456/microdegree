@@ -48,11 +48,11 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
 
   return (
     <div>
-    <div className='sm:flex h-[650px] md:px-10 2xl:px-20  items-center hidden '>
+    <div className='sm:flex h-[650px] md:px-24 2xl:px-24  items-center hidden '>
     <div className="w-full h-full flex items-center pb-10 2xl:mt-14">
       <div className=" px-5 overflow-visible w-fit   h-fit min-w-[380px] text-left space-y-9">
         <div className="space-y-7 max-w-[450px] 2xl:max-w-[600px]">
-        <span className='text-orange-400 text-md font-medium bg-gray-100 bg-opacity-50 px-2 2xl:text-lg py-1'>Save 15% on AWS</span>
+        <span className='text-[#FBBE53] font-bold font-roboto text-xs uppercase tracking-wide bg-[rgb(252,200,88)] bg-opacity-30 px-2 2xl:text-xs  py-1'>Save 15% on AWS</span>
         <h1 className='text-3xl 2xl:text-5xl font-bold leading-[2.3rem] 2xl:leading-[3.8rem] text-gray-700'>
           <span className='text-orange-400 w-full font-benne '>ಕನ್ನಡಿಗರಿಗೆ</span> IT Job Ready <span className='font-benne'>ಮಾಡುವ </span> <span className='text-orange-400 font-benne'> ಅಭಿಯಾನ</span> 
         </h1>
@@ -83,7 +83,7 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
   <div className='sm:hidden px-10 py-12 flex items-center pb-14'>
    <div className="text-left space-y-6">
          <div className="space-y-6 ">
-         <span className='text-orange-400 text-md font-medium bg-gray-100 bg-opacity-50 px-2 py-1'>Save 15% on AWS</span>
+         <span className='text-orange-400 text-md font-medium bg-opacity-50 px-2 py-1'>Save 15% on AWS</span>
          <h1 className='text-3xl font-bold text-gray-700'>
            <span className='text-orange-400'>ಕನ್ನಡಿಗರಿಗೆ</span> IT Job Ready ಮಾಡುವ <span className='text-orange-400'> ಅಭಿಯಾನ</span> 
          </h1>

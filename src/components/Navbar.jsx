@@ -44,7 +44,7 @@ function Navbar({setSearchedResults}) {
       <div className=' flex basis-1 md:basis-7/12 sm:basis-9/12 justify-start items-center '>
         <div className=' hidden max-h-[40px]  sm:block basis-5/12 flex-shrink mr-3 relative '>
       <form className="flex h-full items-center  bg-white p-[0.4rem] py-2 2xl:py-1 2xl:h-12  rounded-md">
-            <input className=' flex h-full w-full items-center justify-center text-sm 2xl:text-lg px-2 placeholder:text-lg placeholder:px-5  outline-none' onChange={(e)=> {e.target.value?setInput(e.target.value):setInput('')}}  placeholder='what do you want to learn?' type='text'></input>
+            <input className=' flex h-full w-full items-center justify-center text-sm 2xl:text-lg px-2 placeholder:text-lg placeholder:px-5  outline-none' onChange={(e)=> {e.target.value?setInput(e.target.value):setInput('')}}  placeholder='What do you want to learn?' type='text'></input>
             <SearchIcon className='w-7 2xl:w-9 2xl:p-2 text-white p-1 rounded-md bg-[#FF2A67]'></SearchIcon>
           </form>
           <div className='border-t-2 w-full absolute z-10 '>
@@ -68,7 +68,7 @@ function Navbar({setSearchedResults}) {
             </div>
 
 
-             <a href="tel:+918047109999"><li className='hover:bg-[#FF2A67] w-[170px] hidden sm:block hover:text-white px-3 py-1 rounded-full'>Ph.+918047109999</li></a>
+             <a href="tel:+918047109999"><li className='hover:bg-[#FF2A67] w-[170px] hidden sm:block hover:text-white px-3 py-1 rounded-full'>Ph.8047109999</li></a>
               <a href="https://courses.microdegree.work/users/sign_in"><li className='hover:bg-[#FF2A67] sm:px-3 py-1 hover:text-white rounded-full'>Login</li></a>
               <a className='sm:hidden flex justify-center items-start' href="tel:+918047109999"> <PhoneIcon className='w-6 ml-1 bg-[#FF2A67] text-white rounded-full p-[0.3rem]'></PhoneIcon> </a>
               
