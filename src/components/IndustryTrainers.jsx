@@ -16,7 +16,7 @@ function HomeSection6() {
   <div className='flex items-center space-x-3'><div className='bg-[#FF0049]   p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049] p-[0.15rem] h-[0.1rem] w-[0.1rem] rounded-xl'></div> <p className='uppercase font-bold text-gray-400 tracking-widest text-xs '>Expert Trainers</p> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> </div>
 
     <h1 className=' text-4xl whitespace-nowrap 2xl:text-6xl text-gray-700 tracking-wider'><span className="font-bold">Industry</span> <span>Trainers.</span></h1>
-    <p className="text-sm 2xl:text-2xl 2xl:w-[600px] text-gray-700 sm:w-[500px] ">Being one of the pioneers in teaching IT Skills in regional language, you will be learning these skills from our own ಕನ್ನಡಿಗ Trainers, who are industry experts with more than 12 years of experience.</p>
+    <p className="text-sm 2xl:text-2xl 2xl:w-[600px] text-gray-700 sm:w-[420px] ">Being one of the pioneers in teaching IT Skills in regional language, you will be learning these skills from our own ಕನ್ನಡಿಗ Trainers, who are industry experts with more than 12 years of experience.</p>
   </div>
   <div className=' hidden  w-[800px] 2xl:w-[1000px] -mr-[120px] md:flex overflow-x-scroll space-x-7'>
 
