@@ -14,17 +14,17 @@ function HomeSection3() {
   return (
     <div className='h-full sm:py-20 sm:px-28 2xl:px-36  p-10 space-y-10 '>
     <div className='space-y-4'>
-    <h1 className='text-4xl text-gray-700 2xl:text-6xl'>Our <span className='font-semibold'>Award</span> & <span className='font-semibold'>Recognization</span></h1>
-    <p className=" text-gray-600 text-xs 2xl:text-base font-md">MicroDegree is proud to be acknowledged by a few of the most important and influential publications and organisations.</p>
+    <h1 className='text-4xl xl:text-5xl text-gray-700 2xl:text-6xl'>Our <span className='font-semibold'>Award</span> & <span className='font-semibold'>Recognization</span></h1>
+    <p className=" text-gray-600 text-xs xl:text-sm 2xl:text-base font-md">MicroDegree is proud to be acknowledged by a few of the most important and influential publications and organisations.</p>
     
     </div>
 
     <div className=" w-full h-full flex flex-wrap space-x-2 items-center justify-around align-center  px-10">
-      <img className=" w-[89px] 2xl:w-[200px] sm:w-32 object-contain" src={brandLogo1} alt="" />
-      <img className=" w-[89px] 2xl:w-[200px] sm:w-32 object-contain" src={brandLogo2} alt="" />
-      <img className=" w-[89px] 2xl:w-[200px] sm:w-32 object-contain" src={brandLogo3} alt="" />
-      <img className=" w-[89px] 2xl:w-[200px] sm:w-32 object-contain" src={brandLogo4} alt="" />
-      <img className=" w-[89px] 2xl:w-[200px] sm:w-32 object-contain" src={brandLogo5} alt="" />
+      <img className=" w-[89px] xl:w-36 2xl:w-[200px] sm:w-32 object-contain" src={brandLogo1} alt="" />
+      <img className=" w-[89px] xl:w-36 2xl:w-[200px] sm:w-32 object-contain" src={brandLogo2} alt="" />
+      <img className=" w-[89px] xl:w-36 2xl:w-[200px] sm:w-32 object-contain" src={brandLogo3} alt="" />
+      <img className=" w-[89px] xl:w-36 2xl:w-[200px] sm:w-32 object-contain" src={brandLogo4} alt="" />
+      <img className=" w-[89px] xl:w-36 2xl:w-[200px] sm:w-32 object-contain" src={brandLogo5} alt="" />
     </div>
 
 

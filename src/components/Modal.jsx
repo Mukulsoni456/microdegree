@@ -32,8 +32,8 @@ function Modal({setViewModal, viewModal}) {
     // console.log(viewModal)
 
   return (
-    <div className="min-w-screen h-screen animated fadeIn faster  fixed  left-0 top-0 flex justify-center items-center inset-0 z-50 outline-none focus:outline-none bg-no-repeat bg-center bg-cover" id="modal-id">
-    <div className="absolute bg-black opacity-80 inset-0 -z-10"></div>
+    <div onClick={()=>setViewModal(!viewModal)} className="min-w-screen h-screen animated fadeIn faster  fixed  left-0 top-0 flex justify-center items-center inset-0 z-50 outline-none focus:outline-none bg-no-repeat bg-center bg-cover" id="modal-id">
+    <div className="absolute h-full w-full bg-black opacity-80 inset-0 -z-10"></div>
     <div className='relative w-full h-screen justify-center flex items-start p-10'>
  <div className="relative w-full flex flex-col max-w-[400px] shrink py-2 px-5  rounded-xl shadow-lg  bg-white ">
    {/* <!--content--> */}

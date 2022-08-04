@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
-
-
+import trendingtag from '../assets/home/Section2/trendingtag.png'
 function CourseCard({cardImg, title, category, price, courseLink, desc, course_details, trending }) {
 
   const [categoryColor, setCategoryColor] = useState('bg-green-500')
@@ -34,13 +33,15 @@ console.log(title.length)
   return (
     <>
     <a href={courseLink}>
-    <div className='m-auto sm:m-0 relative w-60 min-w-[280px] sm:min-w-[250px] 2xl:min-w-[330px] h-full min-h-[380px] sm:min-h-[350px] 2xl:min-h-[420px] bg-white text-left group rounded-md shadow-lg'>
+    <div className='m-auto sm:m-0 relative  w-60 min-w-[280px] sm:min-w-[250px] xl:min-w-[280px] xl:h-96 2xl:min-w-[310px] h-full min-h-[380px] sm:min-h-[350px] 2xl:min-h-[420px] bg-white text-left group rounded-md shadow-lg'>
       <div>
   
     <div className='w-full h-full relative'>
 <img className='w-full h-full object-contain rounded-t-md' src={cardImg} alt="" />
 {
-  trending && <div className='bg-yellow-500 p-[0.1rem] px-4 text-white absolute top-6'>Trending</div>
+  trending && <div className='absolute top-6'>
+    <img className='w-28' src={trendingtag} alt="" />
+  </div>
 }
 
   </div>
@@ -49,7 +50,7 @@ console.log(title.length)
         <p className={`text-center flex items-center p-1 ${categoryColor} text-white px-2 '}  rounded-md text-xs`}>{category}</p>
         <div className={`${price==='FREE'?'text-green-500':"text-yellow-500"} font-medium text-lg 2xl:text-2xl 2xl:font-semibold`}>Rs. {price}</div>
     </div>
-    <p className="font-medium text-lg 2xl:text-2xl font-roboto mb-2 ">{title}</p>
+    <p className="font-medium w-3/4 text-lg 2xl:text-2xl font-roboto mb-2 ">{title}</p>
     <p className="text-gray-700 2xl:text-[0.9rem] text-[0.7rem] line-clamp-3">{desc}</p>
   </div>
 

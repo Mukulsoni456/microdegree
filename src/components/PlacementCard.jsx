@@ -3,13 +3,13 @@ import React from 'react'
 function Section5Card({title, desc, cardImg, logoImg,  }) {
   return (
     <>
-<div className=" h-80 2xl:h-[420px]  mb-8 mx-auto relative w-[280px]  sm:w-60 2xl:w-[350px]  rounded-xl overflow-hidden shadow-lg">
-  <div className='w-full h-44 2xl:h-64  '>
-  <img className="w-full h-full rounded-xl object-cover " src={cardImg} alt="Sunset in the mountains"/>
+<div className=" h-80 xl:h-96 2xl:h-[420px]  mb-8 mx-auto relative w-[280px] xl:w-[290px]  sm:w-60 2xl:w-[320px]  rounded-xl overflow-hidden shadow-lg">
+  <div className='w-full h-48 xl:h-56 2xl:h-64  '>
+  <img className="w-full h-full rounded-t-xl object-cover " src={cardImg} alt="Sunset in the mountains"/>
   </div>
-  <div className="px-4 py-3 h-full bg-gray-100 text-center space-y-2">
-    <h1 className="font-bold font-roboto text-lg  2xl:text-2xl mb-2">{title}</h1>
-    <p className="text-gray-700 font-roboto font-[500] tracking-widest text-sm 2xl:text-lg p-1">
+  <div className="px-4 py-5 h-full bg-gray-100 text-center space-y-1">
+    <h1 className="font-bold font-roboto text-2xl text-gray-800 2xl:text-2xl mb-2">{title}</h1>
+    <p className="text-gray-700 font-roboto font-[500] tracking-widest text-sm xl:text-lg 2xl:text-xl p-1">
         {desc}
     </p>
     <div className='flex h-14 items-center justify-center'>

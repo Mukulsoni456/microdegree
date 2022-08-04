@@ -13,12 +13,12 @@ function HomeSection6() {
 
   <div className=" w-full sm:basis-2/5 sm:min-w-[500px]  text-left space-y-3 ">
 
-  <div className='flex items-center space-x-3'><div className='bg-[#FF0049]   p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049] p-[0.15rem] h-[0.1rem] w-[0.1rem] rounded-xl'></div> <p className='uppercase font-bold text-gray-400 tracking-widest text-xs '>Expert Trainers</p> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> </div>
+  <div className='flex items-center space-x-3'><div className='bg-[#FF0049]   p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049] p-[0.15rem] h-[0.1rem] w-[0.1rem] rounded-xl'></div> <p className='uppercase font-bold text-gray-400 tracking-[0.3rem] text-xs '>Expert Trainers</p> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> </div>
 
-    <h1 className=' text-4xl whitespace-nowrap 2xl:text-6xl text-gray-700 tracking-wider'><span className="font-bold">Industry</span> <span>Trainers.</span></h1>
-    <p className="text-sm 2xl:text-2xl 2xl:w-[600px] text-gray-700 sm:w-[420px] ">Being one of the pioneers in teaching IT Skills in regional language, you will be learning these skills from our own ಕನ್ನಡಿಗ Trainers, who are industry experts with more than 12 years of experience.</p>
+    <h1 className=' text-4xl xl:text-5xl whitespace-nowrap 2xl:text-6xl text-gray-700 tracking-wider'><span className="font-bold">Industry</span> <span>Trainers.</span></h1>
+    <p className="text-sm xl:text-base xl:w-[440px] 2xl:text-xl 2xl:w-[600px] text-gray-700 sm:w-[420px] ">Being one of the pioneers in teaching IT Skills in regional language, you will be learning these skills from our own ಕನ್ನಡಿಗ Trainers, so Jumstart to our courses</p>
   </div>
-  <div className=' hidden  w-[800px] 2xl:w-[1000px] -mr-[120px] md:flex overflow-x-scroll space-x-7'>
+  <div className=' hidden  w-[800px] xl:w-[900px] 2xl:w-[920px] -mr-[120px] md:flex overflow-x-scroll space-x-7'>
 
     <TrainerCard title='Vinay' top_logo={amazon_logo} desc='Vinay raj is an industry expert in cloud computing with more than 8+ years of experience. He has been a technical contributor to many large-scale projects at Walmart.  He is an expert at architecting, building, and maintaining complete DevOps/AWS/IoT/Service Management solutions using AWS technology. 
 He has trained thousands of learners on latest tools required to build and deploy modern cloud-native applications with his vast experience as a senior system engineer. 

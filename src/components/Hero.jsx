@@ -6,6 +6,10 @@ import Group1351 from "../assets/home/heroSection/Group 1351.png";
 import Group1416 from "../assets/home/heroSection/Group 1416.png";
 import Group1417 from "../assets/home/heroSection/Group 1417.png";
 import Group1418 from "../assets/home/heroSection/Group 1418.png";
+import thumbnail1 from "../assets/home/heroSection/thumbnail1.jpg";
+import thumbnail2 from "../assets/home/heroSection/thumbnail2.jpg";
+import thumbnail3 from "../assets/home/heroSection/thumbnail3.jpg";
+import VideoCard from './VideoCard';
 function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, setVideoOutput}) {
 
 
@@ -33,6 +37,7 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
 
 
       const handleVideo1 =()=>{
+        console.log('hi')
         setVideoOutput(videoLinks.filter((item)=>item.name.includes("video1"))[0])
         console.log(videoOutput)
         setvideoModal(!videoModal)
@@ -49,12 +54,12 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
   return (
     <div>
     <div className='sm:flex h-[650px] md:px-24 2xl:px-24  items-center hidden '>
-    <div className="w-full h-full flex items-center pb-10 2xl:mt-14">
+    <div className="w-full h-full flex items-center pb-10 xl:mt-20 2xl:mt-14">
       <div className=" px-5 overflow-visible w-fit   h-fit min-w-[380px] text-left space-y-9">
         <div className="space-y-7 max-w-[450px] 2xl:max-w-[600px]">
         <a href="https://courses.microdegree.work/courses/aws-developer-certification-live"> <span className='text-[#FBBE53] font-bold font-roboto text-[0.5rem] 2xl:text-[0.7rem] uppercase tracking-wide bg-[rgb(252,200,88)] bg-opacity-30 px-2 2xl:text-xs  py-1'>Save 15% on AWS</span></a>
-        <h1 className='text-3xl 2xl:text-5xl font-bold leading-[2.3rem] 2xl:leading-[3.8rem] text-gray-700'>
-          <span className='text-orange-400 w-full font-benne '>ಕನ್ನಡಿಗರಿಗೆ</span> IT Job Ready <span className='font-benne'>ಮಾಡುವ </span> <span className='text-orange-400 font-benne'> ಅಭಿಯಾನ</span> 
+        <h1 className='text-3xl sm:text-[2.3rem] sm:leading-[2.9rem] 2xl:text-5xl font-bold leading-[2.7rem] 2xl:leading-[3.8rem] text-gray-700'>
+          <span className='text-orange-400 w-full font-benne '>ಕನ್ನಡಿಗರಿಗೆ</span> IT Job-Ready <br></br> <span className='font-benne'>ಮಾಡುವ </span> <span className='text-orange-400 font-benne'> ಅಭಿಯಾನ</span> 
         </h1>
         <p className="text-sm 2xl:text-lg font-medium">
           MicroDegree is an <span className='text-purple-700'> Ed-tech platform</span> teaching <span className='text-purple-700' >coding & job-ready </span>skills in Kannada at an affordable price.
@@ -66,9 +71,12 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
         </div>
 
         <div className="w-full flex space-x-3 py-3 overflow-x-scroll scrollbar-hide">
-          <img onClick={handleVideo1} className="w-44 2xl:w-56 " src={Group1416} alt="" />
-          <img onClick={handleVideo2} className="w-44 2xl:w-56" src={Group1417} alt="" />
-          <img onClick={handleVideo3} className="w-44 2xl:w-56" src={Group1418} alt="" />
+          {/* <img onClick={handleVideo1} className="w-48 2xl:w-56 " src={Group1416} alt="" />
+          <img onClick={handleVideo2} className="w-48 2xl:w-56" src={Group1417} alt="" /> */}
+
+          <VideoCard handleVideo={handleVideo1} vidthumb={thumbnail1} ></VideoCard>
+          <VideoCard handleVideo={handleVideo2} vidthumb={thumbnail2}></VideoCard>
+          <VideoCard handleVideo={handleVideo3} vidthumb={thumbnail3} ></VideoCard>
         </div>
       </div>
       <div className='px-10 relative'>
@@ -79,6 +87,9 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
       {/* basis-1 sm:px-14 flex-shrink flex sm:justify-start py-10 */}
     </div>
   </div>
+
+
+
 
   <div className='sm:hidden px-10 py-12 flex items-center pb-14'>
    <div className="text-left space-y-6">

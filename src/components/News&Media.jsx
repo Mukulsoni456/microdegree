@@ -29,7 +29,7 @@ function HomeSection9() {
     </div>
     </div> */}
 
-    <div className='h-full w-96 2xl:w-[500px] relative shadow-[inset_0px_-54px_75px_-5px_rgba(0,0,0,0.3)] '>
+    <div className='h-full w-96 2xl:w-[400px] relative shadow-[inset_0px_-54px_75px_-5px_rgba(0,0,0,0.3)] '>
       <div className='h-full absolute w-full -z-10'>
     <img className='w-full h-1/2 object-cover' src={section9Img3} alt="" />
     <img className='w-full h-1/2  object-cover' src={section9Img4} alt="" />
