@@ -26,7 +26,7 @@ html::-webkit-scrollbar {
   display:none
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Poppins:wght@500&family=Roboto:wght@300;400;500&display=swap');
 
 
 
@@ -41,6 +41,11 @@ html::-webkit-scrollbar {
     display:none
   }
 }
+
+/* @font-face {
+  font-family: "ADELIA";
+  src: url("../public/fonts/ADELIA.otf");
+} */
 
 /* @layer base {
   ul, ol {

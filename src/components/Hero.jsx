@@ -58,8 +58,8 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
       <div className=" px-5 overflow-visible w-fit   h-fit min-w-[380px] text-left space-y-9">
         <div className="space-y-7 max-w-[450px] 2xl:max-w-[600px]">
         <a href="https://courses.microdegree.work/courses/aws-developer-certification-live"> <span className='text-[#FBBE53] font-bold font-roboto text-[0.5rem] 2xl:text-[0.7rem] uppercase tracking-wide bg-[rgb(252,200,88)] bg-opacity-30 px-2 2xl:text-xs  py-1'>Save 15% on AWS</span></a>
-        <h1 className='text-3xl sm:text-[2.3rem] sm:leading-[2.9rem] 2xl:text-5xl font-bold leading-[2.7rem] 2xl:leading-[3.8rem] text-gray-700'>
-          <span className='text-orange-400 w-full font-benne '>ಕನ್ನಡಿಗರಿಗೆ</span> IT Job-Ready <br></br> <span className='font-benne'>ಮಾಡುವ </span> <span className='text-orange-400 font-benne'> ಅಭಿಯಾನ</span> 
+        <h1 className='text-3xl xl:text-4xl sm:text-[2.3rem] sm:leading-[2.4rem] 2xl:text-5xl font-bold leading-[2.4rem] 2xl:leading-[3.1rem] text-gray-700'>
+          <span className='text-orange-400 w-full font-benne xl:text-5xl '>ಕನ್ನಡಿಗರಿಗೆ</span> IT Job-Ready <br></br> <span className='font-benne xl:text-5xl'>ಮಾಡುವ </span> <span className='text-orange-400 xl:text-5xl font-benne'> ಅಭಿಯಾನ</span> 
         </h1>
         <p className="text-sm 2xl:text-lg font-medium">
           MicroDegree is an <span className='text-purple-700'> Ed-tech platform</span> teaching <span className='text-purple-700' >coding & job-ready </span>skills in Kannada at an affordable price.

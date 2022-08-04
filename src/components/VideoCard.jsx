@@ -12,7 +12,7 @@ function VideoCard({handleVideo, vidthumb}) {
       
 
       <div>
-        <p className='px-2 py-2 text-gray-800 font-semibold'>How to enroll courses?</p>
+        <p className='px-2 py-2 text-gray-800 text-sm'>How to enroll courses?</p>
       </div>
     </div>
   )
