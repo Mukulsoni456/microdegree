@@ -92,13 +92,13 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
 
 
   <div className='sm:hidden px-10 py-12 flex items-center pb-14'>
-   <div className="text-left space-y-6">
+   <div className="text-left space-y-6 w-screen">
          <div className="space-y-6 ">
-         <span className='text-orange-400 text-md font-medium bg-opacity-50 px-2 py-1'>Save 15% on AWS</span>
-         <h1 className='text-3xl font-bold text-gray-700'>
-           <span className='text-orange-400'>ಕನ್ನಡಿಗರಿಗೆ</span> IT Job Ready ಮಾಡುವ <span className='text-orange-400'> ಅಭಿಯಾನ</span> 
+         <span className='text-orange-400 text-md font-medium bg-opacity-50 px-2 py-1 '>Save 15% on AWS</span>
+         <h1 className='text-3xl font-bold text-gray-700 w-[19rem]'>
+           <span className='text-orange-400 '>ಕನ್ನಡಿಗರಿಗೆ</span> IT Job Ready ಮಾಡುವ <span className='text-orange-400'> ಅಭಿಯಾನ</span> 
          </h1>
-         <p className="text-sm font-medium">
+         <p className="text-sm font-medium  w-[19rem]">
            MicroDegree is an Ed-tech platform teaching coding & job-ready
            skills in Kannada at an affordable price.
          </p>
@@ -108,9 +108,9 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
          </div> 
         </div>
   <div className="w-full flex space-x-3 py-3 overflow-x-scroll">
-  <img onClick={handleVideo1} className="w-44 " src={Group1416} alt="" />
-   <img onClick={handleVideo2} className="w-44" src={Group1417} alt="" />
-    <img onClick={handleVideo3} className="w-44" src={Group1418} alt="" />
+  <VideoCard handleVideo={handleVideo1} vidthumb={thumbnail1} ></VideoCard>
+          <VideoCard handleVideo={handleVideo2} vidthumb={thumbnail2}></VideoCard>
+          <VideoCard handleVideo={handleVideo3} vidthumb={thumbnail3} ></VideoCard>
    </div>
         </div>
   </div>
