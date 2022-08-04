@@ -8,7 +8,7 @@ function HomeSection4() {
     <div className=" p-10 sm:p-0 relative  w-full space-y-10 h-full mb-10">
       <img className='hidden md:block w-full absolute -z-10' src={base} alt="" />
     <div className='w-full pb-10 py-24 px-5 flex justify-center 2xl:justify-around 2xl:px-44  items-center flex-wrap sm:space-x-14 space-y-7 '>
-      <h1 className=" h-full text-4xl xl:text-5xl xl:max-w-2xl  2xl:text-5xl 2xl:max-w-xl text-gray-700 font-[500] leading-[7rem] max-w-md text-left">How to join Million <br/> course from <span className='text-[#FB4474]'>MicroDegree</span> </h1>
+      <h1 className=" h-full text-4xl xl:text-5xl xl:max-w-2xl  2xl:text-5xl 2xl:max-w-xl text-gray-700 font-[500]  max-w-md text-left">How to join Million <br/> course from <span className='text-[#FB4474]'>MicroDegree</span> </h1>
       <p className=" text-xs 2xl:text-base leading-5  text-gray-700 sm:mr-20 max-w-lg text-left">Whether you're an aspiring IT professional or a non-IT professional who wants switch your career, we have something for you. You will learn from basics to advanced level, trained by industry experts, working on real world projects </p>
     </div>
       <div className=" w-full flex items-center justify-center ">

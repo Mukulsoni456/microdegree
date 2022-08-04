@@ -39,7 +39,7 @@ const onSubmit= async (e) => {
 <div className="flex  px-3 md:px-28 py-20 w-full ">
 <div className=' w-full  sm:basis-1/2 flex-none '>
   <div className="  relative w-full px-5 h-[500px] xl:h-[550px] 2xl:h-[550px]">
-<div className="absolute  top-11 right-4 ">
+<div className="absolute  top-14 sm:top-11 right-4 ">
   <img className=' w-80 xl:w-[400px] 2xl:w-[400px]  object-contain' src={section10bg} alt="" />
 </div>
 <div className="w-72 xl:w-[370px] 2xl:w-[370px] h-full absolute right-4 top-4 z-10  ">

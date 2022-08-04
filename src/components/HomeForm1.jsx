@@ -26,7 +26,7 @@ const onSubmit= async (e) => {
 
   return (
     <div className="py-10">
-  <div className="h-[400px] xl:h-[500px] 2xl:h-[530px] relative overflow-hidden">
+  <div className="h-[500px] xl:h-[500px] 2xl:h-[530px] relative overflow-hidden">
     <img className='absolute top-10 min-w-[800px] w-full h-64 object-cover overflow-x-hidden ' src={imageHolder} alt="" />
     <div className='h-64 z-10 relative flex '>
       <div className=" hidden h-full basis-1/2 md:flex flex-col items-center justify-center mt-8 ">

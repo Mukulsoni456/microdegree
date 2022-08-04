@@ -41,7 +41,7 @@ function HomeSection9() {
 
 {/* for Mobile */}
 <div className='sm:hidden p-5 space-y-7'>
-  <div className='space-y-1'><h1 className=" text-6xl "> News & </h1>
+  <div className='space-y-1'><h1 className=" text-5xl "> News & </h1>
   <h1 className=" text-xl uppercase tracking-[0.3rem] font-bold text-gray-900"> Media Tak</h1>
   </div>
   <div className='flex flex-col items-center space-y-7'>
