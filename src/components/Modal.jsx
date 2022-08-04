@@ -38,6 +38,7 @@ function Modal({setViewModal, viewModal}) {
  <div className="relative w-full flex flex-col max-w-[400px] shrink py-2 px-5  rounded-xl shadow-lg  bg-white ">
    {/* <!--content--> */}
    <div className=' flex justify-center'><img className='w-80' src={modal1} alt="" /></div>
+   {/* <div className='text-2xl text-left text-gray-800 p-3'>Please enter your details to get a call back from a Career Mentor</div> */}
    <div onClick={()=>setViewModal(!viewModal)} className='absolute right-4 top-3'> <XIcon className='w-7 p-1 hover:text-[#FF0049]'></XIcon> </div>
    <div className="">
    <form onSubmit={onSubmit} action="" className=''>
