@@ -130,13 +130,13 @@ function PopularCourses() {
 
 
   return (
-    <div className="w-full h-full px-5 py-5  md:px-24   space-y-7">
+    <div className="w-full h-full px-5 py-5  md:px-24 xl:px-18 2xl:px-20   space-y-7">
     <div className='w-full flex flex-col items-start space-y-3 2xl:space-y-4 '>
     <div className='px-5 sm:px-0 w-full flex flex-col items-start space-y-3 2xl:space-y-5'>
     <div className='flex items-center space-x-3'><div className='bg-[#FF0049]   p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049] p-[0.15rem]   w-[0.1rem] rounded-xl'></div> <p className='uppercase font-bold text-gray-400 tracking-[0.3em] text-xs '>Learn New Skills</p> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> </div>
 
     <h1 className='sm:text-5xl text-4xl 2xl:text-6xl whitespace-nowrap text-gray-700  mb-4'> <span className='font-[600]'>Popular </span>Courses</h1>
-    <p className="max-w-[680px] text-left text-gray-700 text-base xl:text-lg 2xl:text-xl">IT courses to boost your skills and improve your resume. Get up to 60% off on our popular courses.</p>
+    <p className="max-w-[800px] text-left font-regular text-gray-700 text-base xl:text-lg 2xl:text-xl">IT courses to boost your skills and improve your resume. Get up to 60% off on our popular courses.</p>
     </div>
     <div className=" 2xl:pr-12 w-full flex justify-between items-center ">
       <div className ='flex m-auto my-5 sm:m-0 '>
@@ -150,7 +150,7 @@ function PopularCourses() {
       </a>
       </div>
     </div>
-    <div className="px-5 md:px-0 flex  items-center w-full h-full  md:space-x-8 flex-wrap sm:flex-nowrap md:space-y-0 space-y-14 overflow-x-scroll scrollbar-hide ">
+    <div className="px-3 md:px-0 flex  items-center w-full h-full  md:space-x-8 flex-wrap sm:flex-nowrap md:space-y-0 space-y-14 overflow-x-scroll scrollbar-hide ">
 
       {
         courseOutput.map(item=>(

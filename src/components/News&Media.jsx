@@ -8,16 +8,16 @@ import section9Img4 from '../assets/home/section9/section9Img4.png'
 function HomeSection9() {
   return (
     <>
-    <div className="hidden w-full sm:block md:px-28 2xl:px-36 md:min-h-[500px] mx-auto h-full py-14 px-10 space-y-10 text-left">
+    <div className="hidden w-full sm:block md:px-28 2xl:px-28 md:min-h-[500px] mx-auto h-full py-14 px-10 space-y-10 text-left">
   <h1 className=" text-4xl sm:text-5xl 2xl:text-6xl sm:px-10"><samp className="font-semibold text-gray-700">News</samp>& <span className="font-semibold text-gray-900">Media</span> Talk </h1>
 
   <div className=" h-[340px] 2xl:h-[500px] w-full flex justify-center  space-x-4 md:px-14 overflow-y-hidden  ">
 
-    <div className='h-full w-96 2xl:w-1/3 relative shadow-[inset_0px_-54px_75px_-5px_rgba(0,0,0,0.3)] '>
+    <div className='h-full w-96 xl:w-1/3 2xl:w-1/3 relative shadow-[inset_0px_-54px_75px_-5px_rgba(0,0,0,0.3)] '>
     <img className='absolute object-cover h-full w-full -z-10' src={section9Img1} alt="" />
     </div>
 
-    <div className='h-full w-96 2xl:w-1/3 relative shadow-[inset_0px_-54px_75px_-5px_rgba(0,0,0,0.3)] '>
+    <div className='h-full w-96 xl:w-1/3 2xl:w-1/3 relative shadow-[inset_0px_-54px_75px_-5px_rgba(0,0,0,0.3)] '>
     <img className='absolute h-full w-full -z-10' src={section9Img2} alt="" />
     </div>
 
@@ -29,7 +29,7 @@ function HomeSection9() {
     </div>
     </div> */}
 
-    <div className='h-full w-96 2xl:w-[400px] relative shadow-[inset_0px_-54px_75px_-5px_rgba(0,0,0,0.3)] '>
+    <div className='h-full w-96 l:w-1/3 2xl:w-[400px] relative shadow-[inset_0px_-54px_75px_-5px_rgba(0,0,0,0.3)] '>
       <div className='h-full absolute w-full -z-10'>
     <img className='w-full h-1/2 object-cover' src={section9Img3} alt="" />
     <img className='w-full h-1/2  object-cover' src={section9Img4} alt="" />

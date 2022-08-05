@@ -36,13 +36,14 @@ const onSubmit= async (e) => {
 
 
   return (
-<div className="flex  px-3 md:px-28 py-20 w-full ">
-<div className=' w-full  sm:basis-1/2 flex-none '>
-  <div className="  relative w-full px-5 h-[500px] xl:h-[550px] 2xl:h-[550px]">
-<div className="absolute  top-14 sm:top-11 right-4 ">
-  <img className=' w-80 xl:w-[400px] 2xl:w-[400px]  object-contain' src={section10bg} alt="" />
+    <>
+<div className="flex hidden  sm:block px-3 md:px-28 py-20 w-full oveflow-visible">
+<div className=' w-full  sm:basis-1/2 flex-none overflow-visible'>
+  <div className="  relative w-full overflow-x-visible px-5 h-[550px] xl:h-[550px] 2xl:h-[550px]">
+<div className="absolute overflow-x-visible top-14 sm:top-11 right-4 ">
+  <img className=' min-w-[350px] xl:w-[400px] 2xl:w-[400px]  object-contain' src={section10bg} alt="" />
 </div>
-<div className="w-72 xl:w-[370px] 2xl:w-[370px] h-full absolute right-4 top-4 z-10  ">
+<div className="w-80 xl:w-[370px] 2xl:w-[370px] h-full absolute right-4 top-4 z-10  ">
   <div className="relative w-full h-full">
   <img className="object-fit absolute" src={rectangle40} alt="" />
     <img className="object-fit z-10 absolute" src={rectangle41} alt="" />
@@ -103,6 +104,22 @@ const onSubmit= async (e) => {
   </div>
 </div>
 </div>
+
+<div>
+  <div className='sm:hidden h-[500px] flex items-center justify-center bg-gradient-to-br from-yellow-400 to-red-500 mt-10 '>
+  <form onSubmit={onSubmit} action='' className=" h-[400px] absolute flex flex-col justify-center items-center w-fit  p-10 px-5 space-y-6  z-20">
+
+<input required onChange={(e)=>{setName(e.target.value)}} className='w-full text-base p-4  text-gray-700 rounded outline-none bg-[rgba(255,255,255,0.85)]' type="text" name="" placeholder="Your name" id="" />
+
+<input required onChange={(e)=>{setContactNo(e.target.value)}} className='w-full text-base p-4  text-gray-700 rounded outline-none bg-[rgba(255,255,255,0.85)]' type="number" name="" placeholder="Mobile No" id="" />
+
+<input required onChange={(e)=>{setEmail(e.target.value)}} className='w-full text-base p-4  text-gray-700 rounded outline-none bg-[rgba(255,255,255,0.85)]' type="email" name="" placeholder="Email" id="" />
+
+<button className='bg-[#4C1BCF] mt-2 px-4 py-4 w-full  rounded text-sm  text-white '>Submit Request</button>
+    </form>
+  </div>
+</div>
+</>
   )
 }
 

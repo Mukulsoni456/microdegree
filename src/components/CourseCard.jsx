@@ -58,11 +58,11 @@ console.log(title.length)
 
   {/* layer */}
 
-   <div className='absolute w-full h-full top-0 hidden group-hover:block rounded-lg'>
+   <div className='absolute w-full h-full top-0 hidden group-hover:block rounded-lg '>
     <div className='h-full w-full rounded-lg '>
-  <div className='opacity-95 top-0 rounded-lg  bg-gradient-to-br justify-center flex items-center px-10 from-yellow-400 to-red-500 w-full h-full'>
+  <div className='w-full opacity-95 top-0 rounded-lg  bg-gradient-to-br justify-center flex items-center  from-yellow-400 to-red-500 w-full h-full'>
     <div className='text-left  text-white space-y-3'>
-      <h3 className='text-2xl 2xl:text-4xl  font-medium'>Course Details</h3>
+      <h3 className='text-2xl 2xl:text-4xl whitespace-nowrap font-medium'>Course Details</h3>
       <ul className='list-disc space-y-1'>
       {
   course_details.map((para)=>(<li key={para} className='text-sm 2xl:text-lg'>{para}</li>))

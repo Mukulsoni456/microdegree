@@ -68,7 +68,7 @@ function Navbar({setSearchedResults}) {
             </div>
 
 
-             <a href="tel:+918047109999"><li className='hover:bg-[#FF2A67] sm:flex justify-center w-[170px] hidden  hover:text-white px-3 py-1 rounded-full'> <PhoneIcon className='w-4 mr-2'></PhoneIcon> <p> 804-710-9999</p></li></a>
+             <a href="tel:+918047109999"><li className='hover:bg-[#FF2A67] sm:flex justify-center w-56 hidden  hover:text-white px-3 py-1 rounded-full'> <PhoneIcon className='w-4 mr-2'></PhoneIcon> <p> 804-710-9999</p></li></a>
               <a href="https://courses.microdegree.work/users/sign_in"><li className='hover:bg-[#FF2A67] sm:px-3 py-1 hover:text-white rounded-full'>Login</li></a>
               <a className='sm:hidden flex justify-center items-start' href="tel:+918047109999"> <PhoneIcon className='w-6 ml-1 bg-[#FF2A67] text-white rounded-full p-[0.3rem]'></PhoneIcon> </a>
               

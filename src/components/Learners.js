@@ -19,9 +19,9 @@ function CmnSection1() {
 
 
         <div className="">
-  <h1 className='text-4xl xl:text-5xl 2xl:text-6xl text-gray-700'> <span className="font-bold">Learner's</span> Talk</h1>
+  <h1 className='text-4xl xl:text-6xl 2xl:text-6xl text-gray-700'> <span className="font-bold">Learner's</span> Talk</h1>
 </div>
-<div  className="p-1 w-full row flex items-center overflow-x-scroll h-[280px]  2xl:h-[450px] scrollbar-hide  space-x-10">
+<div  className="p-1 w-full row flex items-center overflow-x-scroll h-[280px] xl:h-[400px]  2xl:h-[450px] scrollbar-hide  space-x-10">
 <LearnerCard   bottomImg={akshay} name='Akshay Prabhu' course_name='Python Course Student'  vidSrc='https://www.youtube.com/embed/sK-psHYOe1A'></LearnerCard>
 <LearnerCard  bottomImg={keshav} name='Keshav ' course_name='Python Course Student ' vidSrc='https://www.youtube.com/embed/snR2qTea6Fo'></LearnerCard>
 <LearnerCard  bottomImg={sakshya} name='Sakshya Shetty' course_name='Automation Testing Course Student' vidSrc='https://www.youtube.com/embed/ltirsj1pTj4'></LearnerCard>
