@@ -130,7 +130,7 @@ function PopularCourses() {
 
 
   return (
-    <div className="w-full h-full px-5 py-5  md:px-24 xl:px-18 2xl:px-20   space-y-7">
+    <div className="w-full h-full px-5 py-5  md:px-24 xl:px-18 2xl:px-20   space-y-8">
     <div className='w-full flex flex-col items-start space-y-3 2xl:space-y-4 '>
     <div className='px-5 sm:px-0 w-full flex flex-col items-start space-y-3 2xl:space-y-5'>
     <div className='flex items-center space-x-3'><div className='bg-[#FF0049]   p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049] p-[0.15rem]   w-[0.1rem] rounded-xl'></div> <p className='uppercase font-bold text-gray-400 tracking-[0.3em] text-xs '>Learn New Skills</p> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> </div>
@@ -158,6 +158,10 @@ function PopularCourses() {
         ))
       }
     </div>
+    <div className='py-2'>
+    <a href="https://courses.microdegree.work/pages/premium-courses">
+      <button className="h-fit sm:hidden bg-purple-700 text-white text-sm rounded-md px-6 py-3 ">See All Courses</button>
+      </a></div>
   </div>
   )
 }

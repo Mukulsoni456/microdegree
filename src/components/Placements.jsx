@@ -26,6 +26,11 @@ function CmnSection2() {
     <PlacementCard title='Ajay Patwal' desc='Cloud Support Engineer' cardImg={ajay} logoImg='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1200px-Amazon_logo.svg.png' ></PlacementCard>
   </div>
 </div>
+<div>
+<a href="https://courses.microdegree.work/pages/premium-courses">
+      <button className="h-fit sm:hidden bg-[#FF0049] text-white text-base rounded-md px-10 py-3 ">View More</button>
+      </a>
+      </div>
 </div>
   )
 }

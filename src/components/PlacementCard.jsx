@@ -3,7 +3,7 @@ import React from 'react'
 function Section5Card({title, desc, cardImg, logoImg,  }) {
   return (
     <>
-<div className=" h-96 xl:h-96 2xl:h-[420px]  mb-8 mx-auto relative w-[280px] xl:w-[280px]  sm:w-60 2xl:w-[340px]  rounded-xl overflow-hidden shadow-lg">
+<div className=" h-[22rem] xl:h-96 2xl:h-[420px]  mb-8 mx-auto relative w-[280px] xl:w-[280px]  sm:w-60 2xl:w-[340px]  rounded-xl overflow-hidden shadow-lg">
   <div className='w-full h-48 xl:h-52 2xl:h-64  '>
   <img className="w-full h-full rounded-t-xl object-cover " src={cardImg} alt="Sunset in the mountains"/>
   </div>
