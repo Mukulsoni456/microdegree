@@ -109,28 +109,30 @@ function Footer() {
   </div>
   </section> 
   {/* mobile version footer  */}
-  <div className='sm:hidden bg-[#364045] px-14 p-10 flex flex-col  justify-center text-white  text-left space-y-6'>
+
+  <div className='sm:hidden bg-[#364045] px-10 p-10 flex flex-col  justify-center text-white  text-left space-y-6'>
     <div className='text-left  space-y-2'>
       <h1 className='text-3xl '>Micro<span className='text-bold'>Degree</span> </h1>
-      <p className='text-sm'>MicroDegree promotes the idea of practical learning with its various recorded and live courses, where students are trained by industry experts and can enhance their career.</p>
+      <p className='text-sm '>MicroDegree promotes the idea of practical learning with its various recorded and live courses, where students are trained by industry experts and can enhance their career.</p>
     </div>
 
     <div className='text-left text-sm space-y-2'>
       <h2 className='text-lg'>Site Links</h2>
-      <a href="https://blog.microdegree.work/"><p className='w-full bg-[#2E3133] p-2'>Blogs</p></a>
-      <a href="https://t.me/microdegreekannada"><p className='w-full bg-[#2E3133] p-2'>Community</p></a>
-      <a href="https://pages.microdegree.work/review.html"><p className='w-full bg-[#2E3133] p-2'>Reviews</p></a>
+      <div><a href="https://blog.microdegree.work/"><p className='w-full  bg-[#2E3133] p-2'>Blogs</p></a></div>
+      <div><a href="https://t.me/microdegreekannada"><p className='w-full bg-[#2E3133] p-2'>Community</p></a></div>
+      <div><a href="https://pages.microdegree.work/review.html"><p className='w-full bg-[#2E3133] p-2'>Reviews</p></a></div>
     </div>
 
-    <div className='text-[0.8rem]'>
+    <div className='text-[0.8rem] space-y-2 '>
       <h2 className='text-lg font-semibold'>Company</h2>
-      <a href="https://courses.microdegree.work/pages/premium-courses"><p>Courses</p></a>
-      <p>Scholarship</p>
-      <Link to='hero' activeClass="active"
+      <div><a href="https://courses.microdegree.work/pages/premium-courses"><p>Courses</p></a></div>
+      <div>Scholarship</div>
+      <div><Link to='hero' activeClass="active"
      spy={true}
      smooth={true}
      offset={-100}
      duration={500}>Contact us</Link>
+     </div>
 
     </div>
   </div>

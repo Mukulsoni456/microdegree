@@ -40,9 +40,12 @@ function HomeSection9() {
 </div>
 
 {/* for Mobile */}
-<div className='sm:hidden p-5 space-y-7'>
-  <div className='space-y-1'><h1 className=" text-5xl "> News & </h1>
-  <h1 className=" text-xl uppercase tracking-[0.3rem] font-bold text-gray-900"> Media Tak</h1>
+<div className='sm:hidden font-poppins p-5 space-y-7'>
+  <div className='space-y-1  flex flex-col items-center text-left'>
+    <div className='text-left'>
+    <h1 className=" -500 text-3xl tracking-[0.2rem] text-gray-700 "> News & </h1>
+  <h1 className=" text-5xl uppercase  font-bold text-gray-700"> Media Tak</h1>
+  </div>
   </div>
   <div className='flex flex-col items-center space-y-7'>
     <div className='w-72 h-80 relative shadow-[inset_0px_-54px_75px_-5px_rgba(0,0,0,0.4)]'>

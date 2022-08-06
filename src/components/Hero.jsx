@@ -59,7 +59,7 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
         <div className="space-y-7 min-w-[450px] max-w-[600px] 2xl:max-w-[600px]">
         <a href="https://courses.microdegree.work/courses/aws-developer-certification-live"> <span className='text-[#FBBE53] font-bold font-roboto text-[0.5rem] 2xl:text-[0.7rem] uppercase tracking-wide bg-[rgb(252,200,88)] bg-opacity-30 px-2 2xl:text-xs  py-1'>Save 15% on AWS</span></a>
         <h1 className='text-3xl xl:text-4xl sm:text-[2.3rem] sm:leading-[2.4rem] 2xl:text-5xl font-bold leading-[2.4rem] 2xl:leading-[3.1rem] text-gray-700'>
-          <span className='text-orange-400 w-full font-benne xl:text-5xl '>ಕನ್ನಡಿಗರಿಗೆ</span> IT Job-Ready <br></br> <span className='font-benne xl:text-5xl'>ಮಾಡುವ </span> <span className='text-orange-400 xl:text-5xl font-benne'> ಅಭಿಯಾನ</span> 
+          <span className='text-orange-400 w-full font-benne xl:text-5xl white '>ಕನ್ನಡಿಗರಿಗೆ</span> IT Job-Ready <br></br> <span className='font-benne xl:text-5xl'>ಮಾಡುವ </span> <span className='text-orange-400 xl:text-5xl font-benne'> ಅಭಿಯಾನ</span> 
         </h1>
         <p className="text-sm 2xl:text-lg font-medium w-fit">
           MicroDegree is an <span className='text-purple-700'> Ed-tech platform</span> teaching <span className='text-purple-700' >coding & job-ready </span>skills in Kannada at an affordable price.
@@ -103,7 +103,7 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
            skills in Kannada at an affordable price.
          </p>
          <div className='space-x-8'>
-           <button onClick={()=>setViewModal('77')} className=" p-2 px-4 bg-[#FF0049] text-white text-sm rounded-md">Free Consultation</button>
+           <button onClick={()=>setViewModal('77')} className=" p-3 px-4 bg-[#FF0049] text-white text-sm rounded-md">Free Consultation</button>
          <a href="https://courses.microdegree.work/pages/premium-courses"><button className='rounded-md p-2 border border-blue-800 text-blue-800 text-sm'>All Courses</button></a>
          </div> 
         </div>
