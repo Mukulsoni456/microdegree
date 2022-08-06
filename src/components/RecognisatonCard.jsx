@@ -10,8 +10,8 @@ function Section3Card({title, desc, cardImg, date, month }) {
   </div>
   
   <div className="px-4 py-3 2xl:py-4 h-full bg-white text-left space-y-2">
-    <h1 className="truncate font-medium font-roboto tracking-wider 2xl:font-semibold text-lg 2xl:text-xl ">{title}</h1>
-    <p className=" text-gray-700 text-xs xl:text-sm font-roboto 2xl:text-base">
+    <h1 className="truncate font-medium  2xl:font-semibold text-lg 2xl:text-xl ">{title}</h1>
+    <p className=" text-gray-700 text-xs xl:text-sm  2xl:text-base">
         {desc}
     </p>
   </div>

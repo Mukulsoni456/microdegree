@@ -94,7 +94,7 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
   <div className='sm:hidden px-10 py-12 flex items-center pb-14'>
    <div className="text-left space-y-6 w-screen">
          <div className="space-y-6 ">
-         <span className='text-orange-400 text-md font-medium bg-opacity-50 px-2 py-1 '>Save 15% on AWS</span>
+         <span className=' text-[#FBBE53] bg-[rgb(252,200,88)]  text-xs font-medium bg-opacity-50 px-2 py-1 '>Save 15% on AWS</span>
          <h1 className='text-3xl font-bold text-gray-700 w-[19rem]'>
            <span className='text-orange-400 '>ಕನ್ನಡಿಗರಿಗೆ</span> IT Job Ready ಮಾಡುವ <span className='text-orange-400'> ಅಭಿಯಾನ</span> 
          </h1>

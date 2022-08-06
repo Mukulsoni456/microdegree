@@ -150,7 +150,7 @@ function PopularCourses() {
       </a>
       </div>
     </div>
-    <div className="px-3 md:px-0 flex  items-center w-full h-full  md:space-x-8 flex-wrap sm:flex-nowrap md:space-y-0 space-y-14 overflow-x-scroll scrollbar-hide ">
+    <div className="px-3 md:px-0 flex justify-center sm:justify-start  items-center w-full h-full  md:space-x-8 flex-wrap sm:flex-nowrap md:space-y-0 space-y-14 overflow-x-scroll scrollbar-hide ">
 
       {
         courseOutput.map(item=>(
