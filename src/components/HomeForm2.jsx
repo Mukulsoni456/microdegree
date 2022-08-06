@@ -39,11 +39,11 @@ const onSubmit= async (e) => {
     <>
 <div className="sm:flex hidden px-3 md:px-28 py-20 w-full oveflow-visible">
 <div className=' w-full  sm:basis-1/2 flex-none overflow-visible'>
-  <div className="  relative w-full overflow-x-visible mt-5  px-5 h-[550px] xl:h-[550px] 2xl:h-[550px]">
+  <div className="  relative w-full overflow-x-visible mt-5  px-5 h-[550px] xl:h-[550px] 2xl:h-[600px]">
 <div className="absolute overflow-x-visible top-14 sm:top-11 right-4 ">
-  <img className=' min-w-[350px] xl:w-[400px] 2xl:w-[400px]  object-contain' src={section10bg} alt="" />
+  <img className=' min-w-[350px] xl:w-[400px] 2xl:w-[450px]  object-contain' src={section10bg} alt="" />
 </div>
-<div className="w-80 xl:w-[370px] 2xl:w-[370px] h-full absolute right-4 top-4 z-10  ">
+<div className="w-80 xl:w-[370px] 2xl:w-[410px] h-full absolute right-4 top-3  z-10  ">
   <div className="relative w-full h-full">
   <img className="object-fit absolute" src={rectangle40} alt="" />
     <img className="object-fit z-10 absolute" src={rectangle41} alt="" />

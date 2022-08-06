@@ -1,12 +1,12 @@
 import React from 'react'
 
-function Section3Card({title, desc, cardImg, date }) {
+function Section3Card({title, desc, cardImg, date, month }) {
   return (
 <div className=" mx-auto sm:mx-0 mb-7 h-72  relative w-[280px] xl:w-72 md:w-[260px] 2xl:w-[310px] 2xl:h-[350px] rounded overflow-hidden shadow-lg">
   <img className="w-full object-contain " src={cardImg} alt="Sunset in the mountains"/>
   <div className='absolute top-5 left-5 w-12 h-12 bg-white rounded-full text-sm font-semibold flex flex-col leading-4 justify-center items-center'>
-    <h1 className='text-yellow-500 font-bold text-[1rem]'>21</h1>
-    <h1 className='text-[0.7rem]'>NOV</h1>
+    <h1 className='text-yellow-500 font-bold text-[1rem]'>{date}</h1>
+    <h1 className='text-[0.7rem] uppercase'>{month}</h1>
   </div>
   
   <div className="px-4 py-3 2xl:py-4 h-full bg-white text-left space-y-2">
