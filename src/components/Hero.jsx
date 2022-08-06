@@ -56,7 +56,7 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
     <div className='sm:flex h-[650px] md:px-24 2xl:px-24  items-center hidden '>
     <div className="w-full h-full flex items-center pb-10 xl:mt-20 2xl:mt-14">
       <div className=" px-5 overflow-visible w-fit   h-fit min-w-[380px] text-left space-y-9">
-        <div className="space-y-7 max-w-[450px] 2xl:max-w-[600px]">
+        <div className="space-y-7 min-w-[450px] 2xl:max-w-[600px]">
         <a href="https://courses.microdegree.work/courses/aws-developer-certification-live"> <span className='text-[#FBBE53] font-bold font-roboto text-[0.5rem] 2xl:text-[0.7rem] uppercase tracking-wide bg-[rgb(252,200,88)] bg-opacity-30 px-2 2xl:text-xs  py-1'>Save 15% on AWS</span></a>
         <h1 className='text-3xl xl:text-4xl sm:text-[2.3rem] sm:leading-[2.4rem] 2xl:text-5xl font-bold leading-[2.4rem] 2xl:leading-[3.1rem] text-gray-700'>
           <span className='text-orange-400 w-full font-benne xl:text-5xl '>ಕನ್ನಡಿಗರಿಗೆ</span> IT Job-Ready <br></br> <span className='font-benne xl:text-5xl'>ಮಾಡುವ </span> <span className='text-orange-400 xl:text-5xl font-benne'> ಅಭಿಯಾನ</span> 
@@ -74,13 +74,13 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
           {/* <img onClick={handleVideo1} className="w-48 2xl:w-56 " src={Group1416} alt="" />
           <img onClick={handleVideo2} className="w-48 2xl:w-56" src={Group1417} alt="" /> */}
 
-          <VideoCard handleVideo={handleVideo1} vidthumb={thumbnail1} ></VideoCard>
-          <VideoCard handleVideo={handleVideo2} vidthumb={thumbnail2}></VideoCard>
-          <VideoCard handleVideo={handleVideo3} vidthumb={thumbnail3} ></VideoCard>
+          <VideoCard handleVideo={handleVideo3} vidthumb={thumbnail1} title="Why Microdegree?" ></VideoCard>
+          <VideoCard handleVideo={handleVideo2} vidthumb={thumbnail2} title="Why Our Courses?" ></VideoCard>
+          <VideoCard handleVideo={handleVideo1} vidthumb={thumbnail3} title="How to enroll to courses?" ></VideoCard>
         </div>
       </div>
       <div className='px-10 relative'>
-        <img className='2xl:w-[520px] w-[450px]' src={heroImg1} alt="" />
+        <img className='2xl:w-[520px] w-[450px] xl:w-[500px] ' src={heroImg1} alt="" />
         <img className='sm:w-24 xl:w-36 2xl:w-44 absolute top-56 -left-0' src={Group19} alt="" />
         <img className='sm:w-10 xl:w-14 2xl:w-20 right-10  top-20  absolute' src={Group1351} alt="" />
       </div>
@@ -108,9 +108,9 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
          </div> 
         </div>
   <div className="w-full flex space-x-3 py-3 overflow-x-scroll">
-  <VideoCard handleVideo={handleVideo1} vidthumb={thumbnail1} ></VideoCard>
-          <VideoCard handleVideo={handleVideo2} vidthumb={thumbnail2}></VideoCard>
-          <VideoCard handleVideo={handleVideo3} vidthumb={thumbnail3} ></VideoCard>
+  <VideoCard handleVideo={handleVideo3} vidthumb={thumbnail1} title="Why Microdegree?" ></VideoCard>
+          <VideoCard handleVideo={handleVideo2} vidthumb={thumbnail2} title="Why Our Courses?" ></VideoCard>
+          <VideoCard handleVideo={handleVideo1} vidthumb={thumbnail3} title="How to enroll to courses?" ></VideoCard>
    </div>
         </div>
   </div>

@@ -37,9 +37,9 @@ const onSubmit= async (e) => {
 
   return (
     <>
-<div className="flex hidden  sm:block px-3 md:px-28 py-20 w-full oveflow-visible">
+<div className="sm:flex hidden px-3 md:px-28 py-20 w-full oveflow-visible">
 <div className=' w-full  sm:basis-1/2 flex-none overflow-visible'>
-  <div className="  relative w-full overflow-x-visible px-5 h-[550px] xl:h-[550px] 2xl:h-[550px]">
+  <div className="  relative w-full overflow-x-visible mt-5  px-5 h-[550px] xl:h-[550px] 2xl:h-[550px]">
 <div className="absolute overflow-x-visible top-14 sm:top-11 right-4 ">
   <img className=' min-w-[350px] xl:w-[400px] 2xl:w-[400px]  object-contain' src={section10bg} alt="" />
 </div>
@@ -89,7 +89,7 @@ const onSubmit= async (e) => {
   <div className=" w-full text-left space-y-5 ">
     
   <h1 className=" text-5xl xl:text-6xl 2xl:text-7xl text-gray-700 ">Multilingual <br /> <span className="font-bold">IT Skilling</span> Platform <br />for <span className="font-bold"> Bharat</span> </h1>
-  <p className='text-gray-700 text-sm xl:text-lg 2xl:text-lg'>Platform where you Learn the most In-demand IT Skills that are currently booming and increase your chance of landing a high paying job.</p>
+  <p className='text-gray-700 text-sm xl:text-base 2xl:text-base'>Platform where you Learn the most In-demand IT Skills that are currently booming and increase your chance of landing a high paying job.</p>
   <ul className=" w-full text-sm xl:text-base 2xl:text-lg text-gray-700">
     <li className='w-full flex items-center space-x-3'> <div className="rounded-full w-2 h-2 bg-gray-800"></div> <p>Get trained by industry experts</p>.</li>
     <li className='w-full flex items-center space-x-3'> <div className="rounded-full w-2 h-2 bg-gray-800"></div> <p>Work on real world projects</p>.</li>
@@ -105,9 +105,13 @@ const onSubmit= async (e) => {
 </div>
 </div>
 
+{/* for Mobile vesion */}
 <div>
-  <div className='sm:hidden h-[500px] flex items-center justify-center bg-gradient-to-br from-yellow-400 to-red-500 mt-10 '>
-  <form onSubmit={onSubmit} action='' className=" h-[400px] absolute flex flex-col justify-center items-center w-fit  p-10 px-5 space-y-6  z-20">
+  <div className='sm:hidden bg-[#0f2c3f]     mt-10 py-12 space-y-7 '>
+    <div className='py-4 px-1 '>
+    <h2 className='text-2xl font-roboto leading-[2.4rem] font-[500] px-4 text-left text-white '>Please enter your details to get a call back from <span className=' w-full text-3xl  py-1 font-bold text-transparent bg-clip-text bg-gradient-to-br from-yellow-500 to-orange-500 '>Career Mentor</span> </h2>
+    </div>
+  <form onSubmit={onSubmit} action='' className=" px-5 flex flex-col justify-center items-center w-full space-y-4 ">
 
 <input required onChange={(e)=>{setName(e.target.value)}} className='w-full text-base p-4  text-gray-700 rounded outline-none bg-[rgba(255,255,255,0.85)]' type="text" name="" placeholder="Your name" id="" />
 
@@ -115,7 +119,8 @@ const onSubmit= async (e) => {
 
 <input required onChange={(e)=>{setEmail(e.target.value)}} className='w-full text-base p-4  text-gray-700 rounded outline-none bg-[rgba(255,255,255,0.85)]' type="email" name="" placeholder="Email" id="" />
 
-<button className='bg-[#4C1BCF] mt-2 px-4 py-4 w-full  rounded text-sm  text-white '>Submit Request</button>
+<button className='bg-gradient-to-br from-orange-500 to-yellow-600 mt-2 px-4 py-4 w-full  rounded text-lg  text-white '>Submit Request</button>
+<p className='text-xs py-5 leading-5 text-white text-left'>By providing your contact details, you agree to our <a className='border-b-[0.3px] border-gray-200' href='https://pages.microdegree.work/termsnconditions.html'> Terms of Use </a> & <a className='border-b-[0.3px] border-gray-200' href='https://pages.microdegree.work/termsnconditions.html'>  Privacy Policy </a> </p>
     </form>
   </div>
 </div>

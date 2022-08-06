@@ -9,7 +9,7 @@ function HomeSection9() {
   return (
     <>
     <div className="hidden w-full sm:block md:px-28 2xl:px-28 md:min-h-[500px] mx-auto h-full py-14 px-10 space-y-10 text-left">
-  <h1 className=" text-4xl sm:text-5xl 2xl:text-6xl sm:px-10"><samp className="font-semibold text-gray-700">News</samp>& <span className="font-semibold text-gray-900">Media</span> Talk </h1>
+  <h1 className=" text-4xl sm:text-6xl 2xl:text-6xl sm:px-10"><samp className="font-semibold text-gray-700">News</samp>& <span className="font-semibold text-gray-900">Media</span> Talk </h1>
 
   <div className=" h-[340px] 2xl:h-[500px] w-full flex justify-center  space-x-4 md:px-14 overflow-y-hidden  ">
 
