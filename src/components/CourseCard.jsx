@@ -60,8 +60,8 @@ console.log(title.length)
 
    <div className='absolute w-full h-full top-0 hidden group-hover:block rounded-lg '>
     <div className='h-full w-full rounded-lg '>
-  <div className='w-full opacity-95 top-0 rounded-lg  bg-gradient-to-br justify-center flex items-center  from-yellow-400 to-red-500 w-full h-full'>
-    <div className='text-left  text-white space-y-3'>
+  <div className='w-full opacity-95 top-0 rounded-lg  bg-gradient-to-br justify-center flex items-center  from-yellow-400 to-red-500 h-full'>
+    <div className='text-left px-7 text-white space-y-3'>
       <h3 className='text-2xl 2xl:text-4xl whitespace-nowrap font-medium'>Course Details</h3>
       <ul className='list-disc space-y-1'>
       {

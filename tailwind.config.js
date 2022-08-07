@@ -9,6 +9,17 @@ module.exports = {
         'roboto': ['Roboto', "sans-sarif"],
         "benne": ["Benne", "serif"],
        },
+
+       keyframes: {
+        popup: {
+          '75%': { transform: 'scale(0)', opacity:1},
+          '100%': { transform: 'scale(2)', opacity:0},
+
+        },
+        animation: {
+          'popup': 'popup 1s cubic-bezier(0, 0, 0.2, 1)',
+        },
+      },
     },
   },
   plugins: [

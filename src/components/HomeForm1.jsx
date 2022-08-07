@@ -3,6 +3,8 @@ import imageHolder from '../assets/home/section7/Image Holder.png'
 import db from "../features/firebase";
 import { addDoc, query, collection } from "firebase/firestore";
 import { useState } from 'react';
+import {CheckIcon} from '@heroicons/react/solid'
+
 
 const q = query(collection(db, "client"));
 
@@ -12,6 +14,7 @@ function HomeSection7() {
 const [Name, setName] = useState('')
 const [Email, setEmail] = useState('')
 const [ContactNo, setContactNo] = useState('')
+const [formAlert, setFormAlert] = useState('')
 
 const onSubmit= async (e) => {
   e.preventDefault();
@@ -21,7 +24,7 @@ const onSubmit= async (e) => {
     email: Email,
     contactNo: ContactNo,
   });
-
+  setFormAlert(!formAlert)
 };
 
   return (
@@ -37,7 +40,12 @@ const onSubmit= async (e) => {
         </div>
 
       </div>
-      <div className=" w-full basis-1 h-full md:basis-1/2 flex justify-center  md:block">
+      <div className=" relative w-full basis-1 h-full md:basis-1/2 flex justify-center  md:block">
+      <div className={`${formAlert?'block':'hidden'} bg-opacity-90 bg-black z-30 top-0 w-full p-5 flex justify-center items-center flex-col h-full absolute space-y-4`}>
+      <CheckIcon className='w-16 bg-gradient-to-br animate-popup from-orange-500 to-yellow-500 text-white p-3 rounded-full'></CheckIcon>
+      <p className='font-bold text-white text-2xl'>Thanks for submitting </p>
+      <p className='text-sm text-white'>You have successfully submitted the form | For re-submitting <span className='text-yellow-500 cursor-pointer ' onClick={()=>setFormAlert(!formAlert)}> Click here</span> </p>
+    </div>
       <form className='h-full' onSubmit={onSubmit} action="">
       <div className=" pb-14 sm:pb-5 w-full xl:w-[430px] xl:h-[900px] sm:w-72 2xl:w-[450px] h-fit 2xl:h-[800px] bg-gray-100 rounded-md ">
         <div className="head rounded-md bg-[#FCAA2D] px-5 py-8 flex flex-col items-center justify-center space-y-2 text-white">

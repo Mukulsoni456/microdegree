@@ -32,7 +32,7 @@ function Footer() {
         <p className='text-sm w-[450px] 2xl:text-lg'>Get up to date with the latest technologies and certification with IT skills. Download our app now & be part of fastest growing sector of the Indian economy.</p>
         <div className="flex w-full justify-between 2xl:justify-between items-center">
          <a href="https://play.google.com/store/apps/details?id=org.microdegree.com.app.exp"> <img className='object-contain w-24 2xl:w-36' src={Qrcode} alt="" /></a>
-          <a href="https://play.google.com/store/apps/details?id=org.microdegree.com.app.exp"><img className='w-36 2xl:w-56 object-contain' src={playstore} alt="" /></a>
+          <a href="https://play.google.com/store/apps/details?id=org.microdegree.com.app.exp"><img className='w-36 2xl:w-56 shadow-xl object-contain' src={playstore} alt="" /></a>
         </div>
       </div>
       </div>
@@ -49,15 +49,15 @@ function Footer() {
   <section className="hidden sm:block h-full w-full bg-[#364045] pt-10 px-20">
   <div className="flex  border-b-[0.1rem] border-gray-600 py-6 ">
     <div className="basis-1/4 text-left text-white space-y-4">
-      <h1 className='text-2xl 2xl:text-3xl text-left text-bold'> <span className='text-center'>Micro </span> <br/> <span className="font-medium text-left font-roboto">Degree</span></h1>
-      <p className="text-xs 2xl:text-sm 2xl:w-56 text-gray-400 w-48 ">MicroDegree promotes the idea of practical learning where students are trained by industry experts and can enhance their career.</p>
+      <h1 className='text-2xl w-fit 2xl:text-3xl text-center leading-3 text-bold'> <span className='text-center'>Micro </span> <br/> <span className="font-medium text-left text-3xl 2xl:text-4xl font-roboto">Degree</span></h1>
+      <p className="text-xs 2xl:text-sm 2xl:w-56 leading-5 text-gray-400 w-48 ">MicroDegree promotes the idea of practical learning where students are trained by industry experts and can enhance their career.</p>
       <div className='flex py-2 space-x-3'>
       <a href="https://www.facebook.com/MicroDegree-101072281390361/?modal=admin_todo_tour"> 
         <FontAwesomeIcon className='text-2xl hover:text-[#1DA0F0] ' icon={faFacebook}></FontAwesomeIcon></a>
 
-        <a href="https://mobile.twitter.com/micro_degree">
+        {/* <a href="https://mobile.twitter.com/micro_degree">
         <FontAwesomeIcon className='text-sm p-[0.3rem] bg-white rounded-full text-[#364045] hover:bg-[#1DA0F0] ' icon={faTwitter}></FontAwesomeIcon></a>
-        
+         */}
         <a href="https://www.linkedin.com/company/microdegree/?viewAsMember=true">
         <FontAwesomeIcon className='text-sm p-[0.3rem] bg-white rounded-full text-[#364045] hover:bg-[#1DA0F0] ' icon={faLinkedin}></FontAwesomeIcon></a>
 
@@ -72,19 +72,18 @@ function Footer() {
       <ul className="space-y-2 text-left">
         <li className='font-medium 2xl:text-lg text-gray-200'>Company</li>
         <li className='text-sm 2xl:text-lg text-gray-400'> <a href="https://pages.microdegree.work/about.html"> About</a></li>
-        <li className='text-sm 2xl:text-lg text-gray-400'><a href="https://courses.microdegree.work/pages/premium-courses">Courses</a></li>
-        <li className='text-sm 2xl:text-lg text-gray-400'>Scholarships</li>
+        <li className='text-sm 2xl:text-lg text-gray-400'><a href="https://courses.microdegree.work/pages/premium-courses">All Courses</a></li>
+        <li className='text-sm 2xl:text-lg text-gray-400'><a href="https://pages.microdegree.work/scholarship.html">Scholarships</a></li>
+        <li className='text-sm 2xl:text-lg text-gray-400'><a href="https://courses.microdegree.work/courses/aws-certification-live">Trending Course</a></li>
         <li className='text-sm 2xl:text-lg text-gray-400'>Contact us</li>
       </ul>
     </div>
     <div className="basis-1/4 flex items-center justify-center h-full">
       <ul className="space-y-2 text-left">
         <li className='font-medium 2xl:text-lg text-gray-200'>Useful Links</li>
-        <li className='text-sm  2xl:text-lg text-gray-400'> <a href="https://blog.microdegree.work/">Blogs</a></li>
         <li className='text-sm 2xl:text-lg text-gray-400'> <a href="https://t.me/microdegreekannada"> Community</a></li>
-        <li className='text-sm 2xl:text-lg text-gray-400'>Pricing</li>
-        <li className='text-sm 2xl:text-lg text-gray-400'>FAQ</li>
-        <li className='text-sm 2xl:text-lg text-gray-400'>Sitemap</li>
+        <li className='text-sm 2xl:text-lg text-gray-400'> <a href="https://courses.microdegree.work/pages/free"> Free Courses</a></li>
+        <li className='text-sm  2xl:text-lg text-gray-400'> <a href="https://blog.microdegree.work/">Blogs</a></li>
       </ul>
     </div>
     <div className="basis-1/4 text-left space-y-3 text-xs 2xl:text-lg text-gray-400 px-10">
@@ -96,7 +95,7 @@ function Footer() {
       <p>hello@microdegree.work</p>
       </div>
       
-      <p>3rd Floor, Plama Center, Bejai - Kapikad Rd, Mangaluru, Karnataka 575004</p>
+      <p>MicroDegree Education Private Limited (Formerly Pillpouch Healthtech Private Limited), K-tech Innovation Hub 3rd Floor, Plama Building Bejai, Mangaluru, Karnataka 575004.</p>
     </div>
   </div>
   <div className='py-3 flex justify-between text-gray-400 text-xs'>
@@ -110,14 +109,31 @@ function Footer() {
   </section> 
   {/* mobile version footer  */}
 
+  <div className='relative w-full h-80 overflow-hidden'>
+  <img className="absolute w-full z-10 top-0 object-cover h-full " src={overlay43} alt="" />
+  <div className="absolute z-20 h-full w-full flex flex-col justify-center space-y-8">
+    <div>
+     <h1 className='text-3xl px-10 text-white'>Download MicroDegree App</h1> 
+    </div>
+    <div className='flex justify-around items-center'>
+         <a href="https://play.google.com/store/apps/details?id=org.microdegree.com.app.exp"> <img className='object-contain w-24 2xl:w-36' src={Qrcode} alt="" /></a>
+          <a href="https://play.google.com/store/apps/details?id=org.microdegree.com.app.exp"><img className='w-36 2xl:w-56 shadow-xl object-contain' src={playstore} alt="" /></a>
+        </div>
+        </div>
+
+        <img className="absolute  object-contain w-56 -bottom-48 2xl:w-72 2xl:-bottom-72 2xl:left-[200px] left-[170px]" src={phone1} alt="" />
+        <img className="absolute  object-contain w-56 -bottom-44 2xl:w-72 2xl:-bottom-52 " src={phone2} alt="" />
+
+  </div>
+
   <div className='sm:hidden bg-[#364045] px-10 p-10 flex flex-col  justify-center text-white  text-left space-y-6'>
     <div className='text-left  space-y-2'>
-      <h1 className='text-3xl '>Micro<span className='text-bold'>Degree</span> </h1>
+      <h1 className='text-3xl '>Micro<span className='text-bold text-left'>Degree</span> </h1>
       <p className='text-sm '>MicroDegree promotes the idea of practical learning with its various recorded and live courses, where students are trained by industry experts and can enhance their career.</p>
     </div>
 
     <div className='text-left text-sm space-y-2'>
-      <h2 className='text-lg'>Site Links</h2>
+      <h2 className='text-lg'>Useful Links</h2>
       <div><a href="https://blog.microdegree.work/"><p className='w-full  bg-[#2E3133] p-2'>Blogs</p></a></div>
       <div><a href="https://t.me/microdegreekannada"><p className='w-full bg-[#2E3133] p-2'>Community</p></a></div>
       <div><a href="https://pages.microdegree.work/review.html"><p className='w-full bg-[#2E3133] p-2'>Reviews</p></a></div>
@@ -126,8 +142,9 @@ function Footer() {
     <div className='text-[0.8rem] space-y-2 '>
       <h2 className='text-lg font-semibold'>Company</h2>
       <div><a href="https://courses.microdegree.work/pages/premium-courses"><p>Courses</p></a></div>
-      <div>Scholarship</div>
-      <div><Link to='hero' activeClass="active"
+      <p className='text-sm  text-gray-100'><a href="https://pages.microdegree.work/scholarship.html">Scholarships</a></p>
+        <p className='text-sm  text-gray-100'><a href="https://courses.microdegree.work/courses/aws-certification-live">Trending Course</a></p>
+      <div className='text-sm'><Link to='hero' activeClass="active"
      spy={true}
      smooth={true}
      offset={-100}

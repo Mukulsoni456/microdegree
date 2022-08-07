@@ -6,7 +6,7 @@ import CardImg from '../assets/home/section8/business-career.png'
 import pratik from '../assets/home/section5/pratik.jpeg'
  
 
-function Section8Card({ vidSrc, bottomImg, course_name, name}) {
+function Section8Card({ vidSrc, bottomImg, course_name, name, thumbnail}) {
   return (
 <div className={` group rounded-md relative shadow-lg min-w-[300px] hover:min-w-[350px] xl:min-w-[350px] xl:hover:min-w-[500px]  2xl:min-w-[450px] 2xl:hover:min-w-[550px] duration-400 transition-all ease-in-out h-fit bg-white group`}>
 <img src={CardImg} className='w-full rounded-md object-content' alt="" />
@@ -25,8 +25,9 @@ function Section8Card({ vidSrc, bottomImg, course_name, name}) {
   <div className='w-full h-full relative '></div>
 
 {/* <img className='absolute top-0 ' src={CardImg} alt="" /> */}
+ <img className='group-hover:hidden w-full h-full top-0 absolute object-cover' src={thumbnail} alt="" />
 <img className='absolute w-full h-full top-0 group-hover:hidden ' src={imgOverlay} alt="" />
-<img className='absolute  w-12 top-24 left-32 2xl:top-[140px] 2xl:left-[200px] group-hover:hidden' src={playIcon} alt="" />
+<img className='absolute  w-12 2xl:w-16 top-24 left-36 2xl:top-[140px] 2xl:left-[200px] group-hover:hidden' src={playIcon} alt="" />
 {/* <img className='absolute w-36 right-12 -bottom-4' src={bottomImg} alt="" /> */}
 <div className='right-12 2xl:-bottom-8 2xl:right-10 -bottom-4 absolute   bg-white flex items-center justify-center w-fit p-2 rounded-md space-x-2'>
   <img className='w-7 xl:w-8 xl:h-8 2xl:w-8 2xl:h-8 h-7 object-content rounded-full' src={bottomImg} alt="" />

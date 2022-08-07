@@ -9,7 +9,7 @@ function HomeSection9() {
   return (
     <>
     <div className="hidden w-full sm:block md:px-28 2xl:px-28 md:min-h-[500px] mx-auto h-full py-14 px-10 space-y-10 text-left">
-  <h1 className=" text-4xl sm:text-6xl 2xl:text-6xl sm:px-10"><samp className="font-semibold text-gray-700">News</samp>& <span className="font-semibold text-gray-900">Media</span> Talk </h1>
+  <h1 className=" text-gray-700 text-4xl sm:text-6xl 2xl:text-6xl sm:px-10"><samp className="font-semibold text-gray-700">News</samp>& <span className="font-semibold text-gray-700">Media</span> Talk </h1>
 
   <div className=" h-[340px] 2xl:h-[500px] w-full flex justify-center  space-x-4 md:px-14 overflow-y-hidden  ">
 
@@ -44,7 +44,7 @@ function HomeSection9() {
   <div className='space-y-1  flex flex-col items-center text-left'>
     <div className='text-left'>
     <h1 className=" -500 text-3xl tracking-[0.2rem] text-gray-700 "> News & </h1>
-  <h1 className=" text-5xl uppercase  font-bold text-gray-700"> Media Tak</h1>
+  <h1 className=" text-5xl uppercase  font-bold text-gray-700"> Media Talk</h1>
   </div>
   </div>
   <div className='flex flex-col items-center space-y-7'>
