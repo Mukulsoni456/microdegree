@@ -111,6 +111,7 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
   <VideoCard handleVideo={handleVideo3} vidthumb={thumbnail1} title="Why Microdegree?" ></VideoCard>
           <VideoCard handleVideo={handleVideo2} vidthumb={thumbnail2} title="Why Our Courses?" ></VideoCard>
           <VideoCard handleVideo={handleVideo1} vidthumb={thumbnail3} title="How to enroll to courses?" ></VideoCard>
+          <div className='min-w-[50px]'></div>
    </div>
         </div>
   </div>

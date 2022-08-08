@@ -34,7 +34,7 @@ function App() {
     setAlertStatus(!alertStatus)
     setTimeout(() => (
       setAlertStatus(false)
-    ), 2000);
+    ), 4000);
   }
 
   return (
