@@ -60,6 +60,7 @@ export const Courses =[
         "course_img":require('./assets/Course Images/Java.png'),
         "course_link":"https://pages.razorpay.com/pl_Gev62ka8kgBbte/view",
         "course_desc":"Get Pro subscription and access unlimited course access on platform",
+        "course_category":'programming',
         "course_price":'3,000',
         "course_status":"live",
         course_details:["60 Hrs of LIVE Online Training",

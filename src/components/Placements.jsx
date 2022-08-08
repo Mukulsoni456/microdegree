@@ -24,7 +24,7 @@ function CmnSection2() {
   <h1 className="text-4xl sm:text-5xl 2xl:text-6xl  sm:tracking-[0.04em] space-x-2 text-gray-800"><span className="font-[600] text-gray-700">Placement</span> Diaries</h1>
   <div>
 <a href="https://courses.microdegree.work/pages/premium-courses">
-      <button className="h-fit  bg-[#FF0049] text-white text-base rounded-md px-5 py-2 ">View More</button>
+      <button className="h-fit hidden sm:block  bg-[#FF0049] text-white text-base rounded-md px-5 py-2 ">View More</button>
       </a>
       </div>
   </div>

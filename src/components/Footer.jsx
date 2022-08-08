@@ -134,9 +134,12 @@ function Footer() {
 
     <div className='text-left font-light text-sm space-y-2'>
       <h2 className='text-lg font-medium'>Useful Links</h2>
+      {/* <div className='flex'>
       <div><a href="https://blog.microdegree.work/"><p className='w-full  bg-[#2E3133] p-2'>Blogs</p></a></div>
       <div><a href="https://t.me/microdegreekannada"><p className='w-full bg-[#2E3133] p-2'>Community</p></a></div>
       <div><a href="https://pages.microdegree.work/review.html"><p className='w-full bg-[#2E3133] p-2'>Reviews</p></a></div>
+      </div> */}
+      <p><a href='https://blog.microdegree.work/'>Blogs</a> | <a href='https://t.me/microdegreekannada'>Community</a> | <a href="https://pages.microdegree.work/review.html">Rewiews</a></p>
     </div>
 
     <div className='text-[0.8rem] space-y-2 font-light '>
