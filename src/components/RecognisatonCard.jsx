@@ -2,7 +2,7 @@ import React from 'react'
 
 function Section3Card({title, desc, cardImg, date, month }) {
   return (
-<div className=" mx-auto sm:mx-0 mb-7 h-72 group relative w-[280px] xl:w-72 md:w-[260px] 2xl:w-[310px] 2xl:h-[350px] rounded overflow-hidden shadow-lg">
+<div className=" mx-auto sm:mx-0 mb-7 h-72 group relative w-[280px] xl:w-[17.5rem] md:w-[260px] 2xl:w-[310px] 2xl:h-[350px] rounded overflow-hidden shadow-lg">
   <img className="w-full object-contain " src={cardImg} alt="Sunset in the mountains"/>
   <div className='group-hover:hidden absolute top-2 left-3 w-12 h-12 bg-white rounded-full text-sm font-semibold flex flex-col leading-4 justify-center items-center'>
     <h1 className='text-yellow-500 font-bold text-[1rem]'>{date}</h1>

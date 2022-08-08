@@ -75,7 +75,6 @@ function Footer() {
         <li className='text-sm 2xl:text-lg text-gray-400'><a href="https://courses.microdegree.work/pages/premium-courses">All Courses</a></li>
         <li className='text-sm 2xl:text-lg text-gray-400'><a href="https://pages.microdegree.work/scholarship.html">Scholarships</a></li>
         <li className='text-sm 2xl:text-lg text-gray-400'><a href="https://courses.microdegree.work/courses/aws-certification-live">Trending Course</a></li>
-        <li className='text-sm 2xl:text-lg text-gray-400'>Contact us</li>
       </ul>
     </div>
     <div className="basis-1/4 flex items-center justify-center h-full">
@@ -89,7 +88,7 @@ function Footer() {
     <div className="basis-1/4 font-light text-left space-y-3 text-xs 2xl:text-lg text-gray-400 px-10">
       <h3 className='text-gray-300 text-lg 2xl:text-lg font-medium'>Contact us</h3>
       <div className='flex space-x-2'><PhoneIcon className='w-3'></PhoneIcon>
-      <p>+918310882795</p>
+      <p>804-710-9999</p>
       </div>
       <div className='flex space-x-2'><MailIcon className='w-4'></MailIcon>
       <p>hello@microdegree.work</p>

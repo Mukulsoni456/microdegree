@@ -16,22 +16,18 @@ function HomeSection6() {
   <div className='flex items-center space-x-3'><div className='bg-[#FF0049]   p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049] p-[0.15rem] h-[0.1rem] w-[0.1rem] rounded-xl'></div> <p className=' font-bold text-gray-400 tracking-[0.3rem] text-xs '>Expert Trainers</p> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> </div>
 
     <h1 className=' text-4xl xl:text-5xl whitespace-nowrap 2xl:text-6xl text-gray-700 tracking-wide'><span className="font-bold">Industry</span> <span>Trainers.</span></h1>
-    <p className="text-sm xl:text-sm xl:w-[440px] 2xl:text-base 2xl:w-[500px] text-gray-700 sm:w-[420px] ">Being one of the pioneers in teaching IT Skills in regional language, you will be learning these skills from our own ಕನ್ನಡಿಗ Trainers</p>
+    <p className="text-sm xl:text-sm xl:w-[440px] 2xl:text-base 2xl:w-[500px] text-gray-700 sm:w-[420px] ">Get an opportunity to learn directly from these industry veterans who work at top companies. They have joined our mission to give back to the Kannada community. Their vision is to empower every Kannadiga to get their dream job.</p>
   </div>
   <div className=' hidden  w-[800px] xl:w-[900px] 2xl:w-[920px] -mr-[120px] md:flex overflow-x-scroll space-x-7'>
 
-    <TrainerCard title='Vinay' top_logo={amazon_logo} desc='Vinay raj is an industry expert in cloud computing with more than 8+ years of experience. He has been a technical contributor to many large-scale projects at Walmart.  He is an expert at architecting, building, and maintaining complete DevOps/AWS/IoT/Service Management solutions using AWS technology. 
-He has trained thousands of learners on latest tools required to build and deploy modern cloud-native applications with his vast experience as a senior system engineer. 
-Most importantly he is a great communicator by nature and strive to make training sessions interesting, engaging and enjoyable for all learners.' profession='Cloud Engineer' bottom_logo={walmart} cardColor='bg-gray-100' propColor='text-white'></TrainerCard>
+    <TrainerCard title='Vinay' top_logo={amazon_logo} desc='Vinay sir is an industry leading trainer with wide experience teaching students from top companies. He works as a cloud architect  managing the network infrastructure.' profession='Cloud Engineer' bottom_logo={walmart} cardColor='bg-gray-100' propColor='text-white'></TrainerCard>
 
 
-    <TrainerCard title='Mithun' top_logo={powerBi_logo} desc='Mithun S is a senior cloud engineer with more than 8+ years of experience, working at Harman, a highly successful datacentre. He has an expertise in AWS best practices & also specializes in architecting, deploying highly available clusters and other areas of IT infrastructure. 
-Being an integral member of the team in serving customers, he is thoroughly trained and a highly skilled trainer and will provide you with the best technical skill and have expert knowledge to manage any AWS environments.' bottom_logo={harman} cardColor='bg-white' profession=' Senior Cloud Engineer' propColor='text-gray-200'></TrainerCard>
+    <TrainerCard title='Mithun' top_logo={powerBi_logo} desc='Mithun sir is the top architect in his organization. He has expertise in scaling systems to millions of web traffic.' bottom_logo={harman} cardColor='bg-white' profession=' Senior Cloud Engineer' propColor='text-gray-200'></TrainerCard>
 
 
 
-    <TrainerCard title='Ananth Krishna' top_logo={mern_logo} desc='Ananth Krishna is a Senior Security Engineer at Match Move. He comes with a rich working experience of more than 6+ years. Being an expert in DevOps security operations he explains curriculum in a very easy manner with lots of live examples and proper use of their tools. 
-Having the experience of working in the industry for so many years, handling complex projects he is always able to bridge the gap between theory and practice. His teaching style is direct, simple and fast, this helps learners understand the concepts better.' profession='Senior Security Engineer' bottom_logo={matchmove} cardColor='bg-white' propColor='text-gray-200'></TrainerCard>
+    <TrainerCard title='Ananth Krishna' top_logo={mern_logo} desc='Ananth krishna sir is a udemy top AWS trainer. He has speciality experience in training students from US and other countries.' bottom_logo={matchmove} cardColor='bg-white' propColor='text-gray-200'></TrainerCard>
 
 {/* added for scroll functionability */}
 <div className='min-w-[80px]'>.</div>
