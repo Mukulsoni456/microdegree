@@ -10,6 +10,7 @@ function Navbar({setSearchedResults}) {
   const [input, setInput] = useState('')
   const [dropDown, setDropDown] = useState(false)
   const [searchOutput, setSearchOutput] = useState([])
+  const [viewSearchOutput, setViewSearchOutput] = useState(false)
 
   const keys = ["course_name","course_category"]
 
@@ -27,9 +28,15 @@ function Navbar({setSearchedResults}) {
 }
   }, [input])
 
+  const handleInput =(e)=>{
+
+    e.preventDefault()
+    setViewSearchOutput(!viewSearchOutput)
+    e.target.value?setInput(e.target.value):setInput('')
+  }
   const handleSearched =(e)=>{
     console.log(e.target.innerText)
-
+    setViewSearchOutput(true)
     setSearchedResults(Courses.filter((item)=> item.course_name.toLowerCase().includes(e.target.innerText.toLowerCase())))
 
     
@@ -44,10 +51,10 @@ function Navbar({setSearchedResults}) {
       <div className=' flex basis-1 md:basis-7/12 sm:basis-9/12 justify-start items-center '>
         <div className=' hidden max-h-[40px]  sm:block basis-5/12 flex-shrink mr-3 relative '>
       <form className="flex h-full items-center  bg-white p-[0.4rem] py-2 2xl:py-1 2xl:h-12  rounded-md">
-            <input className=' flex h-full w-full items-center justify-center text-sm 2xl:text-lg px-2 xl:placeholder:text-xs placeholder:text-sm 2xl:placeholder:px-5  outline-none' onChange={(e)=> {e.target.value?setInput(e.target.value):setInput('')}}  placeholder='What do you want to learn?' type='text'></input>
+            <input className=' flex h-full w-full items-center justify-center text-sm 2xl:text-lg px-2 xl:placeholder:text-xs placeholder:text-sm 2xl:placeholder:px-5  outline-none' onChange={handleInput }  placeholder='What do you want to learn?' type='text'></input>
             <SearchIcon className='w-7 2xl:w-9 2xl:p-2 text-white p-1 rounded-md bg-[#FF2A67]'></SearchIcon>
           </form>
-          <div className='border-t-2 w-full absolute z-10 '>
+          <div className={` ${viewSearchOutput?'block':"hidden"} border-t-2 w-full absolute z-10`}>
             {searchOutput.map(item=>(
               <h1 onClick={handleSearched} key={item.id} className=' hover:text-[#FF2A67] cursor-pointer w-full bg-white text-sm 2xl:text-base py-2 text-left px-2  text-gray-700'>{item.course_name}</h1>
               ))}
