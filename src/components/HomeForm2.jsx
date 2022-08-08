@@ -49,12 +49,12 @@ const onSubmit= async (e) => {
 
   <img className=' w-[350px] xl:w-[400px] 2xl:w-[450px]  object-contain' src={section10bg} alt="" />
 </div>
-<div className="w-80 xl:w-[370px] 2xl:w-[410px] h-[510px] xl:h-[560px] absolute right-4 top-3  z-10  ">
+<div className="w-80 xl:w-[370px] 2xl:w-[410px] h-[510px] xl:h-[510px] 2xl:h-[560px] absolute right-4 top-3  z-10  ">
   <div className="relative w-full h-full">
   <img className="object-fit absolute" src={rectangle40} alt="" />
     <img className="object-fit z-10 absolute" src={rectangle41} alt="" />
 
-    <div className={` ${formAlert?'block':'hidden'} bg-opacity-90 bg-gray-900 z-30 top-0 w-full p-5 flex justify-center items-center flex-col h-full absolute space-y-4`}>
+    <div className={`${formAlert?'block':'hidden'}  bg-opacity-90 bg-gray-900 z-30 top-0 w-full p-5 flex justify-center items-center flex-col h-full absolute space-y-4`}>
       <CheckIcon className='w-16 bg-gradient-to-br animate-popup from-orange-500 to-yellow-500 text-white p-3 rounded-full'></CheckIcon>
       <p className='font-bold text-white text-2xl'>Thanks for submitting </p>
       <p className='text-sm text-white'>You have successfully submitted the form | For re-submitting <span className='text-yellow-500 cursor-pointer ' onClick={()=>setFormAlert(!formAlert)}> Click here</span> </p>
