@@ -53,9 +53,9 @@ const onSubmit= async (e) => {
           <p className='text-xs xl:text-sm 2xl:text-sm  w-48'>And recieve over 100+ free quality courses</p>
         </div>
         <div className=" px-3 sm:px-7 xl:px-3 py-10 sm:py-5 2xl:py-10 space-y-4 ovrflow-visible">
-          <input required onChange={(e)=>{setName(e.target.value)}} className='border-2 text-sm xl:text-2xl 2xl:text-2xl p-4 xl:p-4 2xl:p-3 w-full' type="text" placeholder='Your Name' name="" id="" />
-          <input required onChange={(e)=>{setEmail(e.target.value)}} className=' border-2 text-sm xl:text-2xl 2xl:text-2xl p-4 xl:p-4 2xl:p-3 w-full ' type="text" placeholder='Email' name="" id="" />
-          <input required onChange={(e)=>{setContactNo(e.target.value)}} className='border-2 text-sm xl:text-2xl 2xl:text-2xl p-4 xl:p-4 2xl:p-3 w-full ' type="text" placeholder='Mobile' name="" id="" />
+          <input required onChange={(e)=>{setName(e.target.value)}} className='border-2 text-sm xl:text-2xl 2xl:text-2xl p-4 xl:p-4 2xl:p-3 w-full' type="text" placeholder='Your Name' name="" id="name" />
+          <input required onChange={(e)=>{setEmail(e.target.value)}} className=' border-2 text-sm xl:text-2xl 2xl:text-2xl p-4 xl:p-4 2xl:p-3 w-full ' type="text" placeholder='Email' name="" id="email" />
+          <input required onChange={(e)=>{setContactNo(e.target.value)}} className='border-2 text-sm xl:text-2xl 2xl:text-2xl p-4 xl:p-4 2xl:p-3 w-full ' type="text" placeholder='Mobile' pattern='[1-9]{1}[0-9]{9}' name="" id="contactNo" />
         </div>
         <button className="w-full sm:w-fit my-2  py-4 xl:p-3 xl:px-6 2xl:py-4 2xl:px-8  bg-[#FCAA2D] sm:rounded-md text-base xl:text-lg 2xl:text-xl text-white">Get it Now</button>
       </div>

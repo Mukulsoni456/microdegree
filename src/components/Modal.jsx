@@ -57,7 +57,7 @@ function Modal({setViewModal, viewModal}) {
                 </div>
                 <div className='w-full text-left'>
                     <p className='text-sm 2xl:text-base text-gray-100'>Mobile No</p>
-                    <input onChange={(e)=>{setMobileNo(e.target.value)}} className=' font-thin text-[0.95rem] 2xl:text-lg outline-none border-gray-800 bg-transparent border-b-2 w-full text-gray-100' placeholder='Enter Your Mobile No' type="number" name="number" id="number" />
+                    <input onChange={(e)=>{setMobileNo(e.target.value)}} className=' font-thin text-[0.95rem] 2xl:text-lg outline-none border-gray-800 bg-transparent border-b-2 w-full text-gray-100' placeholder='Enter Your Mobile No' type="text" pattern='[1-9]{1}[0-9]{9}' name="number" id="number" />
                 </div>
 
                 </div>

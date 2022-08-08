@@ -20,8 +20,8 @@ function Section8Card({ vidSrc, bottomImg, course_name, name, thumbnail}) {
 <div>
 
 
-<iframe className=' absolute top-0 w-full h-full rounded-md' src={vidSrc}></iframe>
-<div className='w-full h-full absolute top-0 '>
+<iframe className=' absolute  top-0 w-full h-full rounded-md' src={vidSrc}></iframe>
+<div className='w-full h-full group-hover:hidden absolute top-0 '>
   <div className='w-full h-full relative '></div>
 
 {/* <img className='absolute top-0 ' src={CardImg} alt="" /> */}
@@ -29,7 +29,7 @@ function Section8Card({ vidSrc, bottomImg, course_name, name, thumbnail}) {
 <img className='absolute w-full h-full top-0 group-hover:hidden ' src={imgOverlay} alt="" />
 <img className='absolute  w-12 2xl:w-16 top-24 left-36 2xl:top-[140px] 2xl:left-[200px] group-hover:hidden' src={playIcon} alt="" />
 {/* <img className='absolute w-36 right-12 -bottom-4' src={bottomImg} alt="" /> */}
-<div className='right-12 2xl:-bottom-8 2xl:right-10 -bottom-4 absolute   bg-white flex items-center justify-center w-fit p-2 rounded-md space-x-2'>
+<div className='right-12 2xl:-bottom-8 2xl:right-10 -bottom-4 absolute  group-hover:hidden  bg-white flex items-center justify-center w-fit p-2 rounded-md space-x-2'>
   <img className='w-7 xl:w-8 xl:h-8 2xl:w-8 2xl:h-8 h-7 object-content rounded-full' src={bottomImg} alt="" />
   <div className='text-left'>
     <h3 className='text-[0.7rem] xl:text-sm 2xl:text-base font-bold text-gray-700 '>{name}</h3>

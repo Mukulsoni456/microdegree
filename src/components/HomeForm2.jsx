@@ -62,7 +62,7 @@ const onSubmit= async (e) => {
     <form onSubmit={onSubmit} action='' className=" absolute flex flex-col justify-center items-center w-full h-full p-10 px-5 space-y-3  z-20">
 
       <input required onChange={(e)=>{setName(e.target.value)}} className='w-full text-sm xl:text-xl xl:p-4 2xl:text-xl text-gray-700 p-3 px-2 rounded outline-none bg-[rgba(255,255,255,0.85)]' type="text" name="" placeholder="Your name" id="" />
-      <input required onChange={(e)=>{setContactNo(e.target.value)}} className='w-full xl:text-xl text-sm xl:p-4 2xl:text-xl text-gray-700 p-2 px-3 rounded outline-none bg-[rgba(255,255,255,0.85)]' type="number" name="" placeholder="Mobile No" id="" />
+      <input required onChange={(e)=>{setContactNo(e.target.value)}} className='w-full xl:text-xl text-sm xl:p-4 2xl:text-xl text-gray-700 p-2 px-3 rounded outline-none bg-[rgba(255,255,255,0.85)]' type="text" name="" pattern='[1-9]{1}[0-9]{9}' placeholder="Mobile No" id="" />
       <input required onChange={(e)=>{setEmail(e.target.value)}} className='w-full xl:text-xl text-sm xl:p-4 2xl:text-xl text-gray-700 p-3 px-2 rounded outline-none bg-[rgba(255,255,255,0.85)]' type="email" name="" placeholder="Email" id="" />
       {/* <input required onChange={(e)=>{setEnrollId(e.target.value)}} className='w-full text-sm 2xl:text-base text-gray-700 p-2 px-2 rounded outline-none bg-[rgba(255,255,255,0.85)]' type="text" name="" placeholder="Enroll" id="" /> */}
       
@@ -133,11 +133,11 @@ const onSubmit= async (e) => {
     </div>
   <form onSubmit={onSubmit} action='' className=" px-5 flex flex-col justify-center items-center w-full space-y-4 ">
 
-<input required onChange={(e)=>{setName(e.target.value)}} className='w-full text-base p-4  text-gray-700 rounded outline-none bg-[rgba(255,255,255,0.85)]' type="text" name="" placeholder="Your name" id="" />
+<input required onChange={(e)=>{setName(e.target.value)}} className='w-full text-base p-4  text-gray-700 rounded outline-none bg-[rgba(255,255,255,0.85)]' type="text" name="name" placeholder="Your name" id="name" />
 
-<input required onChange={(e)=>{setContactNo(e.target.value)}} className='w-full text-base p-4  text-gray-700 rounded outline-none bg-[rgba(255,255,255,0.85)]' type="number" name="" placeholder="Mobile No" id="" />
+<input required onChange={(e)=>{setContactNo(e.target.value)}} className='w-full text-base p-4  text-gray-700 rounded outline-none bg-[rgba(255,255,255,0.85)]' type="text" name="contact" pattern='[1-9]{1}[0-9]{9}'   placeholder="Mobile No" id="contactNo" />
 
-<input required onChange={(e)=>{setEmail(e.target.value)}} className='w-full text-base p-4  text-gray-700 rounded outline-none bg-[rgba(255,255,255,0.85)]' type="email" name="" placeholder="Email" id="" />
+<input required onChange={(e)=>{setEmail(e.target.value)}} className='w-full text-base p-4  text-gray-700 rounded outline-none bg-[rgba(255,255,255,0.85)]' type="email" name="email"  placeholder="Email" id="email" />
 
 <button className='bg-gradient-to-br from-orange-500 to-yellow-600 mt-2 px-4 py-4 w-full  rounded text-lg  text-white '>Submit Request</button>
 <p className='text-xs py-5 leading-5 text-white text-left'>By providing your contact details, you agree to our <a className='border-b-[0.3px] border-gray-200' href='https://pages.microdegree.work/termsnconditions.html'> Terms of Use </a> & <a className='border-b-[0.3px] border-gray-200' href='https://pages.microdegree.work/termsnconditions.html'>  Privacy Policy </a> </p>

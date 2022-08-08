@@ -44,7 +44,7 @@ function Navbar({setSearchedResults}) {
       <div className=' flex basis-1 md:basis-7/12 sm:basis-9/12 justify-start items-center '>
         <div className=' hidden max-h-[40px]  sm:block basis-5/12 flex-shrink mr-3 relative '>
       <form className="flex h-full items-center  bg-white p-[0.4rem] py-2 2xl:py-1 2xl:h-12  rounded-md">
-            <input className=' flex h-full w-full items-center justify-center text-sm 2xl:text-lg px-2 placeholder:text-sm placeholder:px-5  outline-none' onChange={(e)=> {e.target.value?setInput(e.target.value):setInput('')}}  placeholder='What do you want to learn?' type='text'></input>
+            <input className=' flex h-full w-full items-center justify-center text-sm 2xl:text-lg px-2 xl:placeholder:text-xs placeholder:text-sm 2xl:placeholder:px-5  outline-none' onChange={(e)=> {e.target.value?setInput(e.target.value):setInput('')}}  placeholder='What do you want to learn?' type='text'></input>
             <SearchIcon className='w-7 2xl:w-9 2xl:p-2 text-white p-1 rounded-md bg-[#FF2A67]'></SearchIcon>
           </form>
           <div className='border-t-2 w-full absolute z-10 '>

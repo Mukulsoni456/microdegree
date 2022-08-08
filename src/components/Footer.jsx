@@ -50,7 +50,7 @@ function Footer() {
   <div className="flex  border-b-[0.1rem] border-gray-600 py-6 ">
     <div className="basis-1/4 text-left text-white space-y-4">
       <h1 className='text-2xl w-fit 2xl:text-3xl text-center leading-3 text-bold'> <span className='text-center'>Micro </span> <br/> <span className="font-medium text-left text-3xl 2xl:text-4xl font-roboto">Degree</span></h1>
-      <p className="text-xs 2xl:text-sm 2xl:w-56 leading-5 text-gray-400 w-48 ">MicroDegree promotes the idea of practical learning where students are trained by industry experts and can enhance their career.</p>
+      <p className="text-xs 2xl:text-sm 2xl:w-56 leading-5 text-gray-400 w-48 font-light ">MicroDegree promotes the idea of practical learning where students are trained by industry experts and can enhance their career.</p>
       <div className='flex py-2 space-x-3'>
       <a href="https://www.facebook.com/MicroDegree-101072281390361/?modal=admin_todo_tour"> 
         <FontAwesomeIcon className='text-2xl hover:text-[#1DA0F0] ' icon={faFacebook}></FontAwesomeIcon></a>
@@ -69,7 +69,7 @@ function Footer() {
       </div>
     </div>
     <div className="basis-1/4 flex items-center justify-center h-full">
-      <ul className="space-y-2 text-left">
+      <ul className="space-y-2 font-light text-left">
         <li className='font-medium 2xl:text-lg text-gray-200'>Company</li>
         <li className='text-sm 2xl:text-lg text-gray-400'> <a href="https://pages.microdegree.work/about.html"> About</a></li>
         <li className='text-sm 2xl:text-lg text-gray-400'><a href="https://courses.microdegree.work/pages/premium-courses">All Courses</a></li>
@@ -79,15 +79,15 @@ function Footer() {
       </ul>
     </div>
     <div className="basis-1/4 flex items-center justify-center h-full">
-      <ul className="space-y-2 text-left">
+      <ul className="space-y-2 font-light text-left">
         <li className='font-medium 2xl:text-lg text-gray-200'>Useful Links</li>
         <li className='text-sm 2xl:text-lg text-gray-400'> <a href="https://t.me/microdegreekannada"> Community</a></li>
         <li className='text-sm 2xl:text-lg text-gray-400'> <a href="https://courses.microdegree.work/pages/free"> Free Courses</a></li>
         <li className='text-sm  2xl:text-lg text-gray-400'> <a href="https://blog.microdegree.work/">Blogs</a></li>
       </ul>
     </div>
-    <div className="basis-1/4 text-left space-y-3 text-xs 2xl:text-lg text-gray-400 px-10">
-      <h3 className='text-gray-300 text-lg 2xl:text-lg'>Contact us</h3>
+    <div className="basis-1/4 font-light text-left space-y-3 text-xs 2xl:text-lg text-gray-400 px-10">
+      <h3 className='text-gray-300 text-lg 2xl:text-lg font-medium'>Contact us</h3>
       <div className='flex space-x-2'><PhoneIcon className='w-3'></PhoneIcon>
       <p>+918310882795</p>
       </div>
@@ -98,7 +98,7 @@ function Footer() {
       <p>MicroDegree Education Private Limited (Formerly Pillpouch Healthtech Private Limited), K-tech Innovation Hub 3rd Floor, Plama Building Bejai, Mangaluru, Karnataka 575004.</p>
     </div>
   </div>
-  <div className='py-3 flex justify-between text-gray-400 text-xs'>
+  <div className='py-3 flex font-light justify-between text-gray-400 text-xs'>
     <p>Copyright @2022 Microdegree All rights reserved</p>
     <div className="flex w-64 justify-between ">
       <a href="https://pages.microdegree.work/termsnconditions.html"><p>Terms & Conditions</p></a>
@@ -109,7 +109,7 @@ function Footer() {
   </section> 
   {/* mobile version footer  */}
 
-  <div className='relative w-full h-80 overflow-hidden'>
+  <div className='sm:hidden relative w-full h-80 overflow-hidden'>
   <img className="absolute w-full z-10 top-0 object-cover h-full " src={overlay43} alt="" />
   <div className="absolute z-20 h-full w-full flex flex-col justify-center space-y-8">
     <div>
@@ -129,18 +129,18 @@ function Footer() {
   <div className='sm:hidden bg-[#364045] px-10 p-10 flex flex-col  justify-center text-white  text-left space-y-6'>
     <div className='text-left  space-y-2'>
       <h1 className='text-3xl '>Micro<span className='text-bold text-left'>Degree</span> </h1>
-      <p className='text-sm '>MicroDegree promotes the idea of practical learning with its various recorded and live courses, where students are trained by industry experts and can enhance their career.</p>
+      <p className='text-sm font-light'>MicroDegree promotes the idea of practical learning with its various recorded and live courses, where students are trained by industry experts and can enhance their career.</p>
     </div>
 
-    <div className='text-left text-sm space-y-2'>
-      <h2 className='text-lg'>Useful Links</h2>
+    <div className='text-left font-light text-sm space-y-2'>
+      <h2 className='text-lg font-medium'>Useful Links</h2>
       <div><a href="https://blog.microdegree.work/"><p className='w-full  bg-[#2E3133] p-2'>Blogs</p></a></div>
       <div><a href="https://t.me/microdegreekannada"><p className='w-full bg-[#2E3133] p-2'>Community</p></a></div>
       <div><a href="https://pages.microdegree.work/review.html"><p className='w-full bg-[#2E3133] p-2'>Reviews</p></a></div>
     </div>
 
-    <div className='text-[0.8rem] space-y-2 '>
-      <h2 className='text-lg font-semibold'>Company</h2>
+    <div className='text-[0.8rem] space-y-2 font-light '>
+      <h2 className='text-lg font-medium'>Company</h2>
       <div><a href="https://courses.microdegree.work/pages/premium-courses"><p>Courses</p></a></div>
       <p className='text-sm  text-gray-100'><a href="https://pages.microdegree.work/scholarship.html">Scholarships</a></p>
         <p className='text-sm  text-gray-100'><a href="https://courses.microdegree.work/courses/aws-certification-live">Trending Course</a></p>
