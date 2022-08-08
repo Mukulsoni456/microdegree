@@ -8,7 +8,9 @@ import section9Img4 from '../assets/home/section9/section9Img4.png'
 function HomeSection9() {
   return (
     <>
-    <div className="hidden w-full sm:block md:px-28 2xl:px-28 md:min-h-[500px] mx-auto h-full py-14 px-10 space-y-10 text-left">
+    <div className="hidden w-full sm:block md:px-28 2xl:px-28 md:min-h-[500px] mx-auto h-full py-14 px-10 space-y-2  text-left">
+    <div className='flex px-10 items-center space-x-3'><div className='bg-[#FF0049]    p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049] p-[0.15rem]   w-[0.1rem] rounded-xl'></div> <p className=' font-bold text-gray-400 tracking-[0.3em] text-xs '>News</p> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> </div>
+    <div className='space-y-10'>
   <h1 className=" text-gray-700 text-4xl sm:text-6xl 2xl:text-6xl sm:px-10"><samp className="font-semibold text-gray-700">News</samp>& <span className="font-semibold text-gray-700">Media</span> Talk </h1>
 
   <div className=" h-[340px] 2xl:h-[500px] w-full flex justify-center  space-x-4 md:px-14 overflow-y-hidden  ">
@@ -34,6 +36,7 @@ function HomeSection9() {
     <img className='w-full h-1/2 object-cover' src={section9Img3} alt="" />
     <img className='w-full h-1/2  object-cover' src={section9Img4} alt="" />
         </div>
+    </div>
     </div>
     </div>
   </div>

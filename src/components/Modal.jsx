@@ -6,7 +6,7 @@ import { addDoc, query, collection } from "firebase/firestore";
 import modal1 from "../assets/home/heroSection/modal1.png"
 const q = query(collection(db, "query"));
 
-function Modal({setViewModal, viewModal}) {
+function Modal({setViewModal, viewModal, handleAlert}) {
 
   const [Name, setName] = useState('')
   const [Email, setEmail] = useState('')
@@ -25,8 +25,9 @@ function Modal({setViewModal, viewModal}) {
     });
 
     console.log("hi this is mukul");
-  
+
     setViewModal(!viewModal);
+    handleAlert()
   };
   
     // console.log(viewModal)

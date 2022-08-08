@@ -13,7 +13,7 @@ function HomeSection6() {
 
   <div className=" w-full sm:basis-2/5 sm:min-w-[500px]  text-left space-y-3 ">
 
-  <div className='flex items-center space-x-3'><div className='bg-[#FF0049]   p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049] p-[0.15rem] h-[0.1rem] w-[0.1rem] rounded-xl'></div> <p className='uppercase font-bold text-gray-400 tracking-[0.3rem] text-xs '>Expert Trainers</p> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> </div>
+  <div className='flex items-center space-x-3'><div className='bg-[#FF0049]   p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049] p-[0.15rem] h-[0.1rem] w-[0.1rem] rounded-xl'></div> <p className=' font-bold text-gray-400 tracking-[0.3rem] text-xs '>Expert Trainers</p> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> </div>
 
     <h1 className=' text-4xl xl:text-5xl whitespace-nowrap 2xl:text-6xl text-gray-700 tracking-wide'><span className="font-bold">Industry</span> <span>Trainers.</span></h1>
     <p className="text-sm xl:text-sm xl:w-[440px] 2xl:text-base 2xl:w-[500px] text-gray-700 sm:w-[420px] ">Being one of the pioneers in teaching IT Skills in regional language, you will be learning these skills from our own ಕನ್ನಡಿಗ Trainers</p>

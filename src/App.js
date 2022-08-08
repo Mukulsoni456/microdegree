@@ -27,6 +27,15 @@ import { useState } from 'react';
 function App() {
 
   const [searchedResults, setSearchedResults] = useState([])
+  const [alertStatus, setAlertStatus] = useState(false)
+
+  
+  const handleAlert =()=>{
+    setAlertStatus(!alertStatus)
+    setTimeout(() => (
+      setAlertStatus(false)
+    ), 2000);
+  }
 
   return (
     <div className="App relative w-full h-full overflow-x-hidden overflow-y-hidden font-poppins ">
@@ -231,13 +240,25 @@ function App() {
         </div>
 
 {/* Home section starts here */}
-      <div className='  overflow-x-hidden '>
+      <div className='  overflow-x-hidden w-full h-full relative '>
+
+         <div className={` ${alertStatus?"block":'hidden'} fixed z-40 w-full h-screen flex justify-center items-end py-5`}>
+          <div class="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 px-4 py-1 shadow-md" role="alert">
+      <div class="flex">
+        <div class="py-1"><svg class="fill-current h-6 w-6 text-teal-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"/></svg></div>
+        <div>
+          <p class="font-bold">Successfully Submitted</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
 
       <Router>
       <Navbar setSearchedResults={setSearchedResults}></Navbar>
       <Routes>
         {
-          searchedResults.length!=0?<Route exact path="/" element={<SearchedOutput searchedResults={searchedResults} setSearchedResults={setSearchedResults}></SearchedOutput>}/>:<Route exact path="/" element={<Home></Home>}/>
+          searchedResults.length!=0?<Route exact path="/" element={<SearchedOutput searchedResults={searchedResults} setSearchedResults={setSearchedResults}></SearchedOutput>}/>:<Route exact path="/" element={<Home handleAlert={handleAlert}></Home>}/>
         }
         {/* <Route exact path="/courses" element={<CoursePage></CoursePage>}/> */}
         

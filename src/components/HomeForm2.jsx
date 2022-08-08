@@ -49,12 +49,12 @@ const onSubmit= async (e) => {
 
   <img className=' w-[350px] xl:w-[400px] 2xl:w-[450px]  object-contain' src={section10bg} alt="" />
 </div>
-<div className="w-80 xl:w-[370px] 2xl:w-[410px] h-[440px] absolute right-4 top-3  z-10  ">
+<div className="w-80 xl:w-[370px] 2xl:w-[410px] h-[510px] xl:h-[560px] absolute right-4 top-3  z-10  ">
   <div className="relative w-full h-full">
   <img className="object-fit absolute" src={rectangle40} alt="" />
     <img className="object-fit z-10 absolute" src={rectangle41} alt="" />
-    <div className='relative w-full h-full'>
-    <div className={`${formAlert?'block':'hidden'} bg-opacity-90 bg-gray-900 z-30 top-0 w-full p-5 flex justify-center items-center flex-col h-full absolute space-y-4`}>
+
+    <div className={` ${formAlert?'block':'hidden'} bg-opacity-90 bg-gray-900 z-30 top-0 w-full p-5 flex justify-center items-center flex-col h-full absolute space-y-4`}>
       <CheckIcon className='w-16 bg-gradient-to-br animate-popup from-orange-500 to-yellow-500 text-white p-3 rounded-full'></CheckIcon>
       <p className='font-bold text-white text-2xl'>Thanks for submitting </p>
       <p className='text-sm text-white'>You have successfully submitted the form | For re-submitting <span className='text-yellow-500 cursor-pointer ' onClick={()=>setFormAlert(!formAlert)}> Click here</span> </p>
@@ -92,14 +92,13 @@ const onSubmit= async (e) => {
     </div>
   </div>
   </div>
-  </div>
 </div>
 
 {/* secttion10 part 2 */}
 
 
 <div className=" sm:block hidden shrink basis-1/2 p-5 space-y-6">
-<div className='flex items-center space-x-3'><div className='bg-[#FF0049]   p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049] p-[0.15rem]   w-[0.1rem] rounded-xl'></div> <p className='uppercase font-bold text-gray-400 tracking-widest text-xs '>About Microdegree</p> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> </div>
+<div className='flex items-center space-x-3'><div className='bg-[#FF0049]   p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049] p-[0.15rem]   w-[0.1rem] rounded-xl'></div> <p className=' font-bold text-gray-400 tracking-widest text-xs '>About Microdegree</p> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> </div>
 
   <div className=" w-full text-left space-y-5 ">
     

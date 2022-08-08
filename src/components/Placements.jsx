@@ -20,8 +20,14 @@ function CmnSection2() {
     <div className='px-10 sm:px-28 xl:px-20  2xl:px-20  py-10 w-full h-full space-y-5'>
     <div className='flex items-center space-x-3'><div className='bg-[#FF0049]   p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049] p-[0.15rem]   w-[0.1rem] rounded-xl'></div> <p className=' font-bold text-gray-400 tracking-[0.4em] text-xs xl:text-sm 2xl:text-base '>Success Stories</p> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> <div className='bg-[#FF0049]  p-[0.15rem] h-[0.2rem] w-[0.2rem] rounded-xl'></div> </div>
 <div className="  space-y-10 text-left">
-
+  <div className='w-full justify-between flex'>
   <h1 className="text-4xl sm:text-5xl 2xl:text-6xl  sm:tracking-[0.04em] space-x-2 text-gray-800"><span className="font-[600] text-gray-700">Placement</span> Diaries</h1>
+  <div>
+<a href="https://courses.microdegree.work/pages/premium-courses">
+      <button className="h-fit  bg-[#FF0049] text-white text-base rounded-md px-5 py-2 ">View More</button>
+      </a>
+      </div>
+  </div>
   <div className="flex w-full justify-between flex-wrap sm:flex-nowrap sm:overflow-x-scroll sm:space-x-3">
     <PlacementCard title='Jeevan Kumar' desc='Cloud Engineer'  cardImg={jeevan} logoImg='https://gitlab.niveussolutions.com/uploads/-/system/appearance/header_logo/1/niveus_logo.png' ></PlacementCard>
     <PlacementCard title='Pratik Bhusanur' desc='DevOps Engineer' cardImg={pratik} logoImg='https://boomi.com/wp-content/uploads/2016/09/lt-infotech-logo.png' ></PlacementCard>

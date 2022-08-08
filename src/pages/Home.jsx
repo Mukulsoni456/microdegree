@@ -15,7 +15,7 @@ import NewsMedia from "../components/News&Media";
 import Recognisation from "../components/RecognisationSection"
 
 
-function Home() {
+function Home({handleAlert}) {
 const [videoModal, setvideoModal] = useState(false);
 const [viewModal, setViewModal] = useState(false);
 const [videoOutput, setVideoOutput]= useState()
@@ -29,7 +29,7 @@ const [videoOutput, setVideoOutput]= useState()
       <div className="main_container relative">
         {
           viewModal && 
-          <Modal  viewModal={viewModal} setViewModal={setViewModal} ></Modal>
+          <Modal handleAlert={handleAlert}  viewModal={viewModal} setViewModal={setViewModal} ></Modal>
         }
         {
           videoModal && 
