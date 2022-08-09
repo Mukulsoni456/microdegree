@@ -12,7 +12,7 @@ function VideoCard({handleVideo, vidthumb, title}) {
       
 
       <div>
-        <p className='px-2 py-2 text-gray-800 text-sm whitespace-nowrap'>{title}</p>
+        <p className='px-2 py-2 text-gray-800 text-[0.8rem] whitespace-nowrap'>{title}</p>
       </div>
     </div>
   )

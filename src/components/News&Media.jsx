@@ -67,7 +67,31 @@ function HomeSection9() {
 </div>
 
 {/* for Mobile */}
-<div className='sm:hidden font-poppins p-5 space-y-7'>
+
+<div className='p-6 sm:hidden font-poppins space-y-8'>
+<div className='text-left'>
+    <h1 className=" -500 text-3xl tracking-[0.2rem] text-gray-700 "> News & </h1>
+  <h1 className=" text-5xl uppercase  font-bold text-gray-700"> Media Talk</h1>
+  </div>
+  <div className='flex flex-col space-y-6 '>
+  <div className='h-full'><iframe className='h-56 w-full object-cover' src="https://www.youtube.com/embed/y9yhmSQ6qlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+  <img src={news1} className='w-full object-contain' alt="" />
+  <img src={news4} className='w-full h-full object-contain ' alt="" />
+  <img src={news22} className='w-full object-contain' alt="" />
+  <img src={news3} className='w-full object-contain' alt="" />
+
+
+  {/* <div className=' h-full  relative'><img src={news22} className='w-44  absolute object-cover' alt="" /></div>
+
+  <div className='h-full overflwo-hidden relative'><img src={news3} className='w-44 h absolute ' alt="" /></div>
+
+  <div className=' h-full overflwo-hidden relative'><img src={news4} className='w-44 absolute ' alt="" /></div> */}
+
+
+  </div>
+</div>
+{/* <div className='sm:hidden font-poppins p-5 space-y-7'>
   <div className='space-y-1  flex flex-col items-center text-left'>
     <div className='text-left'>
     <h1 className=" -500 text-3xl tracking-[0.2rem] text-gray-700 "> News & </h1>
@@ -88,7 +112,7 @@ function HomeSection9() {
     <img className='w-full h-1/2 absolute bottom-0 -z-10 object-contain' src={section9Img4} alt="" />
     </div>
   </div>
-</div>
+</div> */}
 </>
   )
 }
