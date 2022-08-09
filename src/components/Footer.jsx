@@ -107,8 +107,8 @@ function Footer() {
   </div>
   </section> 
   {/* mobile version footer  */}
-
   <div className='sm:hidden relative w-full h-80 overflow-hidden'>
+    <a href="https://play.google.com/store/apps/details?id=org.microdegree.com.app.exp">
   <img className="absolute w-full z-10 top-0 object-cover h-full " src={overlay43} alt="" />
   <div className="absolute z-20 h-full w-full flex flex-col justify-center space-y-8">
     <div>
@@ -122,7 +122,7 @@ function Footer() {
 
         <img className="absolute  object-contain w-56 -bottom-48 2xl:w-72 2xl:-bottom-72 2xl:left-[200px] left-[170px]" src={phone1} alt="" />
         <img className="absolute  object-contain w-56 -bottom-44 2xl:w-72 2xl:-bottom-52 " src={phone2} alt="" />
-
+        </a>
   </div>
 
   <div className='sm:hidden bg-[#364045] px-10 p-10 flex flex-col  justify-center text-white  text-left space-y-6'>
@@ -138,21 +138,45 @@ function Footer() {
       <div><a href="https://t.me/microdegreekannada"><p className='w-full bg-[#2E3133] p-2'>Community</p></a></div>
       <div><a href="https://pages.microdegree.work/review.html"><p className='w-full bg-[#2E3133] p-2'>Reviews</p></a></div>
       </div> */}
-      <p><a href='https://blog.microdegree.work/'>Blogs</a> | <a href='https://t.me/microdegreekannada'>Community</a> | <a href="https://pages.microdegree.work/review.html">Rewiews</a></p>
+      <p> <a href='https://t.me/microdegreekannada'>Community</a> | <a href='https://courses.microdegree.work/pages/free'>Free Courses</a> | <a href='https://blog.microdegree.work/'>Blogs</a></p>
     </div>
 
     <div className='text-[0.8rem] space-y-2 font-light '>
       <h2 className='text-lg font-medium'>Company</h2>
-      <div><a href="https://courses.microdegree.work/pages/premium-courses"><p>Courses</p></a></div>
-      <p className='text-sm  text-gray-100'><a href="https://pages.microdegree.work/scholarship.html">Scholarships</a></p>
-        <p className='text-sm  text-gray-100'><a href="https://courses.microdegree.work/courses/aws-certification-live">Trending Course</a></p>
-      <div className='text-sm'><Link to='hero' activeClass="active"
-     spy={true}
-     smooth={true}
-     offset={-100}
-     duration={500}>Contact us</Link>
-     </div>
+      <p className='text-sm'> <a href="https://courses.microdegree.work/pages/premium-courses" >Courses</a> | <a href="https://pages.microdegree.work/scholarship.html" >Scholarship</a> | <a href="https://courses.microdegree.work/courses/aws-certification-live" >Trending Course</a></p>
+    
+    </div>
+    <div className="font-light flex flex-col justify-center items-center space-y-3 text-sm  text-gray-200 ">
+      <h3 className=' text-2xl font-medium'>Contact us</h3>
 
+      
+      <p className='text-center '>MicroDegree Education Private Limited (Formerly Pillpouch Healthtech Private Limited), K-tech Innovation Hub 3rd Floor, Plama Building Bejai, Mangaluru, Karnataka 575004.</p>
+      <div className='flex py-2 space-x-3'>
+      <a href="https://www.facebook.com/MicroDegree-101072281390361/?modal=admin_todo_tour"> 
+        <FontAwesomeIcon className='text-2xl hover:text-[#1DA0F0] ' icon={faFacebook}></FontAwesomeIcon></a>
+
+        {/* <a href="https://mobile.twitter.com/micro_degree">
+        <FontAwesomeIcon className='text-sm p-[0.3rem] bg-white rounded-full text-[#364045] hover:bg-[#1DA0F0] ' icon={faTwitter}></FontAwesomeIcon></a>
+         */}
+        <a href="https://www.linkedin.com/company/microdegree/?viewAsMember=true">
+        <FontAwesomeIcon className='text-sm p-[0.3rem] bg-white rounded-full text-[#364045] hover:bg-[#1DA0F0] ' icon={faLinkedin}></FontAwesomeIcon></a>
+
+        <a href="https://www.youtube.com/channel/UCu8l4v6xqQd8LfOfd0kMPsA">
+        <FontAwesomeIcon className='text-sm p-[0.3rem] bg-white rounded-full text-[#364045] hover:bg-[#1DA0F0] ' icon={faYoutube}></FontAwesomeIcon></a>
+
+        <a href="https://www.instagram.com/microdegree.work/?hl=en">
+        <FontAwesomeIcon className='text-sm p-[0.3rem] bg-white rounded-full text-[#364045] hover:bg-[#1DA0F0] ' icon={faInstagram}></FontAwesomeIcon></a>
+      </div>
+
+      <div className-='flex justify-center flex-col'>
+      <div className='flex justify-center space-x-2 text-xs'><PhoneIcon className='w-3'></PhoneIcon>
+      <p>804-710-9999</p>
+      </div>
+      <div className='flex justify-center space-x-2 text-xs'><MailIcon className='w-4'></MailIcon>
+      <p>hello@microdegree.work</p>
+      </div>
+
+      </div>
     </div>
   </div>
 </footer>

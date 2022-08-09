@@ -19,7 +19,9 @@ function Home({handleAlert}) {
 const [videoModal, setvideoModal] = useState(false);
 const [viewModal, setViewModal] = useState(false);
 const [videoOutput, setVideoOutput]= useState()
-
+const [learnerVideo, setLearnerVideo]= useState('')
+const [learnerModal, setLearnerModal]= useState(false)
+console.log(learnerVideo)
 
   return (
     <div className="relative overflow-x-hidden">
@@ -36,6 +38,11 @@ const [videoOutput, setVideoOutput]= useState()
 
           <VideoModal vidLink={videoOutput.link} vidTitle={videoOutput.title} setvideoModal={setvideoModal} videoModal={videoModal}></VideoModal>
         }
+        {
+          learnerModal && 
+
+          <VideoModal setvideoModal={setLearnerModal} videoModal={learnerModal} vidLink={learnerVideo}  ></VideoModal>
+        }
 
 
 {/* ************************************* Hero section ********************************  */}
@@ -48,7 +55,7 @@ const [videoOutput, setVideoOutput]= useState()
 <Placements></Placements>
 <IndustryTrainers></IndustryTrainers>
 <HomeForm1></HomeForm1>
-<Learners></Learners>
+<Learners learnerVideo={learnerVideo} setLearnerModal={setLearnerModal} learnerModal={learnerModal} setLearnerVideo={setLearnerVideo}></Learners>
 <NewsMedia></NewsMedia>
 <HomeForm2></HomeForm2>
       </div>

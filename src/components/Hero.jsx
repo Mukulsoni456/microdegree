@@ -65,7 +65,7 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
           MicroDegree is an <span className='text-purple-700'> Ed-tech platform</span> teaching <span className='text-purple-700' >coding & job-ready </span>skills in Kannada at an affordable price.
         </p>
         <div className='space-x-8'>
-          <button onClick={()=>setViewModal('77')} className=" p-3 px-9 bg-[#FF0049] text-white text-sm 2xl:text-base rounded-md">Free Consultation</button>
+          <button onClick={()=>setViewModal('77')} className=" p-[0.9rem] px-9 bg-[#FF0049] text-white text-base 2xl:text-lg rounded-md">Free Consultation</button>
          <a href="https://courses.microdegree.work/pages/premium-courses"><button className='rounded-md p-2 px-5 border-2 font-medium border-purple-700 text-purple-700 text-sm'>All Courses</button></a>
         </div> 
         </div>

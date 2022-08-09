@@ -30,9 +30,9 @@ const onSubmit= async (e) => {
   return (
     <div className="py-10 w-full">
   <div className="w-full h-[530px] sm:h-[500px] xl:h-[500px] 2xl:h-[530px] relative overflow-hidden">
-    <img className='absolute top-10 sm:min-w-[800px] w-full h-64 object-cover overflow-x-hidden ' src={imageHolder} alt="" />
-    <div className='w-full h-fit  sm:h-64 z-10 relative sm:flex '>
-      <div className=" hidden h-full basis-0 sm:basis-1/2 md:flex flex-col items-center justify-center mt-8 ">
+    <img className='absolute top-24 sm:min-w-[800px] w-full h-64 object-cover overflow-x-hidden ' src={imageHolder} alt="" />
+    <div className='w-full h-fit  sm:h-64 z-10 relative sm:flex'>
+      <div className=" hidden h-full basis-0 sm:basis-1/2 md:flex flex-col items-center justify-center mt-20 ">
         <div className="text-white 2xl:mt-8 flex flex-col justify-center text-left space-y-2">
         <p className="text-sm 2xl:text-xl font-roboto">A good discount opportunity</p>
         <h3 className='text-4xl xl:text-5xl 2xl:text-5xl '>Save 15% on AWS</h3>
@@ -40,9 +40,9 @@ const onSubmit= async (e) => {
         </div>
 
       </div>
-      <div className=" relative w-full basis-1 h-full md:basis-1/2 flex justify-center  md:block">
+      <div className=" relative w-full  h-full md:basis-1/2 flex justify-center  md:block">
 
-      <form className='h-full' onSubmit={onSubmit} action="">
+      <form className='h-full w-full' onSubmit={onSubmit} action="">
       <div className="relative pb-14 sm:pb-5 w-full xl:w-[430px] xl:h-[900px] sm:w-72 2xl:w-[450px] h-fit 2xl:h-[800px] bg-gray-100 rounded-md ">
       <div className={` ${formAlert?'block':'hidden'} bg-opacity-90 bg-black z-30 top-0 w-full p-5 flex justify-start py-24 items-center flex-col h-full absolute space-y-4`}>
       <CheckIcon className='w-16 bg-gradient-to-br animate-popup from-orange-500 to-yellow-500 text-white p-3 rounded-full'></CheckIcon>
@@ -56,15 +56,15 @@ const onSubmit= async (e) => {
         <div className=" px-3  sm:px-7 xl:px-7 py-10 sm:py-5 2xl:py-10 ovrflow-visible space-y-7">
         <div className='w-full text-left space-y-1'>
                     <p className='text-base 2xl:text-base text-gray-900'>Your Name</p>
-                    <input onChange={(e)=>{setName(e.target.value)}} className='  text-lg 2xl:text-lg outline-none border-gray-400 bg-transparent border-b-2 w-full text-gray-900' placeholder='Your Name' type="text" name="name" id="name" />
+                    <input onChange={(e)=>{setName(e.target.value)}} className='  text-lg 2xl:text-lg outline-none border-gray-400 bg-transparent border-b-2 w-full text-gray-900' title='Please enter your name' placeholder='Your Name' type="text" name="name" id="name" />
                 </div>
                 <div className='w-full text-left space-y-1'>
                     <p className='text-base 2xl:text-base text-gray-900'>Email</p>
-                    <input onChange={(e)=>{setEmail(e.target.value)}} className='  text-lg 2xl:text-lg outline-none border-gray-400 bg-transparent border-b-2 w-full text-gray-900' placeholder='Enter Your Email Address' type="email" name="email" id="email" />
+                    <input onChange={(e)=>{setEmail(e.target.value)}} className='  text-lg 2xl:text-lg outline-none border-gray-400 bg-transparent border-b-2 w-full text-gray-900' title='Please enter a valid email address' placeholder='Enter Your Email Address' type="email" name="email" id="email" />
                 </div>
                 <div className='w-full text-left space-y-1'>
                     <p className='text-base 2xl:text-base text-gray-900'>Mobile No</p>
-                    <input onChange={(e)=>{setContactNo(e.target.value)}} className='  text-lg  2xl:text-lg outline-none border-gray-400 bg-transparent border-b-2 w-full text-gray-900' placeholder='Enter Your Mobile No' type="text" pattern='[1-9]{1}[0-9]{9}' name="number" id="number" />
+                    <input onChange={(e)=>{setContactNo(e.target.value)}} className='  text-lg  2xl:text-lg outline-none border-gray-400 bg-transparent border-b-2 w-full text-gray-900' title='Please enter a 10 digit mobile no' placeholder='Enter Your Mobile No' type="text" pattern='[1-9]{1}[0-9]{9}' name="number" id="number" />
                 </div>
                 <button className="w-full my-2 py-4 xl:p-3 xl:px-6 2xl:py-4 2xl:px-8  bg-[#FCAA2D] sm:rounded-md text-base xl:text-lg 2xl:text-xl text-white">Get it Now</button>
         </div>

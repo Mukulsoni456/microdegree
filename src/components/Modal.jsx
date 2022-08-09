@@ -50,15 +50,15 @@ function Modal({setViewModal, viewModal, handleAlert}) {
                 <div className='space-y-7'>
                 <div className='w-full text-left'>
                     <p className='text-sm 2xl:text-base text-gray-100'>Your Name</p>
-                    <input onChange={(e)=>{setName(e.target.value)}} className='  text-[0.95rem] 2xl:text-lg outline-none border-gray-800 bg-transparent border-b-2 w-full text-gray-100' placeholder='Your Name' type="text" name="name" id="name" />
+                    <input onChange={(e)=>{setName(e.target.value)}} className='  text-[0.95rem] 2xl:text-lg outline-none border-gray-800 bg-transparent border-b-2 w-full text-gray-100' title='Please enter your name' placeholder='Your Name' type="text" name="name" id="name" />
                 </div>
                 <div className='w-full text-left'>
                     <p className='text-sm 2xl:text-base text-gray-100'>Email</p>
-                    <input onChange={(e)=>{setEmail(e.target.value)}} className='  text-[0.95rem] 2xl:text-lg outline-none border-gray-800 bg-transparent border-b-2 w-full text-gray-100' placeholder='Enter Your Email Address' type="email" name="email" id="email" />
+                    <input onChange={(e)=>{setEmail(e.target.value)}} className='  text-[0.95rem] 2xl:text-lg outline-none border-gray-800 bg-transparent border-b-2 w-full text-gray-100' title='Please enter a valid email address' placeholder='Enter Your Email Address' type="email" name="email" id="email" />
                 </div>
                 <div className='w-full text-left'>
                     <p className='text-sm 2xl:text-base text-gray-100'>Mobile No</p>
-                    <input onChange={(e)=>{setMobileNo(e.target.value)}} className='text-[0.95rem] 2xl:text-lg outline-none border-gray-800 bg-transparent border-b-2 w-full text-gray-100' placeholder='Enter Your Mobile No' type="text" pattern='[1-9]{1}[0-9]{9}' name="number" id="number" />
+                    <input onChange={(e)=>{setMobileNo(e.target.value)}} className='text-[0.95rem] 2xl:text-lg outline-none border-gray-800 bg-transparent border-b-2 w-full text-gray-100' title='Please enter a 10 digit mobile no' placeholder='Enter Your Mobile No' type="text" pattern='[1-9]{1}[0-9]{9}' name="number" id="number" />
                 </div>
 
                 </div>
