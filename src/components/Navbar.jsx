@@ -22,7 +22,7 @@ function Navbar({setSearchedResults}) {
         setSearchOutput([])
       }
       else{
-        setSearchOutput(Courses.filter((item)=> keys.some((key)=>item[key].toLowerCase().includes(input))))
+        setSearchOutput(Courses.filter((item)=> keys.some((key)=>item[key].toLowerCase().includes(input.toLowerCase()))))
       }
         
 }
