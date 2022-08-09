@@ -50,7 +50,7 @@ function Footer() {
   <div className="flex  border-b-[0.1rem] border-gray-600 py-6 ">
     <div className="basis-1/4 text-left text-white space-y-4">
       <h1 className='text-2xl w-fit 2xl:text-3xl text-center leading-3 text-bold'> <span className='text-center'>Micro </span> <br/> <span className="font-medium text-left text-3xl 2xl:text-4xl font-roboto">Degree</span></h1>
-      <p className="text-xs 2xl:text-sm 2xl:w-56 leading-5 text-gray-400 w-48 font-light ">MicroDegree promotes the idea of practical learning where students are trained by industry experts and can enhance their career.</p>
+      <p className="text-xs 2xl:text-sm 2xl:w-56 leading-5 text-gray-400 w-48 font-light ">MicroDegree is an Ed-tech platform teaching coding & job-ready skills in Kannada at an affordable price</p>
       <div className='flex py-2 space-x-3'>
       <a href="https://www.facebook.com/MicroDegree-101072281390361/?modal=admin_todo_tour"> 
         <FontAwesomeIcon className='text-2xl hover:text-[#1DA0F0] ' icon={faFacebook}></FontAwesomeIcon></a>
@@ -128,7 +128,7 @@ function Footer() {
   <div className='sm:hidden bg-[#364045] px-10 p-10 flex flex-col  justify-center text-white  text-left space-y-6'>
     <div className='text-left  space-y-2'>
       <h1 className='text-3xl '>Micro<span className='text-bold text-left'>Degree</span> </h1>
-      <p className='text-sm font-light'>MicroDegree promotes the idea of practical learning with its various recorded and live courses, where students are trained by industry experts and can enhance their career.</p>
+      <p className='text-sm font-light'>MicroDegree is an Ed-tech platform teaching coding & job-ready skills in Kannada at an affordable price.</p>
     </div>
 
     <div className='text-left font-light text-sm space-y-2'>
