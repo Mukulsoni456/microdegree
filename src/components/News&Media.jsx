@@ -7,6 +7,7 @@ import news1 from '../assets/home/section9/news1.jpg'
 import news22 from '../assets/home/section9/news2.jpg'
 import news3 from '../assets/home/section9/news3.jpg'
 import news4 from '../assets/home/section9/news4.jpg'
+import news5 from '../assets/home/section9/news5.jpg'
 
 
 function HomeSection9() {
@@ -59,7 +60,7 @@ function HomeSection9() {
 
     <div className=' basis-1/3 space-x-2 flex w-full h-full'>
     <div className='basis-1/2 h-full overflwo-hidden relative'><img src={news3} className='w-full h-full absolute ' alt="" /></div>
-    <div className='basis-1/2 h-full overflwo-hidden relative'><img src={news4} className='w-full h-full absolute ' alt="" /></div>
+    <div className='basis-1/2 h-full overflwo-hidden relative'><img src={news5} className='w-full h-full absolute ' alt="" /></div>
     </div>
     </div>
   </div>
@@ -77,7 +78,7 @@ function HomeSection9() {
   <div className='h-full'><iframe className='h-56 w-full object-cover' src="https://www.youtube.com/embed/y9yhmSQ6qlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
   <img src={news1} className='w-full object-contain' alt="" />
-  <img src={news4} className='w-full h-full object-contain ' alt="" />
+  <img src={news5} className='w-full h-full object-contain ' alt="" />
   <img src={news22} className='w-full object-contain' alt="" />
   <img src={news3} className='w-full object-contain' alt="" />
 
