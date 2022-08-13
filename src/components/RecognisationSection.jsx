@@ -19,7 +19,7 @@ function HomeSection3() {
     
     </div>
 
-    <div className=" w-full h-full flex flex-wrap space-x-2 items-center justify-around align-center px-10 sm:px-24">
+    <div className=" w-full h-full flex flex-wrap space-x-2 items-center justify-around 2xl:justify-center 2xl:space-x-6 align-center px-10 sm:px-24">
       <img className=" w-[89px] xl:w-36 2xl:w-[200px] sm:w-32 object-contain" src={brandLogo1} alt="" />
       <img className=" w-[89px] xl:w-36 2xl:w-[200px] sm:w-32 object-contain" src={brandLogo2} alt="" />
       <img className=" w-[89px] xl:w-36 2xl:w-[200px] sm:w-32 object-contain" src={brandLogo3} alt="" />
@@ -28,7 +28,7 @@ function HomeSection3() {
     </div>
 
 
-    <div className=" w-full h-full flex flex-wrap items-center justify-between sm:space-x-2 ">
+    <div className=" w-full h-full flex flex-wrap items-center justify-around 2xl:justify-center sm:space-x-2 2xl:space-x-8 ">
       <RecognisationCard title='Recognized by KDM' desc='BTS event organised by Karnataka Digital Economy Mission ' date='21' month='nov' cardImg={section3Img1}></RecognisationCard>
       <RecognisationCard title='Winning Elevate' desc='Chosen as Top 100 startups by Govt of Karnataka ' date='20' month='mar' cardImg={section3Img2}></RecognisationCard>
       <RecognisationCard title='Recieving Award for IEEE' desc='Recognized by IEEE for impacting 3000+ rural tech talents ' date='21' month='feb' cardImg={section3Img3}></RecognisationCard>

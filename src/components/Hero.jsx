@@ -53,9 +53,9 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
       // sm:px-14 xl:px-18 2xl:px-24
   return (
     <div>
-    <div className='sm:flex h-[650px] xl:px-18 2xl:px-24 px-10  items-center hidden '>
-    <div className="w-full h-full flex items-center pb-10 xl:mt-20 2xl:mt-14">
-      <div className=" px-5 overflow-visible w-fit   h-fit min-w-[380px] text-left space-y-9">
+    <div className='sm:flex w-full  h-[650px] px-10 md:px-14 xl:px-18 2xl:px-18  items-center hidden '>
+    <div className="w-full h-full basis-1/2 flex items-center pb-10 xl:mt-20 2xl:mt-14">
+      <div className=" px-5 overflow-visible w-fit   h-fit min-w-[380px]  text-left space-y-9">
         <div className="space-y-7 min-w-[450px] max-w-[600px] 2xl:max-w-[600px]">
         <a href="https://courses.microdegree.work/courses/aws-developer-certification-live"> <span className='text-[#FBBE53] font-bold font-roboto text-[0.5rem] 2xl:text-[0.7rem] uppercase tracking-wide bg-[rgb(252,200,88)] bg-opacity-30 px-2 2xl:text-xs  py-1'>Save 15% on AWS</span></a>
         <h1 className='text-3xl xl:text-4xl sm:text-[2.3rem] sm:leading-[2.4rem] 2xl:text-5xl font-bold leading-[2.4rem] 2xl:leading-[3.1rem] text-gray-700'>
@@ -79,13 +79,16 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
           <VideoCard handleVideo={handleVideo1} vidthumb={thumbnail3} title="How to enroll to courses?" ></VideoCard>
         </div>
       </div>
-      <div className='px-10  relative'>
-        <img className='2xl:w-[520px] w-[450px] xl:w-[500px] ' src={heroImg1} alt="" />
-        <img className='sm:w-24 xl:w-36 2xl:w-44 absolute top-56 -left-0' src={Group19} alt="" />
-        <img className='sm:w-10 xl:w-14 2xl:w-20 right-10  top-20  absolute' src={Group1351} alt="" />
-      </div>
+
       {/* basis-1 sm:px-14 flex-shrink flex sm:justify-start py-10 */}
     </div>
+    <div className='px-10 basis-1/2 relative'>
+      <div className='w-fit relative'>
+        <img className='2xl:w-[520px] w-[450px] xl:w-[500px] ' src={heroImg1} alt="" />
+        <img className='sm:w-24 xl:w-36 2xl:w-44 absolute top-64 -left-0' src={Group19} alt="" />
+        <img className='sm:w-10 xl:w-20 2xl:w-20 right-5  top-10  absolute' src={Group1351} alt="" />
+      </div>
+      </div>
   </div>
 
 
@@ -99,8 +102,7 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
            <span className='text-orange-400 '>ಕನ್ನಡಿಗರಿಗೆ</span> IT Job Ready ಮಾಡುವ <span className='text-orange-400'> ಅಭಿಯಾನ</span> 
          </h1>
          <p className="text-sm font-medium  w-[19rem]">
-           MicroDegree is an Ed-tech platform teaching coding & job-ready
-           skills in Kannada at an affordable price.
+         MicroDegree is an <span className='text-purple-700'> Ed-tech platform</span> teaching <span className='text-purple-700' >coding & job-ready </span>skills in Kannada at an affordable price.
          </p>
          <div className='space-x-8'>
            <button onClick={()=>setViewModal('77')} className=" p-3 px-4 bg-[#FF0049] text-white text-sm rounded-md">Free Consultation</button>

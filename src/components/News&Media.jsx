@@ -46,7 +46,7 @@ function HomeSection9() {
 <div className='w-full space-y-6'>
 <h1 className=" text-gray-700 text-left text-4xl sm:text-6xl 2xl:text-6xl "><samp className="font-semibold text-gray-700">News</samp>& <span className="font-semibold text-gray-700">Media</span> Talk </h1>
 
-<div className='flex h-[400px] 2xl:h-[500px] w-full space-x-5'>
+<div className='flex h-[400px] 2xl:h-[540px] space-x-3 w-full '>
   <div className='basis-1/2 h-full '><img src={news1} className='h-full w-full object-contain' alt="" /></div>
   <div className='basis-3/5 space-y-3 flex flex-col w-full h-full'>
 

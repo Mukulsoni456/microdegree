@@ -48,7 +48,7 @@ console.log(title.length)
   <div className='h-full w-full p-4 space-y-3'>
   <div className='flex justify-between'>
         <p className={`text-center flex items-center p-1 ${categoryColor} text-white px-2 '}  rounded-md text-xs`}>{category}</p>
-        <div className={`${price==='FREE'?'text-green-500':"text-yellow-500"} font-medium text-lg 2xl:text-2xl 2xl:font-semibold`}>Rs. {price}</div>
+        <div className={`${price==='FREE'?'text-green-500':"text-yellow-500"} font-medium text-lg 2xl:text-2xl 2xl:font-semibold`}>₹.{price}</div>
     </div>
     <p className="font-medium w-3/4 text-lg 2xl:text-2xl font-roboto mb-2 ">{title}</p>
     <p className="text-gray-700 2xl:text-[0.9rem] text-[0.7rem] line-clamp-3">{desc}</p>
