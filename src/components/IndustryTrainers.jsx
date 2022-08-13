@@ -145,14 +145,12 @@ function HomeSection6() {
   <p className="text-sm  text-gray-700  ">Get an opportunity to learn directly from these industry veterans who work at top companies. They have joined our mission to give back to the Kannada community. Their vision is to empower every Kannadiga to get their dream job.</p>
 </div>
 <div className='min-w-{100%} space-x-5 flex overflow-x-scroll'>
-<TrainerCard title='Vinay' top_logo={amazon_logo} desc='Vinay sir is an industry leading trainer with wide experience teaching students from top companies. He works as a cloud architect  managing the network infrastructure.' profession='Cloud Engineer' bottom_logo={walmart} cardColor='bg-gray-100' propColor='text-white'></TrainerCard>
 
-
-<TrainerCard title='Mithun' top_logo={powerBi_logo} desc='Mithun sir is the top architect in his organization. He has expertise in scaling systems to millions of web traffic.' bottom_logo={harman} cardColor='bg-white' profession=' Senior Cloud Engineer' propColor='text-gray-200'></TrainerCard>
-
-
-
-<TrainerCard title='Ananth Krishna' top_logo={mern_logo} desc='Ananth krishna sir is a udemy top AWS trainer. He has speciality experience in training students from US and other countries.' bottom_logo={matchmove} cardColor='bg-white' propColor='text-gray-200'></TrainerCard>
+{
+  trainers.map(item=>(
+    <TrainerCard key={item.id} title={item.trainer_name} desc={item.trainer_desc} profession={item.profession} top_logo={item.top_logo} bottom_logo={item.bottom_logo} propColor={item.propColor} cardColor={item.cardColor}></TrainerCard>
+  ))
+}
 
 {/* added for scroll functionability */}
 <div className='min-w-[80px]'>.</div>
