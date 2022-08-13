@@ -107,6 +107,7 @@ function Footer() {
   </div>
   </section> 
   {/* mobile version footer  */}
+
   <div className='sm:hidden relative w-full h-80 overflow-hidden'>
     <a href="https://play.google.com/store/apps/details?id=org.microdegree.com.app.exp">
   <img className="absolute w-full z-10 top-0 object-cover h-full " src={overlay43} alt="" />
@@ -147,10 +148,10 @@ function Footer() {
     
     </div>
     <div className="font-light flex flex-col justify-center items-center space-y-3 text-sm  text-gray-200 ">
-      <h3 className=' text-2xl font-medium'>Contact us</h3>
+      <h3 className=' text-2xl self-start font-medium'>Contact us</h3>
 
       
-      <p className='text-center '>MicroDegree Education Private Limited (Formerly Pillpouch Healthtech Private Limited), K-tech Innovation Hub 3rd Floor, Plama Building Bejai, Mangaluru, Karnataka 575004.</p>
+      <p className='text-left '>MicroDegree Education Private Limited (Formerly Pillpouch Healthtech Private Limited), K-tech Innovation Hub 3rd Floor, Plama Building Bejai, Mangaluru, Karnataka 575004.</p>
       <div className='flex py-2 space-x-3'>
       <a href="https://www.facebook.com/MicroDegree-101072281390361/?modal=admin_todo_tour"> 
         <FontAwesomeIcon className='text-2xl hover:text-[#1DA0F0] ' icon={faFacebook}></FontAwesomeIcon></a>
@@ -178,7 +179,12 @@ function Footer() {
 
       </div>
     </div>
+
   </div>
+  <div className="sm:hidden  bg-[#364045] flex p-3 justify-center space-x-14 text-[0.6rem] border-t-[0.03rem] text-gray-200 ">
+     <div><a href="https://pages.microdegree.work/termsnconditions.html"><p>Terms & Conditions</p></a></div>
+     <div> <a href="https://www.microdegree.work/privacy"><p>Legal & Privacy</p></a></div>
+    </div>
 </footer>
   )
 }

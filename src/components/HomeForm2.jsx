@@ -53,6 +53,7 @@ const onSubmit= async (e) => {
   <div className="relative w-full h-full">
   <img className="object-fit absolute" src={rectangle40} alt="" />
     <img className="object-fit z-10 absolute" src={rectangle41} alt="" />
+    <div className=' absolute opacity-40 w-full h-full bg-black'></div>
 
     <div className={`${formAlert?'block':'hidden'}  bg-opacity-90 bg-gray-900 z-30 top-0 w-full p-5 flex justify-center items-center flex-col h-full absolute space-y-4`}>
       <CheckIcon className='w-16 bg-gradient-to-br animate-popup from-orange-500 to-yellow-500 text-white p-3 rounded-full'></CheckIcon>
@@ -60,7 +61,7 @@ const onSubmit= async (e) => {
       <p className='text-sm text-white'>You have successfully submitted the form | For re-submitting <span className='text-yellow-500 cursor-pointer ' onClick={()=>setFormAlert(!formAlert)}> Click here</span> </p>
     </div>
     <form onSubmit={onSubmit} action='' className=" absolute flex flex-col justify-center items-center w-full h-full p-10 px-5 space-y-3  z-20">
-
+      <h1 className='text-white text-xl text-left py-5'>Please enter your details to get a call back from <span className='text-xl text-yellow-500'>Career Mentor</span> </h1>
       <input required onChange={(e)=>{setName(e.target.value)}} className='w-full text-sm xl:text-xl xl:p-4 2xl:text-xl text-gray-700 p-3 px-2 rounded outline-none bg-[rgba(255,255,255,0.85)]' type="text" name="" placeholder="Your name" title='Please enter your name' id="" />
       <input required onChange={(e)=>{setContactNo(e.target.value)}} className='w-full xl:text-xl text-sm xl:p-4 2xl:text-xl text-gray-700 p-2 px-3 rounded outline-none bg-[rgba(255,255,255,0.85)]' type="text" name="" pattern='[1-9]{1}[0-9]{9}' title='Please enter a 10 digit mobile no' placeholder="Mobile No" id="" />
       <input required onChange={(e)=>{setEmail(e.target.value)}} className='w-full xl:text-xl text-sm xl:p-4 2xl:text-xl text-gray-700 p-3 px-2 rounded outline-none bg-[rgba(255,255,255,0.85)]' type="email" name="" placeholder="Email" title='Please enter valid email address' id="" />

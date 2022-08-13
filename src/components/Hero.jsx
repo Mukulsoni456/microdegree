@@ -50,10 +50,10 @@ function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, 
         setVideoOutput(videoLinks.filter((item)=>item.name.includes("video3"))[0])
         setvideoModal(!videoModal)
       }
-
+      // sm:px-14 xl:px-18 2xl:px-24
   return (
     <div>
-    <div className='sm:flex h-[650px] md:px-24 2xl:px-24  items-center hidden '>
+    <div className='sm:flex h-[650px] xl:px-18 2xl:px-24 px-10  items-center hidden '>
     <div className="w-full h-full flex items-center pb-10 xl:mt-20 2xl:mt-14">
       <div className=" px-5 overflow-visible w-fit   h-fit min-w-[380px] text-left space-y-9">
         <div className="space-y-7 min-w-[450px] max-w-[600px] 2xl:max-w-[600px]">
