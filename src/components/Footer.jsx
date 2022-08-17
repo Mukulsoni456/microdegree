@@ -1,14 +1,14 @@
 import React from 'react'
-import fBg1 from '../assets/home/footer/fpart1/fBg1.png'
+import fBg1 from '../assets/homeWebp/footer/fpart1/fBg1.webp'
 import {PhoneIcon, MailIcon} from '@heroicons/react/solid'
-import overlay43 from '../assets/home/footer/fpart1/overlay43.png'
-import Eclipse1 from '../assets/home/footer/fpart1/Eclipse1.png'
-import Eclipse2 from '../assets/home/footer/fpart1/Eclipse2.png'
-import Eclipse3 from '../assets/home/footer/fpart1/Eclipse3.png'
-import phone1 from '../assets/home/footer/fpart1/phone1.png'
-import phone2 from '../assets/home/footer/fpart1/phone2.png'
-import playstore from '../assets/home/footer/fpart1/playstore.png'
-import Qrcode from '../assets/home/footer/fpart1/Qrcode.png'
+import overlay43 from '../assets/homeWebp/footer/fpart1/overlay43.webp'
+import Eclipse1 from '../assets/homeWebp/footer/fpart1/Eclipse1.webp'
+import Eclipse2 from '../assets/homeWebp/footer/fpart1/Eclipse2.webp'
+import Eclipse3 from '../assets/homeWebp/footer/fpart1/Eclipse3.webp'
+import phone1 from '../assets/homeWebp/footer/fpart1/phone1.webp'
+import phone2 from '../assets/homeWebp/footer/fpart1/phone2.webp'
+import playstore from '../assets/homeWebp/footer/fpart1/playstore.webp'
+import Qrcode from '../assets/homeWebp/footer/fpart1/Qrcode.webp'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faLinkedin, faYoutube, faQuora, faInstagram } from '@fortawesome/free-brands-svg-icons';
 

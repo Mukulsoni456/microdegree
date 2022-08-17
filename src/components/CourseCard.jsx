@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import trendingtag from '../assets/home/Section2/trendingtag.png'
+import trendingtag from '../assets/homeWebp/Section2/trendingtag.png'
 function CourseCard({cardImg, title, category, price, courseLink, desc, course_details, trending }) {
 
   const [categoryColor, setCategoryColor] = useState('bg-green-500')

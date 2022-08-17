@@ -1,9 +1,8 @@
 import React from 'react'
-import group1 from '../assets/home/section8/Group1.png'
-import imgOverlay from '../assets/home/section8/imgOverlay.png'
-import playIcon from '../assets/home/section8/play-icon.png'
-import CardImg from '../assets/home/section8/business-career.png'
-import pratik from '../assets/home/section5/pratik.jpeg'
+import imgOverlay from '../assets/homeWebp/section8/imgOverlay.png'
+import playIcon from '../assets/homeWebp/section8/play-icon.png'
+import CardImg from '../assets/homeWebp/section8/business-career.webp'
+
  
 
 function Section8Card({ vidSrc, bottomImg, course_name, name, thumbnail, learnerVideo, setLearnerVideo, setLearnerModal, learnerModal}) {

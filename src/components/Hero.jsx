@@ -1,14 +1,10 @@
 import React from 'react'
-import heroImage from "../assets/home/heroSection/Rectangle 102.png";
-import heroImg1 from "../assets/home/heroSection/HeroImg1.png"
-import Group19 from "../assets/home/heroSection/Group 19.png";
-import Group1351 from "../assets/home/heroSection/Group 1351.png";
-import Group1416 from "../assets/home/heroSection/Group 1416.png";
-import Group1417 from "../assets/home/heroSection/Group 1417.png";
-import Group1418 from "../assets/home/heroSection/Group 1418.png";
-import thumbnail1 from "../assets/home/heroSection/thumbnail1.jpg";
-import thumbnail2 from "../assets/home/heroSection/thumbnail2.jpg";
-import thumbnail3 from "../assets/home/heroSection/thumbnail3.jpg";
+import heroImg1 from "../assets/homeWebp/heroSection/HeroImg1.webp"
+import Group19 from "../assets/homeWebp/heroSection/Group 19.webp";
+import Group1351 from "../assets/homeWebp/heroSection/Group 1351.webp";
+import thumbnail1 from "../assets/homeWebp/heroSection/thumbnail1.webp";
+import thumbnail2 from "../assets/homeWebp/heroSection/thumbnail2.webp";
+import thumbnail3 from "../assets/homeWebp/heroSection/thumbnail3.webp";
 import VideoCard from './VideoCard';
 function Hero({viewModal, setViewModal, videoModal, setvideoModal, videoOutput, setVideoOutput}) {
 

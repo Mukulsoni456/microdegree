@@ -3,7 +3,7 @@ import { useState } from 'react';
 import db from "../features/firebase";
 import {XIcon} from '@heroicons/react/solid'
 import { addDoc, query, collection } from "firebase/firestore";
-import modal1 from "../assets/home/heroSection/modal1.png"
+
 const q = query(collection(db, "query"));
 
 function Modal({setViewModal, viewModal, handleAlert}) {

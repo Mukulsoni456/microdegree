@@ -1,13 +1,8 @@
 import React from 'react'
-import section9Img1 from '../assets/home/section9/section9Img1.png'
-import section9Img2 from '../assets/home/section9/section9Img2.png'
-import section9Img3 from '../assets/home/section9/section9Img3.png'
-import section9Img4 from '../assets/home/section9/section9Img4.png'
-import news1 from '../assets/home/section9/news1.jpg'
-import news22 from '../assets/home/section9/news2.jpg'
-import news3 from '../assets/home/section9/news3.jpg'
-import news4 from '../assets/home/section9/news4.jpg'
-import news5 from '../assets/home/section9/news5.jpg'
+import news1 from '../assets/homeWebp/section9/news1.webp'
+import news22 from '../assets/homeWebp/section9/news2.webp'
+import news3 from '../assets/homeWebp/section9/news3.webp'
+import news5 from '../assets/homeWebp/section9/news5.webp'
 
 
 function HomeSection9() {

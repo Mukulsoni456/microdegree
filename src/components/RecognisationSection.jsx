@@ -1,14 +1,14 @@
 import React from 'react'
 import RecognisationCard from "./RecognisatonCard";
-import section3Img1 from "../assets/home/Section3/a1.png"
-import section3Img2 from "../assets/home/Section3/a2.png"
-import section3Img3 from "../assets/home/Section3/a3.png"
-import section3Img4 from "../assets/home/Section3/a4.png"
-import brandLogo1 from '../assets/home/Section2/brandLogo1.png'
-import brandLogo2 from '../assets/home/Section2/brandLogo2.png'
-import brandLogo3 from '../assets/home/Section2/brandLogo3.png'
-import brandLogo4 from '../assets/home/Section2/brandLogo4.png'
-import brandLogo5 from '../assets/home/Section2/brandLogo5.png'
+import section3Img1 from "../assets/homeWebp/Section3/a1.webp"
+import section3Img2 from "../assets/homeWebp/Section3/a2.webp"
+import section3Img3 from "../assets/homeWebp/Section3/a3.webp"
+import section3Img4 from "../assets/homeWebp/Section3/a4.webp"
+import brandLogo1 from '../assets/homeWebp/Section3/brandLogo1.png'
+import brandLogo2 from '../assets/homeWebp/Section3/brandLogo2.png'
+import brandLogo3 from '../assets/homeWebp/Section3/brandLogo3.png'
+import brandLogo4 from '../assets/homeWebp/Section3/brandLogo4.png'
+import brandLogo5 from '../assets/homeWebp/Section3/brandLogo5.png'
 
 function HomeSection3() {
   return (

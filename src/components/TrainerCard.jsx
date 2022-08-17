@@ -1,7 +1,5 @@
 import React from 'react'
 import { useState } from 'react'
-import amazon_logo from '../assets/home/section6/amazon.png'
-import netflix_logo from '../assets/home/section6/netflix.png'
 import { ChevronDownIcon, ChevronUpIcon} from '@heroicons/react/solid'
 
 function Section6Card({title, desc, top_logo, bottom_logo, profession, cardColor, propColor}) {

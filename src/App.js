@@ -1,17 +1,17 @@
 
-import './App.css';
+import './App.css'
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import elipse2 from "./assets/home/background/Ellipse 2.png";
-import elipse3 from "./assets/home/background/Ellipse 3.png";
-import elipse4 from "./assets/home/background/Ellipse 4.png";
-import elipse5 from "./assets/home/background/Ellipse 5.png";
-import elipse6 from "./assets/home/background/Ellipse 6.png";
-import elipse7 from "./assets/home/background/Ellipse 7.png";
-import elipse8 from "./assets/home/background/Ellipse 8.png";
-import elipse9 from "./assets/home/background/Ellipse 9.png";
-import elipse10 from "./assets/home/background/Ellipse 10.png";
-import elipse11 from "./assets/home/background/Ellipse 11.png";
+import elipse2 from "./assets/homeWebp/background/Ellipse 2.png";
+import elipse3 from "./assets/homeWebp/background/Ellipse 3.png";
+import elipse4 from "./assets/homeWebp/background/Ellipse 4.png";
+import elipse5 from "./assets/homeWebp/background/Ellipse 5.png";
+import elipse6 from "./assets/homeWebp/background/Ellipse 6.png";
+import elipse7 from "./assets/homeWebp/background/Ellipse 7.png";
+import elipse8 from "./assets/homeWebp/background/Ellipse 8.png";
+import elipse9 from "./assets/homeWebp/background/Ellipse 9.png";
+import elipse10 from "./assets/homeWebp/background/Ellipse 10.png";
+import elipse11 from "./assets/homeWebp/background/Ellipse 11.png";
 import CoursePage from "./pages/CoursePage"
 
 import {

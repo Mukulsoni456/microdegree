@@ -1,6 +1,6 @@
 import React from 'react'
-import imageoverlay from '../assets/home/heroSection/overlayimg.png'
-import playicon from '../assets/home/heroSection/playicon.png'
+import imageoverlay from '../assets/homeWebp/heroSection/overlayimg.webp'
+import playicon from '../assets/homeWebp/heroSection/playicon.webp'
 function VideoCard({handleVideo, vidthumb, title}) {
   return (
     <div onClick={handleVideo} className=' cursor-pointer rounded-md bg-gray-100  min-w-[11rem] h-[8rem] sm:min-w-[11rem] sm:max-w-[10rem] 2xl:w-56 2xl:h-36 sm:h-[7.5rem]'>

@@ -3,7 +3,7 @@ export const Courses =[
     {
         "id":1,
         "course_name":'Aws & DevOps Certification',
-        "course_img":require('./assets/Course Images/AWSDevOps.png'),
+        "course_img":require('./assets/Course Images/AWSDevOps11.webp'),
         "course_link":"https://courses.microdegree.work/courses/aws-developer-certification-live",
         "course_desc":"Master AWS & DevOps from Cloud industry experts to become a solid Computing Professional",
         "course_category":'programming',
@@ -21,7 +21,7 @@ export const Courses =[
     {
         "id":2,
         "course_name":'Aws Devops Pre -recorded',
-        "course_img":require('./assets/Course Images/AWSRecorded.png'),
+        "course_img":require('./assets/Course Images/AWSRecorded11.webp'),
         "course_link":"https://courses.microdegree.work/bundles/aws-devops",
         "course_desc":"Learn AWS & DevOps with our Industry Experts and Become a Solid Cloud Professional in 60 Hours",
         "course_category":'programming',
@@ -39,7 +39,7 @@ export const Courses =[
     {
       "id":3,
       "course_name":'Full Stack Web Development Certification',
-      "course_img":require('./assets/Course Images/webDev.png'),
+      "course_img":require('./assets/Course Images/webDev11.webp'),
       "course_link":"https://courses.microdegree.work/courses/full-stack-web-development-certification",
       "course_desc":"Start with Basic HTML untill advanced Server Side Concepts with NodeJs & MongoDB to become a Expert MERN Stack Developer",
       "course_category":'programming',
@@ -57,7 +57,7 @@ export const Courses =[
     {
         "id":4,
         "course_name":'Microdegree pro',
-        "course_img":require('./assets/Course Images/Java.png'),
+        "course_img":require('./assets/Course Images/Java11.webp'),
         "course_link":"https://pages.razorpay.com/pl_Gev62ka8kgBbte/view",
         "course_desc":"Get Pro subscription and access unlimited course access on platform",
         "course_category":'programming',
@@ -75,7 +75,7 @@ export const Courses =[
     {
       "id":5,
       "course_name":'Data Science Weekend Live',
-      "course_img":require('./assets/Course Images/FullStackData.png'),
+      "course_img":require('./assets/Course Images/FullStackData11.webp'),
       "course_link":"https://courses.microdegree.work/courses/full-stack-data-science-certification",
       "course_desc":"Start with Basic Python until advanced Visualization Concepts with Power Bi to become a Data Science Expert",
       "course_category":'programming',
@@ -93,7 +93,7 @@ export const Courses =[
     {
         "id":6,
         "course_name":'React js',
-        "course_img":require('./assets/Course Images/ReactJS.png'),
+        "course_img":require('./assets/Course Images/ReactJS11.webp'),
         "course_link":"https://courses.microdegree.work/courses/react",
         "course_desc":"Learn React from scratch, build real-world project and get ready to be a solid Frontend Developer",
         "course_category":'programming',
@@ -111,7 +111,7 @@ export const Courses =[
     {
       "id":7,
       "course_name":'Python Certification',
-      "course_img":require('./assets/Course Images/Python.png'),
+      "course_img":require('./assets/Course Images/Python11.webp'),
       "course_link":"https://courses.microdegree.work/courses/python",
       "course_desc":"Learn Python from scratch and build interactve projects. Kick-start your journey into the world of Data Science and Machine Learning here.",
       "course_category":'programming',
@@ -129,7 +129,7 @@ export const Courses =[
   {
     "id":8,
     "course_name":'MySQL Certification',
-    "course_img":require('./assets/Course Images/MySQL.png'),
+    "course_img":require('./assets/Course Images/MySQL11.webp'),
     "course_link":"https://courses.microdegree.work/courses/mysql",
     "course_desc":"Learn Python from scratch and build interactve projects. Kick-start your journey into the world of Data Science and Machine Learning here.",
     "course_category":'programming',

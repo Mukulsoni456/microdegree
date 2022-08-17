@@ -1,5 +1,5 @@
 import React from 'react'
-import imageHolder from '../assets/home/section7/Image Holder.png'
+import imageHolder from '../assets/homeWebp/section7/Image Holder.webp'
 import db from "../features/firebase";
 import { addDoc, query, collection } from "firebase/firestore";
 import { useState } from 'react';

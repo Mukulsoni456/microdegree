@@ -10,7 +10,7 @@ function PopularCourses() {
     const Courses = [
         {
           id:1,
-          "course_img": require('../assets/Course Images/AWSDevOpsCertification.png'),
+          "course_img": require('../assets/Course Images/AWSDevOpsCertification11.webp'),
           "course_category":'Cloud Computing',
           "course_name":'AWS & DevOps Certification',
           "course_price":'6000',
@@ -29,7 +29,7 @@ function PopularCourses() {
         },
         {
           id:2,
-          "course_img": require('../assets/Course Images/powerBi.png'),
+          "course_img": require('../assets/Course Images/powerBi11.webp'),
           "course_category":'Data Science',
           "course_name":'Power BI + Tableau Developer Course',
           "course_price":'20,000',
@@ -49,7 +49,7 @@ function PopularCourses() {
 
         {
           id:3,
-          "course_img": require('../assets/Course Images/Python.png'),
+          "course_img": require('../assets/Course Images/Python11.webp'),
           "course_category":'Data Science',
           "course_name":'Python - Live Certification',
           "course_desc":"Start with Basic Python until advanced Visualization Concepts with Power Bi to become a Data Science Expert",
@@ -69,7 +69,7 @@ function PopularCourses() {
         {
           "id":4,
           "course_name":'Full Stack Web Development Certification',
-          "course_img":require('../assets/Course Images/webDev.png'),
+          "course_img":require('../assets/Course Images/webDev11.webp'),
           "course_link":"https://courses.microdegree.work/courses/full-stack-web-development-certification",
           "course_desc":"Start with Basic HTML untill advanced Server Side Concepts with NodeJs & MongoDB to become a Expert MERN Stack Developer",
           "course_category":'programming',
@@ -86,7 +86,7 @@ function PopularCourses() {
 
         {
           id:5,
-          "course_img": require('../assets/Course Images/MySQL.png'),
+          "course_img": require('../assets/Course Images/MySQL11.webp'),
           "course_category":'DataBase',
           "course_name":'MySQL Certification',
           "course_price":'FREE',
@@ -106,7 +106,7 @@ function PopularCourses() {
         {
           "id":6,
           "course_name":'Automation Testing - Java',
-          "course_img":require('../assets/Course Images/Automation java.png'),
+          "course_img":require('../assets/Course Images/Automation java11.webp'),
           "course_link":"https://courses.microdegree.work/courses/automation-testing-java",
           "course_desc":"Master Automation Testing and learn most in-demand skills like Core Java, Selenium & Automation testing to become a solid QA Professional",
           "course_category":'programming',
@@ -124,7 +124,7 @@ function PopularCourses() {
       {
         "id":7,
         "course_name":'React js',
-        "course_img":require('../assets/Course Images/ReactJS.png'),
+        "course_img":require('../assets/Course Images/ReactJS11.webp'),
         "course_link":"https://courses.microdegree.work/courses/react",
         "course_desc":"Learn React from scratch, build real-world project and get ready to be a solid Frontend Developer",
         "course_category":'programming',
@@ -142,7 +142,7 @@ function PopularCourses() {
     {
       "id":8,
       "course_name":'Data Science Weekend Live',
-      "course_img":require('../assets/Course Images/FullStackData.png'),
+      "course_img":require('../assets/Course Images/FullStackData11.webp'),
       "course_link":"https://courses.microdegree.work/courses/full-stack-data-science-certification",
       "course_desc":"Start with Basic Python until advanced Visualization Concepts with Power Bi to become a Data Science Expert",
       "course_category":'programming',
@@ -160,7 +160,7 @@ function PopularCourses() {
     {
       "id":9,
       "course_name":'Interview Preperation',
-      "course_img":require('../assets/Course Images/Technical.png'),
+      "course_img":require('../assets/Course Images/Technical11.webp'),
       "course_link":"https://courses.microdegree.work/courses/technical-interview-preparation ",
       "course_desc":"Start Cracking Technical Interviews like a Pro with this Basic to Advanced Interview Prep Course",
       "course_category":'programming',

@@ -1,20 +1,12 @@
 import React from 'react'
-import placement1 from '../assets/home/section5/placement1.png'
-import placement2 from '../assets/home/section5/placement2.png'
-import placement3 from '../assets/home/section5/placement3.png'
-import placement4 from '../assets/home/section5/placement4.png'
-import jeevan from '../assets/home/section5/jeevan.jpeg'
-import ajay from '../assets/home/section5/ajay.jpeg'
-import madhushree from '../assets/home/section5/madhushree.jpeg'
-import pratik from '../assets/home/section5/pratik.jpeg'
-import sanjana  from '../assets/home/section5/sanjana.jpg'
-import pallavi  from '../assets/home/section5/pallavi.jpg'
-import mallikarjun  from '../assets/home/section5/malikarjun.jpg'
+import jeevan from '../assets/homeWebp/section5/jeevan.webp'
+import madhushree from '../assets/homeWebp/section5/madhushree.webp'
+import pratik from '../assets/homeWebp/section5/pratik.webp'
+import sanjana  from '../assets/homeWebp/section5/sanjana.webp'
+import pallavi  from '../assets/homeWebp/section5/pallavi.webp'
+import mallikarjun  from '../assets/homeWebp/section5/malikarjun.webp'
 import PlacementCard from './PlacementCard'
-import edgeLogo from '../assets/home/section5/7edgeLogo.png'
-import tataLogo from '../assets/home/section5/tataLogo.png'
-import mindstalkLogo from '../assets/home/section5/mindstalkLogo.png'
-import tetherLogo from '../assets/home/section5/tetherLogo.png'
+
 function CmnSection2() {
   return (
     <div className='px-10 md:px-14 xl:px-18  2xl:px-20  py-10 w-full h-full space-y-5'>

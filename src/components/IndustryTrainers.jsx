@@ -1,11 +1,6 @@
 import React from 'react'
 import TrainerCard from "./TrainerCard";
-import amazon_logo from '../assets/home/section6/amazon.png'
-import powerBi_logo from '../assets/home/section6/powerBi.png'
-import mern_logo from '../assets/home/section6/mern.png'
-import matchmove from '../assets/home/section6/matchmove.png'
-import walmart from '../assets/home/section6/walmart.png'
-import harman from '../assets/home/section6/harman.png'
+
 
 const trainers = [
   {
@@ -13,8 +8,8 @@ const trainers = [
     trainer_name:'Raj',
     trainer_desc:'Raj sir is an industry leading trainer with wide experience teaching students from top companies. He works as a cloud architect  managing the network infrastructure.',
     profession:'Senior System Engineer',
-    top_logo:require('../assets/home/section6/amazon.png'),
-    bottom_logo:require('../assets/home/section6/airbus.png'),
+    top_logo:require('../assets/homeWebp/section6/amazon.png'),
+    bottom_logo:require('../assets/homeWebp/section6/airbus.webp'),
     propColor:'text-white',
     cardColor:'bg-gray-100',
 
@@ -24,8 +19,8 @@ const trainers = [
     trainer_name:'Sathya',
     trainer_desc:'Sathya sir is the top architect in his organization. He has expertise in scaling systems to millions of web traffic.',
     profession:'Senior Cloud and DevOps Engineer',
-    top_logo:require('../assets/home/section6/amazon.png'),
-    bottom_logo:require('../assets/home/section6/harman.png'),
+    top_logo:require('../assets/homeWebp/section6/amazon.png'),
+    bottom_logo:require('../assets/homeWebp/section6/harman.webp'),
     propColor:'text-gray-200',
     cardColor:'bg-white',
 
@@ -35,8 +30,8 @@ const trainers = [
     trainer_name:'Krishna',
     trainer_desc:'Krishna sir is a udemy top AWS trainer. He has speciality experience in training students from US and other countries.',
     profession:'Sr.Security Engineer',
-    top_logo:require('../assets/home/section6/amazon.png'),
-    bottom_logo:require('../assets/home/section6/matchmove.png'),
+    top_logo:require('../assets/homeWebp/section6/amazon.png'),
+    bottom_logo:require('../assets/homeWebp/section6/matchmove.png'),
     propColor:'text-white',
     cardColor:'bg-gray-100',
 
@@ -46,8 +41,8 @@ const trainers = [
     trainer_name:'Pallavi',
     trainer_desc:'Pallavi Mam has experience training 100s of students switching from non IT background like mech Civil engg branches & bcom grads. Her expertise is in bridging students with zero knowledge to IT field.',
     profession:'Cloud Architect ',
-    top_logo:require('../assets/home/section6/amazon.png'),
-    bottom_logo:require('../assets/home/section6/adobe.png'),
+    top_logo:require('../assets/homeWebp/section6/amazon.png'),
+    bottom_logo:require('../assets/homeWebp/section6/adobe.webp'),
     propColor:'text-gray-200',
     cardColor:'bg-white',
 
@@ -57,8 +52,8 @@ const trainers = [
     trainer_name:'Mithun',
     trainer_desc:'Mithun sir leads the cloud computing team at his organization. He comes from networking background and later transitioned to cloud computing and has total 12+ years experience. He is known for his DevOps training with expertise in CI CD pipeline.',
     profession:'Cloud Team Manager ',
-    top_logo:require('../assets/home/section6/amazon.png'),
-    bottom_logo:require('../assets/home/section6/walmart.png'),
+    top_logo:require('../assets/homeWebp/section6/amazon.png'),
+    bottom_logo:require('../assets/homeWebp/section6/walmart.png'),
     propColor:'text-white',
     cardColor:'bg-gray-100',
 
@@ -68,8 +63,8 @@ const trainers = [
     trainer_name:'Umesh',
     trainer_desc:'Umesh sir excels in guiding students prepare for technical interviews. His resume building sessions are the most sought in the industry',
     profession:'Cloud Specialist ',
-    top_logo:require('../assets/home/section6/amazon.png'),
-    bottom_logo:require('../assets/home/section6/ey.png'),
+    top_logo:require('../assets/homeWebp/section6/amazon.png'),
+    bottom_logo:require('../assets/homeWebp/section6/ey.webp'),
     propColor:'text-gray-200',
     cardColor:'bg-white',
 
@@ -79,8 +74,8 @@ const trainers = [
     trainer_name:'Chetan',
     trainer_desc:'Chetan sir is a DevOps Terraform expert. His Kubernetes training skills are known across tech circles.',
     profession:'Cloud Automation Engineer ',
-    top_logo:require('../assets/home/section6/amazon.png'),
-    bottom_logo:require('../assets/home/section6/airbus.png'),
+    top_logo:require('../assets/homeWebp/section6/amazon.png'),
+    bottom_logo:require('../assets/homeWebp/section6/airbus.webp'),
     propColor:'text-white',
     cardColor:'bg-gray-100',
 
@@ -90,7 +85,7 @@ const trainers = [
     trainer_name:'Rakesh ',
     trainer_desc:'Rakesh sir is the CTO at MicroDegree with 12+ years of experience. He has experience designing and building scalable systems in top MNCs. His specializes in getting students with zero knowledge to bring on par with techies working in IT industry',
     profession:'CTO',
-    top_logo:require('../assets/home/section6/amazon.png'),
+    top_logo:require('../assets/homeWebp/section6/amazon.webp'),
     bottom_logo:require('../assets/navbar/MicroDegree Web.png'),
     propColor:'text-gray-200',
     cardColor:'bg-white',
@@ -101,7 +96,7 @@ const trainers = [
     trainer_name:'Manikanta  ',
     trainer_desc:'Manikanta sir is an expert MERN Stack Developer. He has trained 1000s of students in front end technologies. He is known for his javascript training with local examples. He is one of the top React trainer in Karnataka.',
     profession:'MERN Expert',
-    top_logo:require('../assets/home/section6/mern.png'),
+    top_logo:require('../assets/homeWebp/section6/mern.png'),
     bottom_logo:require('../assets/navbar/MicroDegree Web.png'),
     propColor:'text-white',
     cardColor:'bg-gray-100',

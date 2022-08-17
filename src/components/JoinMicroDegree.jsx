@@ -1,6 +1,6 @@
 import React from 'react'
-import section4Img from '../assets/home/section4/section4Img.png'
-import base from '../assets/home/section4/base.png'
+import section4Img from '../assets/homeWebp/section4/section4Img.webp'
+import base from '../assets/homeWebp/section4/base.webp'
 import { PencilAltIcon } from "@heroicons/react/solid";
 
 function HomeSection4() {

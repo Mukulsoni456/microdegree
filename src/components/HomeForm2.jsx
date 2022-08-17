@@ -1,11 +1,11 @@
 import React from 'react'
 import { useState } from 'react'
-import rectangle40 from '../assets/home/section10/rectangle40.png'
-import rectangle41 from '../assets/home/section10/rectangle41.png'
-import section10bg from '../assets/home/section10/section10bg.png'
+import rectangle40 from '../assets/homeWebp/section10/rectangle40.png'
+import rectangle41 from '../assets/homeWebp/section10/rectangle41.png'
+import section10bg from '../assets/homeWebp/section10/section10bg.webp'
 import db from "../features/firebase";
 import { addDoc, query, collection } from "firebase/firestore";
-import tgLogo from '../assets/home/section10/tgLogo.png'
+import tgLogo from '../assets/homeWebp/section10/tgLogo.webp'
 import {CheckIcon} from '@heroicons/react/solid'
 
 const q = query(collection(db, "enrollments"));
