@@ -10,9 +10,8 @@ import phone2 from '../assets/homeWebp/footer/fpart1/phone2.webp'
 import playstore from '../assets/homeWebp/footer/fpart1/playstore.webp'
 import Qrcode from '../assets/homeWebp/footer/fpart1/Qrcode.webp'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faLinkedin, faYoutube, faQuora, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faLinkedin, faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
-import {Link} from 'react-scroll'
 
 function Footer() {
   return (
