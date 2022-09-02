@@ -3,7 +3,7 @@ export const Courses =[
     {
         "id":1,
         "course_name":'Aws & DevOps Certification',
-        "course_img":require('./assets/Course Images/AWSDevOps11.webp'),
+        "course_img":'./assets/Course Images/AWSDevOps11.webp',
         "course_link":"https://courses.microdegree.work/courses/aws-developer-certification-live",
         "course_desc":"Master AWS & DevOps from Cloud industry experts to become a solid Computing Professional",
         "course_category":'programming',

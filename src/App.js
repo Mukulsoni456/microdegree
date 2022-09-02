@@ -12,7 +12,7 @@ import elipse8 from "./assets/homeWebp/background/Ellipse 8.png";
 import elipse9 from "./assets/homeWebp/background/Ellipse 9.png";
 import elipse10 from "./assets/homeWebp/background/Ellipse 10.png";
 import elipse11 from "./assets/homeWebp/background/Ellipse 11.png";
-import CoursePage from "./pages/CoursePage"
+
 
 import {
   BrowserRouter as Router,
@@ -261,7 +261,7 @@ function App() {
         {
           searchedResults.length!=0?<Route exact path="/" element={<SearchedOutput searchedResults={searchedResults} setSearchedResults={setSearchedResults}></SearchedOutput>}/>:<Route exact path="/" element={<Home handleAlert={handleAlert}></Home>}/>
         }
-        {/* <Route exact path="/courses" element={<CoursePage></CoursePage>}/> */}
+
         
       
 
